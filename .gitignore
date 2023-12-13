@@ -1,0 +1,10 @@
+﻿Coloring Book/BuildReports
+Coloring Book/UserSettings
+*.csproj
+*.sln
+Coloring Book/obj
+Coloring Book/Logs
+Coloring Book/.vs
+Coloring Book/Library
+Coloring Book/Builds
+*.vsconfig
