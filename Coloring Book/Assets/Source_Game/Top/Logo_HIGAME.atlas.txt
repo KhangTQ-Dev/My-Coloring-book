@@ -1,0 +1,17 @@
+Logo_HIGAME.png
+size:732,732
+filter:Linear,Linear
+pma:true
+H
+bounds:2,223,341,517
+offsets:1,1,343,519
+rotate:90
+I
+bounds:521,260,193,304
+offsets:1,1,195,306
+dot
+bounds:521,104,146,154
+offsets:2,1,149,156
+text
+bounds:2,566,728,164
+offsets:1,1,730,166
