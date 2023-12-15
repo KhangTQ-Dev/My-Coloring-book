@@ -7,6 +7,12 @@ public static class Help
 
 }
 
+public enum TabUi
+{
+    Gallery,
+    Mywork
+}
+
 public enum TypeGallery
 {
     Unicorn,

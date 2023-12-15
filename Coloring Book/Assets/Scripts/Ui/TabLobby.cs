@@ -1,15 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class ElementGalleryGroup : MonoBehaviour
+public class TabLobby : MonoBehaviour
 {
-    [SerializeField] private DataPicture dataPicture;
+    [SerializeField] private Button btnTab;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        btnTab.onClick.AddListener(OnClickBtnTab);
     }
 
     // Update is called once per frame
@@ -18,8 +19,13 @@ public class ElementGalleryGroup : MonoBehaviour
         
     }
 
-    public void Setup(DataPicture _dataPicture)
+    public void Show(bool isTrue)
     {
-        dataPicture = _dataPicture;
+
+    }
+
+    private void OnClickBtnTab()
+    {
+
     }
 }

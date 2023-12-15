@@ -21,5 +21,5 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  prefabPicture: {fileID: 0}
-  prefabUiPicture: {fileID: 0}
+  prefabPicture: {fileID: 2394996003194268179, guid: d7de47f4e56a6a24ab873c3b9a97b4da, type: 3}
+  prefabUiPicture: {fileID: 6443569464084586870, guid: 0f7bc7180c366734e9bb2db4da1c200d, type: 3}

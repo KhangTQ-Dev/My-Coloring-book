@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class ElementGalleryTab : MonoBehaviour
 {
+    [SerializeField] private bool isTabAll;
+
+    [SerializeField] private TypeGallery typeGallery;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +18,10 @@ public class ElementGalleryTab : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Setup(TypeGallery _typeGallery)
+    {
+        typeGallery = _typeGallery;
     }
 }
