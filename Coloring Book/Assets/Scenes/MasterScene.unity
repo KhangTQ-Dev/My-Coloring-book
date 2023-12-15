@@ -471,6 +471,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6ef2722c85d8794183316e0c53121c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  dataAllPicture: {fileID: 11400000, guid: 9d519e25605334049aa68425fb4ee21c, type: 2}
 --- !u!4 &765037071
 Transform:
   m_ObjectHideFlags: 0
