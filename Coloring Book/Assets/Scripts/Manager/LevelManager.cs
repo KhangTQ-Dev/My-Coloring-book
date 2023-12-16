@@ -8,6 +8,8 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] private UiManager uiManager;
 
+    public UiManager UiManager => uiManager;
+
     private void Awake()
     {
         Instance = this;
@@ -16,12 +18,17 @@ public class LevelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Init();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void Init()
+    {
+        uiManager.Init();
     }
 }

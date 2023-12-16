@@ -26,13 +26,17 @@ public class GalleryTabManager : MonoBehaviour
 
     public void Setup(DataAllPicture dataAllPicture)
     {
-        for(int i = 0; i <dataAllPicture.dataPictures.Count; i++)
+        elementGalleryTabs = new List<ElementGalleryTab>();
+
+        for (int i = 0; i <dataAllPicture.dataPictures.Count; i++)
         {
             GameObject objElementTab = Instantiate<GameObject>(prefabElementTab, parentTab);
 
             ElementGalleryTab elementGalleryTabNormal = objElementTab.GetComponent<ElementGalleryTab>();
 
             elementGalleryTabNormal.Setup((TypeGallery)i);
+
+            elementGalleryTabs.Add(elementGalleryTabNormal);
         }
     }
 }

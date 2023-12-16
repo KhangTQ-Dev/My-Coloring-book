@@ -12,6 +12,10 @@ public class UiManager : MonoBehaviour
 
     [SerializeField] private TabLobby tabLobbyMywork;
 
+    public GalleryManager GalleryManager => galleryManager;
+
+    public MyworkManager MyworkManager => myworkManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,10 +44,16 @@ public class UiManager : MonoBehaviour
             case TabUi.Gallery:
                 galleryManager.Show(true);
                 myworkManager.Show(false);
+
+                tabLobbyGallery.Show(true);
+                tabLobbyMywork.Show(false);
                 break;
             case TabUi.Mywork:
                 galleryManager.Show(false);
                 myworkManager.Show(true);
+
+                tabLobbyGallery.Show(false);
+                tabLobbyMywork.Show(true);
                 break;
         }
     }

@@ -10,6 +10,10 @@ public class GalleryGroupManager : MonoBehaviour
 
     [SerializeField] private Transform parentElement;
 
+    [SerializeField] private Canvas canvasRender;
+
+    private bool isShow;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +24,21 @@ public class GalleryGroupManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Show(bool isTrue)
+    {
+        canvasRender.enabled = isTrue;
+
+        if (isShow != isTrue)
+        {
+            isShow = isTrue;
+        }
+    }
+
+    public void Init()
+    {
+
     }
 
     public void Setup(List<DataPicture> _dataPictures)
