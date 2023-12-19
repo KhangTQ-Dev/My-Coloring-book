@@ -12,6 +12,18 @@ public class UiManager : MonoBehaviour
 
     [SerializeField] private TabLobby tabLobbyMywork;
 
+    [SerializeField] private PopupManager popupManager;
+
+    [SerializeField] private Canvas canvasLobby;
+
+    [SerializeField] private Canvas canvasGamePlay;
+
+    public Canvas CanvasLobby => canvasLobby;
+
+    public Canvas CanvasGamePlay => canvasGamePlay;
+
+    public PopupManager PopupManager => popupManager;
+
     public GalleryManager GalleryManager => galleryManager;
 
     public MyworkManager MyworkManager => myworkManager;
@@ -26,6 +38,40 @@ public class UiManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void OnChangeToGamePlay(TypeGallery typeGallery, TypeId typeId)
+    {
+        popupManager.ShowPopup(TypePopup.LoadingToGamePlay);
+
+        StartCoroutine(WaitChangeToGamePlay());
+    }
+
+    IEnumerator WaitChangeToGamePlay()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        canvasGamePlay.gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(0.5f);
+
+        canvasLobby.gameObject.SetActive(false);
+    }
+
+    public void OnChangeToLobby()
+    {
+        StartCoroutine(WaitChangeToLobby());
+    }
+
+    IEnumerator WaitChangeToLobby()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        canvasLobby.gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(0.5f);
+
+        canvasGamePlay.gameObject.SetActive(false);
     }
 
     public void Init()

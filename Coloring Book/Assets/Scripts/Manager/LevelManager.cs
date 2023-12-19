@@ -6,7 +6,11 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance;
 
+    [SerializeField] private GamePlayManager gamePlayManager;
+
     [SerializeField] private UiManager uiManager;
+
+    public GamePlayManager GamePlayManager => gamePlayManager;
 
     public UiManager UiManager => uiManager;
 
@@ -30,5 +34,17 @@ public class LevelManager : MonoBehaviour
     private void Init()
     {
         uiManager.Init();
+    }
+
+    public void OnChangeToGamePlay(TypeGallery typeGallery, TypeId typeId)
+    {
+        gamePlayManager.Show(typeGallery, typeId);
+
+        uiManager.OnChangeToGamePlay(typeGallery, typeId);
+    }
+
+    public void OnChangeToLobby()
+    {
+        uiManager.OnChangeToLobby();
     }
 }

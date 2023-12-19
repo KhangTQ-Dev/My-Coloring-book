@@ -9,4 +9,8 @@ public class DataPicture : SerializedScriptableObject
     public GameObject prefabPicture;
 
     public GameObject prefabUiPicture;
+
+    public TypeGallery TypeGallery;
+
+    public TypeId TypeId; 
 }

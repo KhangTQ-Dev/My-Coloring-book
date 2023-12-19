@@ -30,26 +30,42 @@ public class GalleryGroupManager : MonoBehaviour
     {
         canvasRender.enabled = isTrue;
 
+        if (isTrue && !isShow)
+        {
+            Debug.Log("Khang");
+
+            Init();
+        }
+
         if (isShow != isTrue)
         {
             isShow = isTrue;
         }
+
+
     }
 
     public void Init()
     {
-
+        for(int i = 0; i < elementGalleryGroups.Count; i++)
+        {
+            elementGalleryGroups[i].Init();
+        }
     }
 
     public void Setup(List<DataPicture> _dataPictures)
     {
-        for(int i = 0;  i< _dataPictures.Count; i++)
+        elementGalleryGroups = new List<ElementGalleryGroup>();
+
+        for (int i = 0;  i< _dataPictures.Count; i++)
         {
             GameObject objElement = Instantiate<GameObject>(prefabElementGroup, parentElement);
 
             ElementGalleryGroup elementGalleryGroup = objElement.GetComponent<ElementGalleryGroup>();
 
             elementGalleryGroup.Setup(_dataPictures[i]);
+
+            elementGalleryGroups.Add(elementGalleryGroup);
         }
     }
 }

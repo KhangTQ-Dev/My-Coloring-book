@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class UiGlobalManager : MonoBehaviour
 {
-    [SerializeField] private PopupManager popupManager;
-
-    public PopupManager PopupManager => popupManager;
-
     // Start is called before the first frame update
     void Start()
     {

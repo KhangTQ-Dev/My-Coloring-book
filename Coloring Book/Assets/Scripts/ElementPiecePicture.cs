@@ -28,9 +28,43 @@ public class ElementPiecePicture : MonoBehaviour
         
     }
 
+    public void Init(Color colorDefaul)
+    {
+        SetColor(colorDefaul);
+    }
+
+    public void SetColor(Color _color)
+    {
+        if(typePiecePicture == TypePiecePicture.Surround)
+        {
+            return;
+        }
+
+        color = _color;
+
+        switch (typePicture)
+        {
+            case TypePicture.Sprite:
+
+                spriteRenderer.color = color;
+
+                break;
+            case TypePicture.Image:
+
+                image.color = color;
+
+                break;
+        }
+    }
+
+    public Color GetColor()
+    {
+        return color;
+    }
+
     public void OnPaint(Color _color, Vector2 pos)
     {
-        color = _color;
+
 
         Color pixel = GetPixelColor(pos);
 
@@ -40,7 +74,7 @@ public class ElementPiecePicture : MonoBehaviour
         {
             Debug.Log("object clicked: " + gameObject.name);
 
-            spriteRenderer.color = color;
+            SetColor(_color);
         }
     }
 

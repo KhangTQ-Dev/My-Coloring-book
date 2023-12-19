@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance;
+
+    [SerializeField] private float timeWaitLoadInitial;
+
     [SerializeField] private int indexLobby;
 
     [SerializeField] private int indexIngame;
@@ -35,13 +39,22 @@ public class GameManager : MonoBehaviour
     {
         Application.targetFrameRate = 60;
 
+        Instance = this;
+
         DontDestroyOnLoad(gameObject);
     }
 
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine(WaitLoadInitial());
+    }
 
+    IEnumerator WaitLoadInitial()
+    {
+        yield return new WaitForSeconds(timeWaitLoadInitial);
+
+        LoadInitialGame();
     }
 
     public void LoadScene(int indexScene)

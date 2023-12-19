@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MyworkManager : MonoBehaviour
 {
+    [SerializeField] private MyworkGroupManager myworkGroupManager;
+
     [SerializeField] private Canvas canvasMywork;
 
     private bool isShow;
@@ -27,6 +29,6 @@ public class MyworkManager : MonoBehaviour
 
     public void Init()
     {
-
+        myworkGroupManager.Init();
     }
 }

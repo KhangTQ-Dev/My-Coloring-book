@@ -24,14 +24,14 @@ MonoBehaviour:
     Scale: 1
     SeparateGroups: 1
     Instantiable: 1
-    InstanceBaseIdx: 1166
+    InstanceBaseIdx: 1272
   m_GeneratedTexturesFiles:
-  - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Textures/texture0.asset
-    Object: {fileID: 2800000, guid: b4ee023c243cd6c41a16a4d7fffe0013, type: 2}
-  - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Textures/texture1.asset
-    Object: {fileID: 2800000, guid: e2010acb7d446e54e8d5074e78e92e14, type: 2}
-  - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Textures/texture2.asset
-    Object: {fileID: 2800000, guid: 15b9af0d3dd7a714795c53cc5378e0ab, type: 2}
+  - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Textures/texture0.asset
+    Object: {fileID: 2800000, guid: c5bf315cbc4e8204a860ef25a550aedf, type: 2}
+  - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Textures/texture1.asset
+    Object: {fileID: 2800000, guid: 2d052b9f0de09e940bdc3a1b13466aa0, type: 2}
+  - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Textures/texture2.asset
+    Object: {fileID: 2800000, guid: 237fb333280578545ad35a42481184f1, type: 2}
   m_GeneratedSpritesFiles:
     m_KeysList:
     - TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
@@ -247,12 +247,12 @@ MonoBehaviour:
     - TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
       ElemIdx: 65565
     m_ValuesList:
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65536.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65536.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65536
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 9783e04fcf6c5f94b800886e6aa5b680, type: 2}
+        Sprite: {fileID: 21300000, guid: 6fe3989f7df16bf40afa3d1cfcd1115f, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 0
@@ -263,12 +263,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65624.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65624.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65624
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 96459383e64ed1f4789e0a8229ca5faa, type: 2}
+        Sprite: {fileID: 21300000, guid: 471eb462ee90dfb4a9bfa444662525b7, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 88
@@ -279,12 +279,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65576.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65576.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65576
       SpriteData:
-        Sprite: {fileID: 21300000, guid: c3169bc930a863b499b323c618c359db, type: 2}
+        Sprite: {fileID: 21300000, guid: f7a1ce10a1db07f488a97eb4c9c7581f, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 40
@@ -295,12 +295,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65614.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65614.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65614
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 147f65b29efe7d44eb4a486bb0c572fd, type: 2}
+        Sprite: {fileID: 21300000, guid: 75e63072741861c47b55d6a78f1a2256, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 78
@@ -311,12 +311,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65574.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65574.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65574
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 1fe10b1c8cc07ac48930922d0ed5c4cb, type: 2}
+        Sprite: {fileID: 21300000, guid: eb24bb0da7d5c65488366d684ef7690e, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 38
@@ -327,12 +327,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65608.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65608.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65608
       SpriteData:
-        Sprite: {fileID: 21300000, guid: d00fabe491c7ba147921c661f5c4054d, type: 2}
+        Sprite: {fileID: 21300000, guid: bc883821d8fac28468edda68013ea683, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 72
@@ -343,12 +343,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65616.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65616.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65616
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 64373518424a0394da03349ad85bc736, type: 2}
+        Sprite: {fileID: 21300000, guid: d4d096a507a5dfc418ebbe4c5d4b02d0, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 80
@@ -359,12 +359,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65635.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65635.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65635
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 514c7279173a614498537bbfca1b94f0, type: 2}
+        Sprite: {fileID: 21300000, guid: c822348ab032c454883cb329dc88a2ca, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 99
@@ -375,12 +375,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65594.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65594.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65594
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 07ee1200ddea6594c94aaccdbabc2766, type: 2}
+        Sprite: {fileID: 21300000, guid: 3b588884375dc7a4baa34477bf759b2f, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 58
@@ -391,12 +391,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65606.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65606.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65606
       SpriteData:
-        Sprite: {fileID: 21300000, guid: ef8fc5d28c85b504aa55e7fd69bc906d, type: 2}
+        Sprite: {fileID: 21300000, guid: 03bc9c6c57846db4098d90874e999ea7, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 70
@@ -407,12 +407,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65579.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65579.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65579
       SpriteData:
-        Sprite: {fileID: 21300000, guid: ba1cb74fc78a32a4090c07a81fa67983, type: 2}
+        Sprite: {fileID: 21300000, guid: 534a8f760b8e5f6458e6a7c47f9e2482, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 43
@@ -423,12 +423,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65611.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65611.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65611
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 7e89cd7a99da1bf41aaa4819f7a09df0, type: 2}
+        Sprite: {fileID: 21300000, guid: 64c585f66da38fa4f9598e6169149c0d, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 75
@@ -439,12 +439,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65605.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65605.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65605
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 595de13c679fc83469041eead15443ba, type: 2}
+        Sprite: {fileID: 21300000, guid: 5eac46b32651a294fbd6937efebb6cbb, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 69
@@ -455,12 +455,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65613.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65613.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65613
       SpriteData:
-        Sprite: {fileID: 21300000, guid: ba489dc3d88bbd84b82ce0a4193f4e62, type: 2}
+        Sprite: {fileID: 21300000, guid: 5b61e2debeed9944692a7cca8d814954, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 77
@@ -471,12 +471,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65612.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65612.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65612
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 8e8d93b585633904bb33c7431129a01e, type: 2}
+        Sprite: {fileID: 21300000, guid: 20f051c1049b9a4428b4b2b8f4576dcc, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 76
@@ -487,12 +487,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65634.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65634.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65634
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 420f19147b9b78642be8fc9950471c67, type: 2}
+        Sprite: {fileID: 21300000, guid: d524ba9fa9c29924e9ccf8053c1f5967, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 98
@@ -503,12 +503,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65610.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65610.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65610
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 58f71c803a2982f40a55d6eaf82a80e2, type: 2}
+        Sprite: {fileID: 21300000, guid: cabf694f901aae84daba6a4dedc80c57, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 74
@@ -519,12 +519,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65615.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65615.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65615
       SpriteData:
-        Sprite: {fileID: 21300000, guid: be3155237e4f58c469a1647331847773, type: 2}
+        Sprite: {fileID: 21300000, guid: 309d9c0bf0c59d3499bbbea1045f5a30, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 79
@@ -535,12 +535,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65633.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65633.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65633
       SpriteData:
-        Sprite: {fileID: 21300000, guid: b9a85f173dadda14fbafe397c6912421, type: 2}
+        Sprite: {fileID: 21300000, guid: c4c5aaa97fd3263488b01173936c97c5, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 97
@@ -551,12 +551,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65629.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65629.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65629
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 64b63852ce8e4194d9707f72094dbb5c, type: 2}
+        Sprite: {fileID: 21300000, guid: 1826e0acd2636d14db6e57e90e890f80, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 93
@@ -567,12 +567,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65630.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65630.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65630
       SpriteData:
-        Sprite: {fileID: 21300000, guid: c558c9d770d99e940ae110c5484b6900, type: 2}
+        Sprite: {fileID: 21300000, guid: 7195f16cd2937b843bf953aa6fd546c6, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 94
@@ -583,12 +583,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65631.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65631.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65631
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 9fcecdae0182a3240a62b53f0e833c64, type: 2}
+        Sprite: {fileID: 21300000, guid: 7f8fd5ab261e35e4b9b3f0b2067abbee, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 95
@@ -599,12 +599,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65588.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65588.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65588
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 4fe4780807c01fd4e8070c785893517f, type: 2}
+        Sprite: {fileID: 21300000, guid: b5065939f3cf97949997cec5267fa8ed, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 52
@@ -615,12 +615,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65591.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65591.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65591
       SpriteData:
-        Sprite: {fileID: 21300000, guid: c69bbab7b85292c49954206cd9d0dbf3, type: 2}
+        Sprite: {fileID: 21300000, guid: 28854b19718cde543b6f4f280e19b137, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 55
@@ -631,12 +631,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65589.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65589.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65589
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 07132e34419b5e04aa5fa4d91119a771, type: 2}
+        Sprite: {fileID: 21300000, guid: 6cabebb0633b3dd4d8d8379dd64f2971, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 53
@@ -647,12 +647,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65580.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65580.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65580
       SpriteData:
-        Sprite: {fileID: 21300000, guid: f0f2697c5bc2a8c45a9eaa3064354c48, type: 2}
+        Sprite: {fileID: 21300000, guid: e1abba20302d64f4094ac2b5699f52c3, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 44
@@ -663,12 +663,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65593.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65593.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65593
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 241879581410ebd42ac8c6183a5778e7, type: 2}
+        Sprite: {fileID: 21300000, guid: 521d501b9c9bd5745a9e5f105bbaeaf2, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 57
@@ -679,12 +679,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65640.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65640.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65640
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 699b288c39f3aba479f1852095fffbe4, type: 2}
+        Sprite: {fileID: 21300000, guid: f60f6358d03437b42a2b63ff7f675927, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 104
@@ -695,12 +695,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65587.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65587.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65587
       SpriteData:
-        Sprite: {fileID: 21300000, guid: afb168bf5e42b6b42ab79b36b640c775, type: 2}
+        Sprite: {fileID: 21300000, guid: 939dfff65d3ef254fba8ace1ecbee044, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 51
@@ -711,12 +711,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65592.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65592.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65592
       SpriteData:
-        Sprite: {fileID: 21300000, guid: bc616ad594b644f46a28f3e9a2a92b0b, type: 2}
+        Sprite: {fileID: 21300000, guid: 6ea0edee03851e64e8ddbb3f447d4140, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 56
@@ -727,12 +727,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65597.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65597.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65597
       SpriteData:
-        Sprite: {fileID: 21300000, guid: faf699b193126044b8795af282ce26f4, type: 2}
+        Sprite: {fileID: 21300000, guid: 98a993a3a9148874894eddf85207fe3b, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 61
@@ -743,12 +743,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65581.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65581.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65581
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 3e1f7ee5b64d95c4986c78a22c79a694, type: 2}
+        Sprite: {fileID: 21300000, guid: 40aaa41151af3c14389db690e407c366, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 45
@@ -759,12 +759,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65632.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65632.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65632
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 0aa36433c273c5e4a866edd0a88b1341, type: 2}
+        Sprite: {fileID: 21300000, guid: a40ac8272684944408f6bad6011f4d41, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 96
@@ -775,12 +775,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65585.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65585.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65585
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 28bef44c0ceece64494f2bce80b6a88f, type: 2}
+        Sprite: {fileID: 21300000, guid: b7764cc29e69bcf4d8f35265ba30a292, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 49
@@ -791,12 +791,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65590.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65590.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65590
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 55d93cd6223fa4e4590af0d10bc43dff, type: 2}
+        Sprite: {fileID: 21300000, guid: f9bebee13acad7143bbe3d1c2d98c630, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 54
@@ -807,12 +807,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65595.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65595.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65595
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 5761b3e14860ad2489a61458eb33d989, type: 2}
+        Sprite: {fileID: 21300000, guid: cfc4c4f4f7650894982d2c7f1bb9e959, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 59
@@ -823,12 +823,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65637.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65637.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65637
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 4580a698f2aa4f14692be3a8d9146a54, type: 2}
+        Sprite: {fileID: 21300000, guid: df722821ee2ba4a46ae46ddd0dfe195a, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 101
@@ -839,12 +839,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65607.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65607.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65607
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 816e504c868cb10429469408313a7650, type: 2}
+        Sprite: {fileID: 21300000, guid: ab4351fb31cc9014e8f55abe999901cb, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 71
@@ -855,12 +855,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65598.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65598.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65598
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 0470ff2ee30fb5141907ba8d59c5c4dc, type: 2}
+        Sprite: {fileID: 21300000, guid: 5189dd3ebef30ba4d9b6c1fce9d74410, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 62
@@ -871,12 +871,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65601.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65601.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65601
       SpriteData:
-        Sprite: {fileID: 21300000, guid: ae167c3233b92bc4f8843548dbd283ae, type: 2}
+        Sprite: {fileID: 21300000, guid: fa8b3cecfe255794092433d0127b3558, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 65
@@ -887,12 +887,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65596.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65596.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65596
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 60caf984078aea2488a782062426cc15, type: 2}
+        Sprite: {fileID: 21300000, guid: 46eda5e709685794ebbf7ebefc49a76f, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 60
@@ -903,12 +903,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65603.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65603.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65603
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 0792e8880504b2c4588a68753c49b075, type: 2}
+        Sprite: {fileID: 21300000, guid: c3a1303b4e447ba42996e838d89f25a6, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 67
@@ -919,12 +919,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65602.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65602.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65602
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 253a68b06083c074f8fb4dfec72873f4, type: 2}
+        Sprite: {fileID: 21300000, guid: 314b4f0ed5e3b2c44b0e3f7c83675279, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 66
@@ -935,12 +935,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65600.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65600.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65600
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 77fef445771deb544a403b972aae0430, type: 2}
+        Sprite: {fileID: 21300000, guid: 3b00e1e2ff6e6f0478177008da1a5da4, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 64
@@ -951,12 +951,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65599.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65599.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65599
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 7fc5c4362ca889b49b39b8b887756165, type: 2}
+        Sprite: {fileID: 21300000, guid: 73afb8d8b598f4c49bf7e3af6910b90d, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 63
@@ -967,12 +967,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65575.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65575.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65575
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 8721d632f5fe351449364b163dd043e6, type: 2}
+        Sprite: {fileID: 21300000, guid: 5709d9d821db7ff4087a64b4277cdd86, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 39
@@ -983,12 +983,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65639.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65639.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65639
       SpriteData:
-        Sprite: {fileID: 21300000, guid: f97869f240db6844a8db77752e9c1f3b, type: 2}
+        Sprite: {fileID: 21300000, guid: 2f21812612f22f542a7d306d368feced, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 103
@@ -999,12 +999,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65578.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65578.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65578
       SpriteData:
-        Sprite: {fileID: 21300000, guid: c2b71690f04dd7a4c80edf54faede2bf, type: 2}
+        Sprite: {fileID: 21300000, guid: 9e3ec808739983a45af0b3ee852ac127, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 42
@@ -1015,12 +1015,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65586.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65586.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65586
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 8a6f20ca8150c524a8a0fcc394ec37ac, type: 2}
+        Sprite: {fileID: 21300000, guid: 2f8719aec3de4304888b4e9d7043cdc6, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 50
@@ -1031,12 +1031,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65582.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65582.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65582
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 6e1dadd44ac58c148a62c663b6343058, type: 2}
+        Sprite: {fileID: 21300000, guid: 071181191e23a0440b0982963a665b04, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 46
@@ -1047,12 +1047,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65584.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65584.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65584
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 46fdd34bffb5a2641bf436e6d569450c, type: 2}
+        Sprite: {fileID: 21300000, guid: d6506c7f24e56074abc6140914af37de, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 48
@@ -1063,12 +1063,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65604.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65604.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65604
       SpriteData:
-        Sprite: {fileID: 21300000, guid: f0af444e8a831164280cde48fa2b7f3e, type: 2}
+        Sprite: {fileID: 21300000, guid: 657f5d3f39a39a940971091f3cad1885, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 68
@@ -1079,12 +1079,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65638.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65638.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65638
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 8e72a0a389dbc25418a23397d2aafbce, type: 2}
+        Sprite: {fileID: 21300000, guid: e347d7bb7e9ba234298e64fadea9fe55, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 102
@@ -1095,12 +1095,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65609.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65609.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65609
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 1df2c95837450184c9edf818ed4f5877, type: 2}
+        Sprite: {fileID: 21300000, guid: 8db38b25ac8f85c4abad5ac6696aef33, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 73
@@ -1111,12 +1111,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65617.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65617.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65617
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 1d9f8a8c427c76b488b5b3ac445799bc, type: 2}
+        Sprite: {fileID: 21300000, guid: ae85f6155606a804fb18ee8707cee37c, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 81
@@ -1127,12 +1127,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy__x30_0.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy__x30_0.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65641
       SpriteData:
-        Sprite: {fileID: 21300000, guid: e49c397973c61b34c9a57af9e985d4b7, type: 2}
+        Sprite: {fileID: 21300000, guid: d109311187525ba488e1f00bff08cdf4, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 105
@@ -1143,12 +1143,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65539.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65539.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65539
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 396b410458aa1844a96a681944def11a, type: 2}
+        Sprite: {fileID: 21300000, guid: 18026475b9f53ea41bf2ff2d7cb91121, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 3
@@ -1159,12 +1159,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65557.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65557.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65557
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 7b75e026cdefd2346a01bcf70e786c7e, type: 2}
+        Sprite: {fileID: 21300000, guid: f929b480793b41d4e8eadf0b38ddbb3f, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 21
@@ -1175,12 +1175,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65544.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65544.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65544
       SpriteData:
-        Sprite: {fileID: 21300000, guid: dab96009822edb547bddd62ffc1f7f86, type: 2}
+        Sprite: {fileID: 21300000, guid: 37e9636713658a74bb00c755d65bbc6c, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 8
@@ -1191,12 +1191,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65542.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65542.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65542
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 9b035636ec320fb448c70f46a45734c1, type: 2}
+        Sprite: {fileID: 21300000, guid: 7e5d41f8305493b479704527a909e0c4, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 6
@@ -1207,12 +1207,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65543.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65543.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65543
       SpriteData:
-        Sprite: {fileID: 21300000, guid: cc5dda44b7eb8dd4aabb840620a999e5, type: 2}
+        Sprite: {fileID: 21300000, guid: 44c78f14272a4964d91d3973bbd7d782, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 7
@@ -1223,12 +1223,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65545.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65545.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65545
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 156e6757addad0f4cba93b55a8be1c2a, type: 2}
+        Sprite: {fileID: 21300000, guid: db0d32dfe632b6742a688ba0db9e7468, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 9
@@ -1239,12 +1239,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65547.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65547.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65547
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 75910b6896896704d9219391f8d37697, type: 2}
+        Sprite: {fileID: 21300000, guid: ebea3c9af54409041b9050aec5e31ce3, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 11
@@ -1255,12 +1255,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65548.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65548.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65548
       SpriteData:
-        Sprite: {fileID: 21300000, guid: a6fa6afc94c6a0747b2412f6d7530e84, type: 2}
+        Sprite: {fileID: 21300000, guid: 9180a2ce6e8abf647aada98564bc6d79, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 12
@@ -1271,12 +1271,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65546.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65546.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65546
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 39a92906254120448a34292f9f8d58dd, type: 2}
+        Sprite: {fileID: 21300000, guid: 54b5f2104c944eb48bc0488c43de6a2e, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 10
@@ -1287,12 +1287,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65552.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65552.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65552
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 8bc112f587f1f4e418e9fec7ff0f1435, type: 2}
+        Sprite: {fileID: 21300000, guid: c348a7e6b99819f40af6023a1a9660a2, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 16
@@ -1303,12 +1303,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65553.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65553.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65553
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 694587197863127479594598f61ad414, type: 2}
+        Sprite: {fileID: 21300000, guid: 93c835acc2ab4e9439644a37bab29dde, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 17
@@ -1319,12 +1319,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65563.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65563.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65563
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 7bfaa06a882d3934381b6482a7e204fe, type: 2}
+        Sprite: {fileID: 21300000, guid: 97e49a84f564f5a4097630ef36ea425d, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 27
@@ -1335,12 +1335,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65550.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65550.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65550
       SpriteData:
-        Sprite: {fileID: 21300000, guid: e5b31fa16b006884aa28a779592147bd, type: 2}
+        Sprite: {fileID: 21300000, guid: 4642dfe1c3e7f124b9ae95912ba83267, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 14
@@ -1351,12 +1351,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65561.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65561.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65561
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 9ade7d7c90c4e18478d64591b9c58fd5, type: 2}
+        Sprite: {fileID: 21300000, guid: 19d7f714beb034a45a254a30cc4290c2, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 25
@@ -1367,12 +1367,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65567.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65567.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65567
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 3b561bdc3ce86d84e91e24034f204dcd, type: 2}
+        Sprite: {fileID: 21300000, guid: 151197ed51d7fd34e9afc8a98382e155, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 31
@@ -1383,12 +1383,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65628.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65628.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65628
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 02095636499656c4f8fc8633402257b9, type: 2}
+        Sprite: {fileID: 21300000, guid: 6efdcce468f6ad74a8534831f5e590d9, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 92
@@ -1399,12 +1399,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65573.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65573.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65573
       SpriteData:
-        Sprite: {fileID: 21300000, guid: f36ee2334734fab4a85b05585e1ac27f, type: 2}
+        Sprite: {fileID: 21300000, guid: 104d791e17da86747976ed7b1ae18fbd, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 37
@@ -1415,12 +1415,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65620.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65620.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65620
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 698324f79505e2e4b8fd632df7ea240e, type: 2}
+        Sprite: {fileID: 21300000, guid: ab853da74a98c7344b9af5bec50ddbeb, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 84
@@ -1431,12 +1431,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65627.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65627.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65627
       SpriteData:
-        Sprite: {fileID: 21300000, guid: cd91dc062e641f84fa6001a702baeec2, type: 2}
+        Sprite: {fileID: 21300000, guid: 3c791a201bc302245baf69ec1ad514d7, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 91
@@ -1447,12 +1447,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65636.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65636.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65636
       SpriteData:
-        Sprite: {fileID: 21300000, guid: f1a2814bb40d7b844a99f521e364184e, type: 2}
+        Sprite: {fileID: 21300000, guid: 0bb1af8ccaeb2fb4da8c7b29668baaa6, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 100
@@ -1463,12 +1463,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65625.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65625.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65625
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 166a4f2de30a97949840141f5f74037a, type: 2}
+        Sprite: {fileID: 21300000, guid: 3aadcbf9cb3446347bead329227d3d84, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 89
@@ -1479,12 +1479,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65622.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65622.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65622
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 90ff9c6445eef6f42b99681891b1a2ca, type: 2}
+        Sprite: {fileID: 21300000, guid: a5095dd0e7b95744cad3e7526a641cfd, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 86
@@ -1495,12 +1495,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65626.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65626.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65626
       SpriteData:
-        Sprite: {fileID: 21300000, guid: e8ac427a27e5aa64eb76680318e42007, type: 2}
+        Sprite: {fileID: 21300000, guid: a62b8691fefb977469cdaa165c2debd7, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 90
@@ -1511,12 +1511,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65538.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65538.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65538
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 9222876c44cc1964da479f885e9c0796, type: 2}
+        Sprite: {fileID: 21300000, guid: a15e0872dd73ab94e85ff8508c8e7083, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 2
@@ -1527,12 +1527,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65537.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65537.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65537
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 66f919bce315ec24cb1e2c864d928a60, type: 2}
+        Sprite: {fileID: 21300000, guid: cf290b85272c2b34a9091d0b10b8e4a5, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 1
@@ -1543,12 +1543,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65623.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65623.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65623
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 4421bc928b030b14cb82c38418bee4e4, type: 2}
+        Sprite: {fileID: 21300000, guid: cbc75d38c2023934391f679a8d47d1e3, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 87
@@ -1559,12 +1559,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65572.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65572.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65572
       SpriteData:
-        Sprite: {fileID: 21300000, guid: a32f5ccbf97e92c459680ad3eefc69b3, type: 2}
+        Sprite: {fileID: 21300000, guid: 591f6d2ce513d0d45a951684314312d7, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 36
@@ -1575,12 +1575,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65540.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65540.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65540
       SpriteData:
-        Sprite: {fileID: 21300000, guid: ca743303fb0585240bcc37106e3a6d3c, type: 2}
+        Sprite: {fileID: 21300000, guid: 8257427cd87290443bb7c75af09ff9f5, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 4
@@ -1591,12 +1591,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65560.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65560.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65560
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 94774ec7929ac1b45a7402d3dd70daf4, type: 2}
+        Sprite: {fileID: 21300000, guid: 49468e34109f2134b83fc64d541e42c0, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 24
@@ -1607,12 +1607,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65569.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65569.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65569
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 642c4523065fd524e9a15648624c8a96, type: 2}
+        Sprite: {fileID: 21300000, guid: f09770add93e32f43b5ae643abc15ddf, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 33
@@ -1623,12 +1623,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65566.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65566.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65566
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 3e746ec3154a43e4d845c43cd62e6df5, type: 2}
+        Sprite: {fileID: 21300000, guid: 2039e2a0c41b0e840a40245f5c44371e, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 30
@@ -1639,12 +1639,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65562.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65562.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65562
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 62c9f218b86b9eb47b84c9a36dc16041, type: 2}
+        Sprite: {fileID: 21300000, guid: 1c3c90e8546b3a2418a0d22c122aa259, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 26
@@ -1655,12 +1655,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65551.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65551.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65551
       SpriteData:
-        Sprite: {fileID: 21300000, guid: f90e9c952733d8941ac11a896bb8f1f2, type: 2}
+        Sprite: {fileID: 21300000, guid: 65682146396fda544a3328cbb17f3e0f, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 15
@@ -1671,12 +1671,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65556.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65556.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65556
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 92fdbc35924c1784b8649ba9d821785a, type: 2}
+        Sprite: {fileID: 21300000, guid: 55925367de9850344a1d5cb22bbc11ef, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 20
@@ -1687,12 +1687,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65541.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65541.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65541
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 1c5af1d8e98592944877537a240508a1, type: 2}
+        Sprite: {fileID: 21300000, guid: 08dcc6401dea0904c927042de3fce123, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 5
@@ -1703,12 +1703,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65559.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65559.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65559
       SpriteData:
-        Sprite: {fileID: 21300000, guid: d0ea9c0e3bf242f48bfbca59a737b3fd, type: 2}
+        Sprite: {fileID: 21300000, guid: d779a270a64042044ba06de5322aed2f, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 23
@@ -1719,12 +1719,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65570.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65570.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65570
       SpriteData:
-        Sprite: {fileID: 21300000, guid: d2a84569e62e5084c999798835c74255, type: 2}
+        Sprite: {fileID: 21300000, guid: f7891fe68c85fe54eb06eb82faa1700f, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 34
@@ -1735,12 +1735,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65568.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65568.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65568
       SpriteData:
-        Sprite: {fileID: 21300000, guid: db4f9247220f16240b500f3b291fd681, type: 2}
+        Sprite: {fileID: 21300000, guid: 4e388257c262a8244866d2f850e37995, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 32
@@ -1751,12 +1751,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65549.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65549.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65549
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 236d3d67e93f94542be2014bee51745c, type: 2}
+        Sprite: {fileID: 21300000, guid: a11e29c8cb92b744585270adb83871a0, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 13
@@ -1767,12 +1767,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65558.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65558.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65558
       SpriteData:
-        Sprite: {fileID: 21300000, guid: eaa9f64e0b4060848a8341f732139203, type: 2}
+        Sprite: {fileID: 21300000, guid: fb5a92eef046c6e4690b0e53518eebe2, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 22
@@ -1783,12 +1783,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65564.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65564.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65564
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 0f2e372deaad8b048a7c693ede093468, type: 2}
+        Sprite: {fileID: 21300000, guid: 9df55fd6e60c63d43a0115a24c32191b, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 28
@@ -1799,12 +1799,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65571.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65571.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65571
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 42fae704f4feb9a409df7f6f436c9df4, type: 2}
+        Sprite: {fileID: 21300000, guid: c52670bc644f497478af1f2d7a1acad7, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 35
@@ -1815,12 +1815,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65555.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65555.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65555
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 3eb92e8235a97434eacd719c905f4ada, type: 2}
+        Sprite: {fileID: 21300000, guid: b28babfea2fcf8045890b059408626c9, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 19
@@ -1831,12 +1831,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65554.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65554.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65554
       SpriteData:
-        Sprite: {fileID: 21300000, guid: ee9a54746ddac2443896e69fa0f7c6aa, type: 2}
+        Sprite: {fileID: 21300000, guid: 2097f08f6d2e40446a5a265884e03870, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 18
@@ -1847,12 +1847,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65583.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65583.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65583
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 28285f4294c0f6d4295a0e4febc840c0, type: 2}
+        Sprite: {fileID: 21300000, guid: 692f9061ae7c60b49b14ea69a7048462, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 47
@@ -1863,12 +1863,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65577.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65577.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65577
       SpriteData:
-        Sprite: {fileID: 21300000, guid: e6cef7fa1b73a7047a695ced1cdef2dc, type: 2}
+        Sprite: {fileID: 21300000, guid: 04ff417ca069a4043b47b6a5a7b12e3b, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 41
@@ -1879,12 +1879,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65618.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65618.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65618
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 0ffe4bcfa79abed4980d4674d9655d91, type: 2}
+        Sprite: {fileID: 21300000, guid: 27c0a2e24c8dadb4296cc079b88a5e8d, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 82
@@ -1895,12 +1895,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65619.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65619.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65619
       SpriteData:
-        Sprite: {fileID: 21300000, guid: e14f8fa89a6ebcf4a8422c74d0de6287, type: 2}
+        Sprite: {fileID: 21300000, guid: 4df42a31cb9d09b48a07db5bb724bbcc, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 83
@@ -1911,12 +1911,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65621.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65621.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65621
       SpriteData:
-        Sprite: {fileID: 21300000, guid: 3a8e17b7f41208242b4ef4faa28034e8, type: 2}
+        Sprite: {fileID: 21300000, guid: e25c60bea68498f438904e34ed2e1071, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 85
@@ -1927,12 +1927,12 @@ MonoBehaviour:
         GenerationScale: 1
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
-    - Path: Assets/SVGAssets/Atlases/Fairy/7628a0327d3d43faa74761820c07b701/Sprites/Fairy_65565.asset
+    - Path: Assets/SVGAssets/Atlases/Fairy/f1f16e13abb34fd5876e2cf8dfe1a309/Sprites/Fairy_65565.asset
       SpriteRef:
         TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}
         ElemIdx: 65565
       SpriteData:
-        Sprite: {fileID: 21300000, guid: d52555448d27022459aebb52f0283966, type: 2}
+        Sprite: {fileID: 21300000, guid: 2b6b4542d8cd7cc42924c17377003f4f, type: 2}
         Pivot: {x: 0.5, y: 0.5}
         Border: {x: 0, y: 0, z: 0, w: 0}
         ZOrder: 29
@@ -1944,10 +1944,10 @@ MonoBehaviour:
         InCurrentInstancesGroup: 1
       InstantiatedWidgetType: 1
   m_EditorGenerationScale: 1
-  m_SvgListHashOld: B1FE2BFDCC36077066CE027F3277DFE6
+  m_SvgListHashOld: F9D44B3C0F02C7A6957BB7CF2FD427C9
   m_SvgListHashCurrent: F9D44B3C0F02C7A6957BB7CF2FD427C9
   m_GeneratedSpritesLists:
-    m_KeysList: e4d10000
+    m_KeysList: 86820000
     m_ValuesList:
     - Sprites:
       - TxtAsset: {fileID: 4900000, guid: 8e526b7e084e1424b824fad44c3647c4, type: 3}

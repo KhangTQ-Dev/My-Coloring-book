@@ -1,12 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
 public class PictureManager : MonoBehaviour
 {
     [SerializeField] private List<ElementPiecePicture> elementPiecePictures;
 
     [SerializeField] private TypePicture typePicture;
+
+    private TypeGallery typeGallery;
+
+    private TypeId typeId;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +23,28 @@ public class PictureManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Init(TypeGallery _typeGallery, TypeId _typeId)
+    {
+        typeGallery = _typeGallery;
+
+        typeId = _typeId;
+
+        DataColorPicture dataColorPicture = GameManager.Instance.DataManager.LoadPicture(_typeGallery, typeId, elementPiecePictures.Count);
+
+        Debug.Log(dataColorPicture);
+
+        Debug.Log(dataColorPicture.DataElementColorPictures);
+
+        Debug.Log(dataColorPicture.DataElementColorPictures.Count);
+
+        for(int i = 0; i < elementPiecePictures.Count; i++)
+        {
+            Color color = dataColorPicture.DataElementColorPictures[i];
+
+            elementPiecePictures[i].Init(color);
+        }
     }
 
     public void SetupInintial(TypePicture _typePicture)
@@ -36,5 +63,27 @@ public class PictureManager : MonoBehaviour
 
             elementPiecePictures.Add(elementPiecePicture);
         }
+    }
+
+    [Button]
+    public void SavePicture()
+    {
+        DataColorPicture dataColorPicture = new DataColorPicture();
+
+        dataColorPicture.DataElementColorPictures = new List<Color>();
+
+        for(int i = 0; i < elementPiecePictures.Count; i++)
+        {
+            dataColorPicture.DataElementColorPictures.Add(elementPiecePictures[i].GetColor());
+        }
+
+        dataColorPicture.IsSave = true;
+
+        GameManager.Instance.DataManager.SavePicture(typeGallery, typeId, dataColorPicture);
+    }
+
+    public void Unload()
+    {
+        Destroy(gameObject);
     }
 }

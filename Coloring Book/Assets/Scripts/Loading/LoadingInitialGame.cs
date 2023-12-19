@@ -8,6 +8,8 @@ using System;
 
 public class LoadingInitialGame : MonoBehaviour
 {
+    [SerializeField] private float timeLoad;
+
     [SerializeField] private Image imgFill;
 
     [SerializeField] private Transform brush;
@@ -46,7 +48,7 @@ public class LoadingInitialGame : MonoBehaviour
         //    actionAfterLoad?.Invoke();
         //});
 
-        brush.DOPath(pathTween, 5.0f).SetEase(Ease.Linear).SetUpdate(true).OnUpdate(() => 
+        brush.DOPath(pathTween, timeLoad).SetEase(DG.Tweening.Ease.Linear).SetUpdate(true).OnUpdate(() => 
         {
             imgFill.fillAmount = GetFillAmount();
         }).OnComplete(() =>
