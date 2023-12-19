@@ -29,7 +29,24 @@ public class DataManager : SerializedMonoBehaviour
 
     public List<DataPicture> GetSaveDataPicture()
     {
-        return new List<DataPicture>();
+        List<DataPicture> dataPictures = new List<DataPicture>();
+
+        for(int i = 0; i < dataAllPicture.dataPictures.Count; i++)
+        {
+            for(int j = 0; j < dataAllPicture.dataPictures[i].Count; j++)
+            {
+                TypeGallery typeGallery = (TypeGallery)i;
+
+                TypeId typeId = (TypeId)j;
+
+                if (LoadPicture(typeGallery, typeId, 0).IsSave)
+                {
+                    dataPictures.Add(dataAllPicture.dataPictures[i][j]);
+                }
+            }
+        }
+
+        return dataPictures;
     }
 
     public DataPicture GetDataPicture(TypeGallery typeGallery, TypeId  typeId)

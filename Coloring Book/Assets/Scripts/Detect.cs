@@ -26,26 +26,29 @@ public class Detect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (LevelManager.Instance.GamePlayManager.CanInteract)
         {
-            Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-            RaycastHit2D[] hit = Physics2D.RaycastAll(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-
-            try
+            if (Input.GetMouseButtonDown(0))
             {
-                for(int i = 0; i < hit.Length; i++)
+                Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+                RaycastHit2D[] hit = Physics2D.RaycastAll(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+
+                try
                 {
-                    GameObject gameObject = hit[i].collider.gameObject;
+                    for (int i = 0; i < hit.Length; i++)
+                    {
+                        GameObject gameObject = hit[i].collider.gameObject;
 
-                    ElementPiecePicture elementPiecePicture = gameObject.GetComponent<ElementPiecePicture>();
+                        ElementPiecePicture elementPiecePicture = gameObject.GetComponent<ElementPiecePicture>();
 
-                    elementPiecePicture.OnPaint(colorDraw, pos);
+                        elementPiecePicture.OnPaint(colorDraw, pos);
+                    }
                 }
-            }
-            catch
-            {
+                catch
+                {
 
+                }
             }
         }
     }

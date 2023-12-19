@@ -49,7 +49,15 @@ public class MyworkGroupManager : MonoBehaviour
     {
         List<DataPicture> _dataPictures = GameManager.Instance.DataManager.GetSaveDataPicture();
 
+
+
+        for(int i = 0; i < elementMyworkGroups.Count; i++)
+        {
+            Destroy(elementMyworkGroups[i]);
+        }
+
         elementMyworkGroups = new List<ElementMyworkGroup>();
+
 
         for (int i = 0; i < _dataPictures.Count; i++)
         {

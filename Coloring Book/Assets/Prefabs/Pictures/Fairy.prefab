@@ -13826,3 +13826,5 @@ MonoBehaviour:
   - {fileID: 5994494232546680778}
   - {fileID: 7004557561244811486}
   typePicture: 0
+  minZoom: 2
+  maxZoom: 8

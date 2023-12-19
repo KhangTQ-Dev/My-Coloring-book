@@ -14,6 +14,12 @@ public class GamePlayManager : MonoBehaviour
 
     private PictureManager pictureManager;
 
+    public PictureManager PictureManager => pictureManager;
+
+    private bool canInteract;
+
+    public bool CanInteract => canInteract;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,11 +39,13 @@ public class GamePlayManager : MonoBehaviour
         typeId = _typeId;
 
         LoadPicture(_typeGallery, _typeId);
+
+        canInteract = true;
     }
 
     public void Show(bool isTrue)
     {
-        
+        canInteract = isTrue;
     }
 
     public void LoadPicture(TypeGallery _typeGallery, TypeId _typeId)

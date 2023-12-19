@@ -1882,7 +1882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83edebf0f604913458456870a9662b2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLoad: 4
+  timeLoad: 3
   imgFill: {fileID: 1403240738}
   brush: {fileID: 1650924943}
   path:

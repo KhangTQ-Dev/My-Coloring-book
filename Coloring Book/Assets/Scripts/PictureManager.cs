@@ -9,6 +9,10 @@ public class PictureManager : MonoBehaviour
 
     [SerializeField] private TypePicture typePicture;
 
+    [SerializeField] private float minZoom;
+
+    [SerializeField] private float maxZoom;
+
     private TypeGallery typeGallery;
 
     private TypeId typeId;
@@ -85,5 +89,12 @@ public class PictureManager : MonoBehaviour
     public void Unload()
     {
         Destroy(gameObject);
+    }
+
+    public void OnZoom(float increment)
+    {
+        float a = Mathf.Clamp(transform.localScale.x - increment, minZoom, maxZoom);
+
+        transform.localScale = Vector3.one * a;
     }
 }
