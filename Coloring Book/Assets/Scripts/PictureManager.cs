@@ -17,10 +17,12 @@ public class PictureManager : MonoBehaviour
 
     private TypeId typeId;
 
+    private Vector3 initialScale;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        initialScale = transform.localScale;
     }
 
     // Update is called once per frame
@@ -91,10 +93,12 @@ public class PictureManager : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void OnZoom(float increment)
+    public float OnZoom(float increment)
     {
         float a = Mathf.Clamp(transform.localScale.x - increment, minZoom, maxZoom);
 
         transform.localScale = Vector3.one * a;
+
+        return a / initialScale.x;
     }
 }

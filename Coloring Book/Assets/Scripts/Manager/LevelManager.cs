@@ -46,5 +46,7 @@ public class LevelManager : MonoBehaviour
     public void OnChangeToLobby()
     {
         uiManager.OnChangeToLobby();
+
+        gamePlayManager.Show(false);
     }
 }

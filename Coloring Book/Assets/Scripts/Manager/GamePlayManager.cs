@@ -6,6 +6,10 @@ public class GamePlayManager : MonoBehaviour
 {
     [SerializeField] private Detect detect;
 
+    [SerializeField] private ZoomController zoomController;
+
+    public ZoomController ZoomController => zoomController;
+
     public Detect Detect => detect;
 
     private TypeGallery typeGallery;
@@ -41,6 +45,10 @@ public class GamePlayManager : MonoBehaviour
         LoadPicture(_typeGallery, _typeId);
 
         canInteract = true;
+
+        detect.Init();
+
+        zoomController.Init();
     }
 
     public void Show(bool isTrue)

@@ -14,6 +14,8 @@ public class UiManager : MonoBehaviour
 
     [SerializeField] private PopupManager popupManager;
 
+    [SerializeField] private UiGamePlayManager uiGamePlayManager;
+
     [SerializeField] private Canvas canvasLobby;
 
     [SerializeField] private Canvas canvasGamePlay;
@@ -27,6 +29,8 @@ public class UiManager : MonoBehaviour
     public GalleryManager GalleryManager => galleryManager;
 
     public MyworkManager MyworkManager => myworkManager;
+
+    public UiGamePlayManager UiGamePlayManager => uiGamePlayManager;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +54,8 @@ public class UiManager : MonoBehaviour
     IEnumerator WaitChangeToGamePlay()
     {
         yield return new WaitForSeconds(0.5f);
+
+        uiGamePlayManager.Init();
 
         canvasGamePlay.gameObject.SetActive(true);
 

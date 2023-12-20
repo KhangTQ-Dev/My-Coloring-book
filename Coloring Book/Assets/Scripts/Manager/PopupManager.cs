@@ -21,11 +21,24 @@ public class PopupManager : MonoBehaviour
 
     public void ShowPopup(TypePopup typePopup, Action actionPopupDone = null)
     {
-        listPopups[(int)typePopup].Show(true);
+        for(int i = 0; i < listPopups.Count; i++)
+        {
+            if(i == (int)typePopup)
+            {
+                listPopups[i].Show(true);
+            }
+            else
+            {
+                listPopups[i].Show(false);
+            }
+        }
+
+        //listPopups[(int)typePopup].Show(true);
     }
 }
 
 public enum TypePopup
 {
-    LoadingToGamePlay
+    LoadingToGamePlay,
+    Preview
 }

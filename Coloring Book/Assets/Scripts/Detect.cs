@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 public class Detect : MonoBehaviour
 {
@@ -28,7 +29,7 @@ public class Detect : MonoBehaviour
     {
         if (LevelManager.Instance.GamePlayManager.CanInteract)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && !IsPointerOverUIObject())
             {
                 Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
@@ -53,9 +54,27 @@ public class Detect : MonoBehaviour
         }
     }
 
+    private bool IsPointerOverUIObject()
+    {
+        PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
+
+        pointerEventData.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+
+        List<RaycastResult> raycastResults = new List<RaycastResult>();
+
+        EventSystem.current.RaycastAll(pointerEventData, raycastResults);
+
+        return raycastResults.Count > 0;
+    }
+
     public void SetColor(Color colorSet)
     {
         colorDraw = colorSet;
+    }
+
+    public void Init()
+    {
+
     }
 }
 

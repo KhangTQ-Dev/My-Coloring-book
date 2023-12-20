@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class ZoomController : MonoBehaviour
 {
@@ -16,10 +17,21 @@ public class ZoomController : MonoBehaviour
     public float zoomOutMin = 1;
     public float zoomOutMax = 8;
 
+    private Vector3 initialPosition;
+
+    private float indexZoom;
+
+    private void Start()
+    {
+        initialPosition = Camera.main.transform.position;
+
+        indexZoom = 1;
+    }
+
     // Update is called once per frame
     void Update()
     {
-        if (LevelManager.Instance.GamePlayManager.CanInteract)
+        if (LevelManager.Instance.GamePlayManager.CanInteract && !EventSystem.current.IsPointerOverGameObject())
         {
             if (Input.GetMouseButtonDown(0))
             {
@@ -43,7 +55,7 @@ public class ZoomController : MonoBehaviour
             else if (Input.GetMouseButton(0))
             {
                 Vector3 direction = touchStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                Camera.main.transform.position += direction;
+                Camera.main.transform.position = GetPositionClamp(Camera.main.transform.position, direction);
             }
             zoom(Input.GetAxis("Mouse ScrollWheel"));
         }
@@ -51,8 +63,22 @@ public class ZoomController : MonoBehaviour
 
     void zoom(float increment)
     {
-        LevelManager.Instance.GamePlayManager.PictureManager.OnZoom(increment);
+        indexZoom = LevelManager.Instance.GamePlayManager.PictureManager.OnZoom(increment);
 
         //Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize - increment, zoomOutMin, zoomOutMax);
+    }
+
+    public void Init()
+    {
+        Camera.main.transform.position = initialPosition;
+    }
+
+    public Vector3 GetPositionClamp(Vector3 current, Vector3 direction)
+    {
+        current.x = Mathf.Clamp(current.x + direction.x, xMin * indexZoom, xMax * indexZoom);
+
+        current.y = Mathf.Clamp(current.y + direction.y, yMin * indexZoom, yMax * indexZoom);
+
+        return current;
     }
 }
