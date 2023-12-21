@@ -13,6 +13,8 @@ public class PictureManager : MonoBehaviour
 
     [SerializeField] private float maxZoom;
 
+    public List<ElementPiecePicture> ElementPiecePictures => elementPiecePictures;
+
     private TypeGallery typeGallery;
 
     private TypeId typeId;
@@ -37,20 +39,29 @@ public class PictureManager : MonoBehaviour
 
         typeId = _typeId;
 
-        DataColorPicture dataColorPicture = GameManager.Instance.DataManager.LoadPicture(_typeGallery, typeId, elementPiecePictures.Count);
-
-        Debug.Log(dataColorPicture);
-
-        Debug.Log(dataColorPicture.DataElementColorPictures);
-
-        Debug.Log(dataColorPicture.DataElementColorPictures.Count);
-
-        for(int i = 0; i < elementPiecePictures.Count; i++)
+        try
         {
-            Color color = dataColorPicture.DataElementColorPictures[i];
+            DataColorPicture dataColorPicture = GameManager.Instance.DataManager.LoadPicture(_typeGallery, typeId, elementPiecePictures.Count);
 
-            elementPiecePictures[i].Init(color);
+            Debug.Log(dataColorPicture);
+
+            Debug.Log(dataColorPicture.DataElementColorPictures);
+
+            Debug.Log(dataColorPicture.DataElementColorPictures.Count);
+
+            for (int i = 0; i < elementPiecePictures.Count; i++)
+            {
+                Color color = dataColorPicture.DataElementColorPictures[i];
+
+                elementPiecePictures[i].Init(color, i);
+            }
         }
+        catch
+        {
+
+        }
+
+
     }
 
     public void SetupInintial(TypePicture _typePicture)

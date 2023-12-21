@@ -96,6 +96,8 @@ public class ConvertGameObjectSpriteToPrefab : MonoBehaviour
 
         prefab.name = namePrefab;
 
+        prefab.AddComponent<RectTransform>();
+
         PictureManager pictureManager = prefab.AddComponent<PictureManager>();
 
         for (int i = 0; i < listSprite.Count; i++)

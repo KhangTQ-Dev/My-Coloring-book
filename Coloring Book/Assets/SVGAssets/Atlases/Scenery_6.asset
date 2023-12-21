@@ -1,0 +1,3213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d995787f488229646bc6ee47ced3138d, type: 3}
+  m_Name: Scenery_6
+  m_EditorClassIdentifier: 
+  m_OutputFolder: Assets/SVGAssets/Atlases
+  m_OffsetScale: 1
+  m_Pow2Textures: 1
+  m_MaxTexturesDimension: 1024
+  m_SpritesBorder: 1
+  m_ClearColor: {r: 1, g: 1, b: 1, a: 0}
+  m_FastUpload: 1
+  m_SvgList:
+  - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+    Scale: 1
+    SeparateGroups: 1
+    Instantiable: 1
+    InstanceBaseIdx: 158
+  m_GeneratedTexturesFiles:
+  - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Textures/texture0.asset
+    Object: {fileID: 2800000, guid: 483de5399d467af42bb07e8d53dd0087, type: 2}
+  - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Textures/texture1.asset
+    Object: {fileID: 2800000, guid: 04b9b2edf47d55646b712d83be992dca, type: 2}
+  - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Textures/texture2.asset
+    Object: {fileID: 2800000, guid: 90b04c9a5801ff8479b6b2d1289d06d2, type: 2}
+  - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Textures/texture3.asset
+    Object: {fileID: 2800000, guid: 99000ac759501b0459865cbbd8499c18, type: 2}
+  m_GeneratedSpritesFiles:
+    m_KeysList:
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65693
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65536
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65539
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65563
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65537
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65541
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65542
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65548
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65547
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65646
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65610
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65618
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65599
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65538
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65540
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65551
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65550
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65555
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65553
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65602
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65543
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65558
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65546
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65564
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65552
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65576
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65544
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65676
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65627
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65554
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65582
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65561
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65545
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65556
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65677
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65584
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65586
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65574
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65570
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65559
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65648
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65557
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65595
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65572
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65568
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65589
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65566
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65690
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65672
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65592
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65606
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65590
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65651
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65562
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65579
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65639
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65578
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65597
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65659
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65549
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65619
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65625
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65620
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65573
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65634
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65569
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65585
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65587
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65667
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65596
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65594
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65658
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65631
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65674
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65666
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65629
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65611
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65604
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65609
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65662
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65683
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65654
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65684
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65675
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65687
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65691
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65692
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65575
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65560
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65643
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65642
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65656
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65679
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65685
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65673
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65565
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65653
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65669
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65689
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65637
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65630
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65588
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65668
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65682
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65665
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65628
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65581
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65686
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65580
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65605
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65644
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65640
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65567
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65623
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65655
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65616
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65661
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65664
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65688
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65583
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65593
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65670
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65615
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65612
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65577
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65622
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65671
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65607
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65638
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65571
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65601
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65680
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65660
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65649
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65636
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65645
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65632
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65608
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65600
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65591
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65613
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65681
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65614
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65647
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65617
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65621
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65633
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65598
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65635
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65603
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65624
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65652
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65626
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65641
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65663
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65657
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65678
+    - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+      ElemIdx: 65650
+    m_ValuesList:
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6__x30_0.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65693
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 51746c8e9f9ad2c48b1b8201d1b4448f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 157
+        OriginalX: 0
+        OriginalY: 0
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65536.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65536
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: e3ffc32acfb5fee40aa553cf5aa9ed9b, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 0
+        OriginalX: 1
+        OriginalY: 1
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65539.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65539
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: ccc272fdc9b03ff409d4ae433d41f056, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 3
+        OriginalX: 1
+        OriginalY: 366
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65563.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65563
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: a3cf89a8d71e6354c85d5ea21ea679cc, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 27
+        OriginalX: 490
+        OriginalY: 811
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65537.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65537
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 0ec1965ddfb75e94db4c551594b2763b, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 1
+        OriginalX: 1
+        OriginalY: 622
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65541.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65541
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6ec75eef07920fa42a9c31942caf5165, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 5
+        OriginalX: 333
+        OriginalY: 398
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65542.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65542
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: bf5514dcb7cfeca4bbe541a48aac1777, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 6
+        OriginalX: 517
+        OriginalY: 622
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65548.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65548
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: f0fb0b6c979f2024da1638c9a0d80659, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 12
+        OriginalX: 131
+        OriginalY: 81
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65547.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65547
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: a597161f52df92540b079510edbf3e0a, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 11
+        OriginalX: 833
+        OriginalY: 52
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65646.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65646
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 50349c26f010a4d43ac9febe7fbf20ff, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 110
+        OriginalX: 47
+        OriginalY: 567
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65610.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65610
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 2a19bfd4469a1a8489bf652c91812f38, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 74
+        OriginalX: 697
+        OriginalY: 339
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65618.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65618
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: ffbb8553eac08aa44a0d3b3b68d66483, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 82
+        OriginalX: 421
+        OriginalY: 376
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65599.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65599
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 31a1ae5cd8473704081998515f014f3d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 63
+        OriginalX: 389
+        OriginalY: 338
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65538.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65538
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 65699cddfef4fa6439daad1a7f64d979, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 2
+        OriginalX: 405
+        OriginalY: 622
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65540.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65540
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 61f3df1504a7b2e4dba229bebb452b6b, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 4
+        OriginalX: 1
+        OriginalY: 628
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65551.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65551
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 7c616c6f2ebfebd4abb79c9bc6a4ea33, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 15
+        OriginalX: 837
+        OriginalY: 226
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65550.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65550
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 32e762f479b88054886809fcebc388a7, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 14
+        OriginalX: 211
+        OriginalY: 37
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65555.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65555
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 44b2ea7a44bda7e4f85cfd20bd7743f8, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 19
+        OriginalX: 841
+        OriginalY: 366
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65553.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65553
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 2c744839554d63d459415cb4510b3af1, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 17
+        OriginalX: 1
+        OriginalY: 703
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65602.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65602
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 1b2b59c9570ce8d45b6bb9be4be3822b, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 66
+        OriginalX: 473
+        OriginalY: 554
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65543.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65543
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: b2ba4d7b830375240ab5fd0e8519d2b4, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 7
+        OriginalX: 437
+        OriginalY: 156
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65558.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65558
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 9c928796627c830419c5474d32735137, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 22
+        OriginalX: 43
+        OriginalY: 160
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65546.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65546
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 255f84864dd89f340824cd98943ae1b6, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 10
+        OriginalX: 401
+        OriginalY: 238
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65564.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65564
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 8c30881830d0797418241b7e9874c436, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 28
+        OriginalX: 780
+        OriginalY: 120
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65552.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65552
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: ab0162c5143937a47b0aa4e72c49a767, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 16
+        OriginalX: 804
+        OriginalY: 158
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65576.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65576
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 4adb61c72ac24b04a96f5f448872f79d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 40
+        OriginalX: 596
+        OriginalY: 524
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65544.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65544
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 4eae2fc0246cfe344812d0b9961c1449, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 8
+        OriginalX: 794
+        OriginalY: 587
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65676.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65676
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 5de5b4a0f248616438711b0bbb8587dc, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 140
+        OriginalX: 580
+        OriginalY: 9
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65627.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65627
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 593784ebf57935347870a26101c4d349, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 91
+        OriginalX: 89
+        OriginalY: 418
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65554.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65554
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 131cfabe0dfc9a64692de6b8624716ba, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 18
+        OriginalX: 613
+        OriginalY: 218
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65582.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65582
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: e5ac35af03072e849b313bdc1bb1f043, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 46
+        OriginalX: 500
+        OriginalY: 284
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65561.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65561
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6b261f2d601310149976c394635c9ab3, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 25
+        OriginalX: 752
+        OriginalY: 252
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65545.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65545
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 4f580ce8ebd48c747afdb22c11290f2a, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 9
+        OriginalX: 588
+        OriginalY: 800
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65556.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65556
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 3d22776530c30b04eacd4654987b36e3, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 20
+        OriginalX: 811
+        OriginalY: 465
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65677.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65677
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: cbad8f7eb2aacb44e944591fc2a9f07c, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 141
+        OriginalX: 476
+        OriginalY: 14
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65584.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65584
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 90c99897ee7dedf4595e1e064d398178, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 48
+        OriginalX: 629
+        OriginalY: 270
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65586.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65586
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 45e559cd5741a5f4d9451df63878d043, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 50
+        OriginalX: 897
+        OriginalY: 787
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65574.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65574
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 26727ccd762f00d4484cc139e2b54e16, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 38
+        OriginalX: 84
+        OriginalY: 131
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65570.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65570
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 849357cceb2eeb245a1bf7f56e28e078, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 34
+        OriginalX: 359
+        OriginalY: 471
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65559.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65559
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6c06f8b13c4381342befd5e03cc93475, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 23
+        OriginalX: 792
+        OriginalY: 676
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65648.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65648
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: d87101cf29d1688469f0dbd9c73d7dc7, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 112
+        OriginalX: 300
+        OriginalY: 669
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65557.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65557
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: aeb88434718eed94db6bb53ef87dbc30, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 21
+        OriginalX: 805
+        OriginalY: 860
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65595.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65595
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6030cab23f981cc4d9e132900f2a4b91, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 59
+        OriginalX: 1
+        OriginalY: 577
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65572.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65572
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 27f600cc08997d3428a4f995bf650e67, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 36
+        OriginalX: 791
+        OriginalY: 773
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65568.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65568
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 67978d5a7a1b96c46af4c7a0fd711bc5, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 32
+        OriginalX: 103
+        OriginalY: 170
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65589.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65589
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 4e486abfad4c9184db38be7f6dcfedf0, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 53
+        OriginalX: 734
+        OriginalY: 582
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65566.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65566
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: bac46af8df6658a45b8181318ed7ed9d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 30
+        OriginalX: 10
+        OriginalY: 175
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65690.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65690
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 1f70a2171e955184e89a5bb3bc8e0e00, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 154
+        OriginalX: 969
+        OriginalY: 420
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65672.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65672
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: b6c8d2f334a033942957006bcbda8e7a, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 136
+        OriginalX: 743
+        OriginalY: 365
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65592.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65592
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 8a8016bb39646064aa68f711c7232386, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 56
+        OriginalX: 300
+        OriginalY: 427
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65606.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65606
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: aa9e6ab0bbce24748a2c3a5094d41186, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 70
+        OriginalX: 597
+        OriginalY: 590
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65590.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65590
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 327339d1477156f4d866a6c56d2a5fd6, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 54
+        OriginalX: 460
+        OriginalY: 858
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65651.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65651
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: f06053918bdccdd4e8a4026d55d55657, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 115
+        OriginalX: 121
+        OriginalY: 587
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65562.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65562
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 45c2f0a21190cc04999139d5b6bb0bdf, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 26
+        OriginalX: 0
+        OriginalY: 18
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65579.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65579
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 08a5f824fea5ed347b2a4b612822d89c, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 43
+        OriginalX: 801
+        OriginalY: 931
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65639.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65639
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 00500f1a84226aa4eac0699a46f3a86f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 103
+        OriginalX: 659
+        OriginalY: 421
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65578.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65578
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 08e4565c6e4725b4fbb1609675a9f0b3, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 42
+        OriginalX: 901
+        OriginalY: 722
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65597.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65597
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 81214b3a0e08131428b3840029c4d143, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 61
+        OriginalX: 505
+        OriginalY: 573
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65659.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65659
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: f1641bcacabe8344f870a13e69c02207, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 123
+        OriginalX: 178
+        OriginalY: 572
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65549.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65549
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: aa62133c021ff124ca4aee31b2446118, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 13
+        OriginalX: 252
+        OriginalY: 494
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65619.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65619
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: e354dd6ed0df060479c8f4c412774563, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 83
+        OriginalX: 66
+        OriginalY: 334
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65625.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65625
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 9c7ccca5483e3734fa82baad42e28eff, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 89
+        OriginalX: 580
+        OriginalY: 558
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65620.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65620
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: aff2b3889f2d0fc47b54a53881d7986e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 84
+        OriginalX: 322
+        OriginalY: 378
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65573.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65573
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 3b4ec8ac307d575419850349aba26925, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 37
+        OriginalX: 714
+        OriginalY: 870
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65634.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65634
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6bdfa018bb4be4e49b21b757b2e62efc, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 98
+        OriginalX: 179
+        OriginalY: 443
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65569.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65569
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 4c788238c2bbc824687c7a28fe9f2814, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 33
+        OriginalX: 795
+        OriginalY: 817
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65585.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65585
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 2c41c9cf8f7ed5c4ab6286ab5f599312, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 49
+        OriginalX: 399
+        OriginalY: 549
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65587.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65587
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 20b4e518ac828fd4194157285afd34e6, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 51
+        OriginalX: 908
+        OriginalY: 497
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65667.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65667
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: d971b7d9bcb7bc144af282842339b54f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 131
+        OriginalX: 914
+        OriginalY: 920
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65596.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65596
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 709dc032f37879940964201e0ddd834d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 60
+        OriginalX: 1
+        OriginalY: 669
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65594.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65594
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 50d10a4e2a7f666418607dfe51836ad9, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 58
+        OriginalX: 493
+        OriginalY: 335
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65658.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65658
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 9e29b97b3c8ae42438c1aac6a1ac63fd, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 122
+        OriginalX: 842
+        OriginalY: 756
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65631.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65631
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6dd560e6d7a3fe448a5dec437822d6cb, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 95
+        OriginalX: 520
+        OriginalY: 381
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65674.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65674
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 289b151398520624280657294bce7c6b, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 138
+        OriginalX: 601
+        OriginalY: 587
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65666.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65666
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 639945eaceb6a4041a037ed93bbd5d52, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 130
+        OriginalX: 56
+        OriginalY: 365
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65629.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65629
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: e2dcb6cec31b03546bafd167a521a86e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 93
+        OriginalX: 915
+        OriginalY: 464
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65611.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65611
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: d401911b4931fb747951faf893216d35, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 75
+        OriginalX: 876
+        OriginalY: 339
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65604.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65604
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 46a717bfc30d4934e8434cf4721ed3bb, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 68
+        OriginalX: 605
+        OriginalY: 336
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65609.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65609
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: fcc333b7f4140704e80e3912cfdf8750, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 73
+        OriginalX: 787
+        OriginalY: 338
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65662.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65662
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: c975f50829a76d54aa15d03845776c37, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 126
+        OriginalX: 43
+        OriginalY: 458
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65683.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65683
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: d7ae3941fb3723a4d9330f785f5f493f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 147
+        OriginalX: 813
+        OriginalY: 411
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65654.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65654
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 88cc182e87e996440875f2ca8c5e640e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 118
+        OriginalX: 857
+        OriginalY: 366
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65684.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65684
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 8d9f31c704c1374429c7531c86941b7e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 148
+        OriginalX: 697
+        OriginalY: 381
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65675.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65675
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 8c6ce74a81e1b984caeb20766c1110d0, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 139
+        OriginalX: 959
+        OriginalY: 365
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65687.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65687
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 76280cb38e360b6419111fcae5f28036, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 151
+        OriginalX: 141
+        OriginalY: 483
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65691.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65691
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 36d6104d246297a48a2a74f5908796e1, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 155
+        OriginalX: 935
+        OriginalY: 384
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65692.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65692
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 451f62ae6fb84224bb7ce187153eee26, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 156
+        OriginalX: 931
+        OriginalY: 414
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65575.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65575
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 3a5b7758276e1714badc2eecec8553d3, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 39
+        OriginalX: 918
+        OriginalY: 778
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65560.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65560
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: ea61a7fed477342409af96143a53087f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 24
+        OriginalX: 928
+        OriginalY: 862
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65643.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65643
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 077ffd2c422b7bf4496cf9e1d0e2ecd4, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 107
+        OriginalX: 266
+        OriginalY: 629
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65642.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65642
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 337919d756b0f5b4ebe7785077450702, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 106
+        OriginalX: 153
+        OriginalY: 519
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65656.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65656
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 51101cbfc10ce264194322d25ded89c4, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 120
+        OriginalX: 43
+        OriginalY: 618
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65679.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65679
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 5eb8f09fc9e3782438cbbc5e20a1cd45, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 143
+        OriginalX: 739
+        OriginalY: 451
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65685.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65685
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 9dff738fb10083541abc718cd8d3a04b, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 149
+        OriginalX: 852
+        OriginalY: 458
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65673.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65673
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 066aa3a6dead4a84d943b3c036a81984, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 137
+        OriginalX: 859
+        OriginalY: 983
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65565.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65565
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: c2672611ac142ac4a9c9ac3319638d01, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 29
+        OriginalX: 1
+        OriginalY: 170
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65653.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65653
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: ed9c17e3d3cac6a42af09a176146277e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 117
+        OriginalX: 380
+        OriginalY: 570
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65669.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65669
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 37066e9c2329ef44e806c9e714bdb23e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 133
+        OriginalX: 450
+        OriginalY: 545
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65689.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65689
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 1f218074d2afdfe47adbffbdacbe649c, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 153
+        OriginalX: 679
+        OriginalY: 675
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65637.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65637
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: eb388d67935102c43b7a3ade117acf6b, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 101
+        OriginalX: 963
+        OriginalY: 333
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65630.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65630
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 38f04fb9b4ff9404c93fa53e9f1e5406, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 94
+        OriginalX: 615
+        OriginalY: 407
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65588.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65588
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 007b0573e063b994cade5c67939f2145, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 52
+        OriginalX: 78
+        OriginalY: 257
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65668.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65668
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 80553e53e21a5f74e84d2892f17303e9, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 132
+        OriginalX: 773
+        OriginalY: 508
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65682.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65682
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 1ac01b5386e0e7e47b108da608a9f5fb, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 146
+        OriginalX: 797
+        OriginalY: 479
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65665.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65665
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: a694789ef719a9d4ab0f456d2c8f4d12, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 129
+        OriginalX: 218
+        OriginalY: 675
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65628.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65628
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: d0442b5789032504a94de4aea82c69cb, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 92
+        OriginalX: 247
+        OriginalY: 669
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65581.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65581
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 0e57ba4998e51074da359302288d2ac1, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 45
+        OriginalX: 302
+        OriginalY: 466
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65686.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65686
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 24729a241872098478dede917c6831e9, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 150
+        OriginalX: 194
+        OriginalY: 381
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65580.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65580
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: e2af4bf802bd6b54aabeab554e6baa9d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 44
+        OriginalX: 191
+        OriginalY: 512
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65605.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65605
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 1c43865dfbd51bf43867513f246459f1, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 69
+        OriginalX: 297
+        OriginalY: 337
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65644.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65644
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: c8540ffd1b90546458b09095e4950ee8, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 108
+        OriginalX: 921
+        OriginalY: 913
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65640.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65640
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: dd0061944caa68040ab24f9c086b18e2, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 104
+        OriginalX: 136
+        OriginalY: 507
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65567.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65567
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 37e4ce07e37dfa647a60ab28a88d2fc6, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 31
+        OriginalX: 929
+        OriginalY: 594
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65623.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65623
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: aea9d6a349aac474e894482281f4c206, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 87
+        OriginalX: 686
+        OriginalY: 900
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65655.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65655
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 4b36cee65eaf30d4baf019cf27c282ef, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 119
+        OriginalX: 103
+        OriginalY: 414
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65616.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65616
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: b41cc80e41c242346a99aa25732f3d33, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 80
+        OriginalX: 1
+        OriginalY: 334
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65661.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65661
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 79a31d34ba277204e9b962d71486704a, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 125
+        OriginalX: 194
+        OriginalY: 460
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65664.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65664
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 747a41d3800f79b499ccbf0000f32bcd, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 128
+        OriginalX: 955
+        OriginalY: 899
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65688.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65688
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 021ed41ee8613af4c9475a59997531c6, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 152
+        OriginalX: 615
+        OriginalY: 679
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65583.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65583
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 9872f1c46d3f5124280cf3c381b6bd31, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 47
+        OriginalX: 54
+        OriginalY: 606
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65593.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65593
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 5de29e14b6c74464bab342ecd506f22e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 57
+        OriginalX: 157
+        OriginalY: 619
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65670.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65670
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 686d708d01304344693eaac2a6b01f9a, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 134
+        OriginalX: 860
+        OriginalY: 980
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65615.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65615
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 998db66f177657c4fae63010977cedf2, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 79
+        OriginalX: 318
+        OriginalY: 469
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65612.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65612
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: eaf04e3912cb32048b3c3c3ea983ab3e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 76
+        OriginalX: 669
+        OriginalY: 574
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65577.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65577
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 67f013f1aa5e89841b312c39cc144e3f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 41
+        OriginalX: 930
+        OriginalY: 169
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65622.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65622
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: f5cfa9307148ff2479059d1097707d71, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 86
+        OriginalX: 896
+        OriginalY: 498
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65671.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65671
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 5c1aea1e0a323ca49b073787e9378da8, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 135
+        OriginalX: 256
+        OriginalY: 414
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65607.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65607
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 85d4b6c8779a6a54db5aa40a6da6f579, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 71
+        OriginalX: 728
+        OriginalY: 558
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65638.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65638
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 0c8a31de638680044b25ea0e421cc6fc, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 102
+        OriginalX: 614
+        OriginalY: 921
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65571.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65571
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 50fbeac8d445adc488d6e4d60baf6021, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 35
+        OriginalX: 225
+        OriginalY: 444
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65601.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65601
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 78177ffc3cf8b5648b151c8f0c78fa7e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 65
+        OriginalX: 553
+        OriginalY: 798
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65680.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65680
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 5d859dc56f32b29408bf4160a7273eca, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 144
+        OriginalX: 140
+        OriginalY: 441
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65660.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65660
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 26f1396fb5eaefe478e827ce59227038, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 124
+        OriginalX: 145
+        OriginalY: 675
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65649.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65649
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 4fda5d798ae190d4eb614bfc679632f3, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 113
+        OriginalX: 47
+        OriginalY: 398
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65636.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65636
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 55020c73e050ec146a02aacbbd283969, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 100
+        OriginalX: 245
+        OriginalY: 400
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65645.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65645
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 5e22bd993b65e0f48b776214a4c7ed5f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 109
+        OriginalX: 199
+        OriginalY: 409
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65632.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65632
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 3f06e1d74482f8f46beca04638f06062, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 96
+        OriginalX: 762
+        OriginalY: 520
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65608.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65608
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 7f0870705c72aed41be90906f9c8f1cf, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 72
+        OriginalX: 919
+        OriginalY: 677
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65600.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65600
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6eab095f9ef805644985e71e1b2746d1, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 64
+        OriginalX: 1
+        OriginalY: 620
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65591.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65591
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: dc49543b660d3504bb648cd8b7f8344d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 55
+        OriginalX: 936
+        OriginalY: 517
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65613.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65613
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: ca76d327e7d0cb54fa784dd809f42ff8, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 77
+        OriginalX: 140
+        OriginalY: 337
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65681.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65681
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 3d26a86786a643549a3732b92525e59a, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 145
+        OriginalX: 87
+        OriginalY: 516
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65614.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65614
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 94a2b17c07e81474ab41e248db16e813, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 78
+        OriginalX: 220
+        OriginalY: 337
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65647.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65647
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 9fecede8a93ba3e4abe2990d30eadb60, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 111
+        OriginalX: 962
+        OriginalY: 902
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65617.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65617
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: b1fcffbf5b60fc244b7bb94adb6fd176, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 81
+        OriginalX: 227
+        OriginalY: 618
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65621.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65621
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: d6e0caf6aa42bc94f95fffd2f857e90a, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 85
+        OriginalX: 698
+        OriginalY: 457
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65633.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65633
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6f18070b045c4074ebab4890ecb3b2af, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 97
+        OriginalX: 891
+        OriginalY: 771
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65598.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65598
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 42ddf743125ea034fa1ed6f59e21a85b, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 62
+        OriginalX: 1
+        OriginalY: 85
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65635.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65635
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 7608fda1a9da960489c06de9bc1cd250, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 99
+        OriginalX: 918
+        OriginalY: 790
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65603.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65603
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 207e978eb6a65cc4b94bf109bb990df1, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 67
+        OriginalX: 139
+        OriginalY: 581
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65624.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65624
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6c7250fcdf5358945ad1e3dcfa840b79, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 88
+        OriginalX: 833
+        OriginalY: 558
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65652.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65652
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: a1ed70f2e1181804cae36ee607ac4823, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 116
+        OriginalX: 976
+        OriginalY: 460
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65626.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65626
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: c2f58eed9a502d54184d2d51cfe5fa09, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 90
+        OriginalX: 119
+        OriginalY: 366
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65641.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65641
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 587982a7062686540814d7a19b22b3a3, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 105
+        OriginalX: 930
+        OriginalY: 448
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65663.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65663
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 72d8676264066634d9f6df9c2ce15e75, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 127
+        OriginalX: 650
+        OriginalY: 902
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65657.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65657
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6564383122ffd57458b789061ccec4a0, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 121
+        OriginalX: 455
+        OriginalY: 555
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65678.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65678
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 2334e071426b61345b8ae1474f07b904, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 142
+        OriginalX: 739
+        OriginalY: 400
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Scenery_6/d65117b60f2340a994d04cabd6f20d28/Sprites/Scenery_6_65650.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65650
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 7ffb3bd63684c634e9890da1a41e6166, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 114
+        OriginalX: 267
+        OriginalY: 381
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+  m_EditorGenerationScale: 1
+  m_SvgListHashOld: CE66E0170AF7875DB0B32882907EE5E6
+  m_SvgListHashCurrent: CE66E0170AF7875DB0B32882907EE5E6
+  m_GeneratedSpritesLists:
+    m_KeysList: 00a72b00
+    m_ValuesList:
+    - Sprites:
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65693
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65536
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65539
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65563
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65537
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65541
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65542
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65548
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65547
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65646
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65610
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65618
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65599
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65538
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65540
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65551
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65550
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65555
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65553
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65602
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65543
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65558
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65546
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65564
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65552
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65576
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65544
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65676
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65627
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65554
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65582
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65561
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65545
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65556
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65677
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65584
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65586
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65574
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65570
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65559
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65648
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65557
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65595
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65572
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65568
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65589
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65566
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65690
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65672
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65592
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65606
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65590
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65651
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65562
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65579
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65639
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65578
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65597
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65659
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65549
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65619
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65625
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65620
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65573
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65634
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65569
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65585
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65587
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65667
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65596
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65594
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65658
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65631
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65674
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65666
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65629
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65611
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65604
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65609
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65662
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65683
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65654
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65684
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65675
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65687
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65691
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65692
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65575
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65560
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65643
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65642
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65656
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65679
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65685
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65673
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65565
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65653
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65669
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65689
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65637
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65630
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65588
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65668
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65682
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65665
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65628
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65581
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65686
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65580
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65605
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65644
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65640
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65567
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65623
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65655
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65616
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65661
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65664
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65688
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65583
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65593
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65670
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65615
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65612
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65577
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65622
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65671
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65607
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65638
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65571
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65601
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65680
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65660
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65649
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65636
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65645
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65632
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65608
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65600
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65591
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65613
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65681
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65614
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65647
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65617
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65621
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65633
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65598
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65635
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65603
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65624
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65652
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65626
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65641
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65663
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65657
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65678
+      - TxtAsset: {fileID: 4900000, guid: c9504decae6afee4380c4838006fc070, type: 3}
+        ElemIdx: 65650
+  m_SpritesPreviewSize: 32
+  m_ReferenceWidth: 1080
+  m_ReferenceHeight: 1920
+  m_DeviceTestWidth: 1080
+  m_DeviceTestHeight: 1920
+  m_ScaleType: 7
+  m_Match: 0.5

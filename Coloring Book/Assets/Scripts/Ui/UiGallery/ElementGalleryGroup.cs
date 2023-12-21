@@ -39,6 +39,13 @@ public class ElementGalleryGroup : MonoBehaviour
         pictureManager.Init(typeGallery, typeId);
     }
 
+    public void InitAll()
+    {
+        typeGallery = dataPicture.TypeGallery;
+
+        typeId = dataPicture.TypeId;
+    }
+
     public void Setup(DataPicture _dataPicture)
     {
         dataPicture = _dataPicture;

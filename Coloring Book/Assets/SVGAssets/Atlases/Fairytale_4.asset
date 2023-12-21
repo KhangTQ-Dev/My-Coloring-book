@@ -1,0 +1,1211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d995787f488229646bc6ee47ced3138d, type: 3}
+  m_Name: Fairytale_4
+  m_EditorClassIdentifier: 
+  m_OutputFolder: Assets/SVGAssets/Atlases
+  m_OffsetScale: 1
+  m_Pow2Textures: 1
+  m_MaxTexturesDimension: 1024
+  m_SpritesBorder: 1
+  m_ClearColor: {r: 1, g: 1, b: 1, a: 0}
+  m_FastUpload: 1
+  m_SvgList:
+  - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+    Scale: 1
+    SeparateGroups: 1
+    Instantiable: 1
+    InstanceBaseIdx: 58
+  m_GeneratedTexturesFiles:
+  - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Textures/texture0.asset
+    Object: {fileID: 2800000, guid: b53422b1d8ea9ef4984ec2b2ab7faec6, type: 2}
+  - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Textures/texture1.asset
+    Object: {fileID: 2800000, guid: a189f57bd9f135f41b7970f2175d35e4, type: 2}
+  - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Textures/texture2.asset
+    Object: {fileID: 2800000, guid: 9e9da6047c8453445aba80df3b93eed4, type: 2}
+  m_GeneratedSpritesFiles:
+    m_KeysList:
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65536
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65576
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65584
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65585
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65586
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65587
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65573
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65588
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65589
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65582
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65590
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65581
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65583
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65577
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65580
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65579
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65578
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65574
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65592
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65593
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65538
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65539
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65559
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65540
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65554
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65543
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65561
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65564
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65563
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65544
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65558
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65555
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65567
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65570
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65565
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65537
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65542
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65545
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65541
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65546
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65547
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65551
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65575
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65550
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65552
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65557
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65548
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65569
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65556
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65560
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65549
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65553
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65591
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65568
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65562
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65572
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65571
+    - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+      ElemIdx: 65566
+    m_ValuesList:
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65536.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65536
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: cc9fdb0e7624b7448b03f1f93be7ad48, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 0
+        OriginalX: 20
+        OriginalY: 20
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65576.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65576
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: f5ab8d9bd1328f3449704679a48c265f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 40
+        OriginalX: 552
+        OriginalY: 435
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65584.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65584
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 088e95559fbc1134cbf2c2c7102b7a82, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 48
+        OriginalX: 287
+        OriginalY: 616
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65585.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65585
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: c0a2c7e5561b8db468832667ff8581e8, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 49
+        OriginalX: 380
+        OriginalY: 677
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65586.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65586
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 7ceb81cb0d20aa241965866cddd4523a, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 50
+        OriginalX: 477
+        OriginalY: 705
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65587.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65587
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: c15a0d66abe82cc4787b5e3cf1ceeae1, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 51
+        OriginalX: 565
+        OriginalY: 691
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65573.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65573
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: dd8eaf0d67795514aa4b0d414a4b471b, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 37
+        OriginalX: 704
+        OriginalY: 450
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65588.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65588
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6f6a92f4040aaf7458fe2cbc6ea58969, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 52
+        OriginalX: 635
+        OriginalY: 661
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65589.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65589
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: f2b40615fa838fb4b9d58ce4d0de2728, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 53
+        OriginalX: 495
+        OriginalY: 330
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65582.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65582
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 03a6050dab8718b42a1bc503c443f755, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 46
+        OriginalX: 702
+        OriginalY: 434
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65590.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65590
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 62c1b9aa7496e4d48a9d2e6ff13dab61, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 54
+        OriginalX: 574
+        OriginalY: 319
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65581.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65581
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 344ede3cbe5026b489d444432bb1c01c, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 45
+        OriginalX: 710
+        OriginalY: 407
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65583.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65583
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 88e5720238c89244b9ec8b175f2db4a7, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 47
+        OriginalX: 707
+        OriginalY: 423
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65577.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65577
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: b94a9dc003d5c86438dbce8c4f2e7e7e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 41
+        OriginalX: 719
+        OriginalY: 350
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65580.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65580
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: d927a85264aad644984f8bdcd565ac87, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 44
+        OriginalX: 477
+        OriginalY: 630
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65579.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65579
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 92150eea280ab4a40bb15d5e579634dd, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 43
+        OriginalX: 571
+        OriginalY: 619
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65578.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65578
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 9854ab3376dcd7142a2491edf36e6301, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 42
+        OriginalX: 374
+        OriginalY: 582
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65574.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65574
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: af2b302ebd78a4c4bad941fb4e11018b, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 38
+        OriginalX: 482
+        OriginalY: 415
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65592.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65592
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: c57c8c5ea802bd44eb97b33f12d6b8b6, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 56
+        OriginalX: 292
+        OriginalY: 338
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4__x30_0.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65593
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 57de559f62d1dc241b9cf025a7bea7b3, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 57
+        OriginalX: 143
+        OriginalY: 52
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65538.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65538
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 618b11e28cf8fbc4cbc8f869d1a9f798, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 2
+        OriginalX: 361
+        OriginalY: 243
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65539.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65539
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 509a59e2acd8220418a458142cef65fa, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 3
+        OriginalX: 182
+        OriginalY: 79
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65559.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65559
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 96675fd75dbc5e84aae73dc357315f10, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 23
+        OriginalX: 254
+        OriginalY: 450
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65540.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65540
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 294fe4f5166e2284da701fd323b5355a, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 4
+        OriginalX: 167
+        OriginalY: 493
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65554.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65554
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: e5f8c72ab81a4f64fbf3472d2a5486a3, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 18
+        OriginalX: 790
+        OriginalY: 259
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65543.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65543
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 8cffceb279e7253459531eb13bf97254, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 7
+        OriginalX: 394
+        OriginalY: 185
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65561.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65561
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: f94f13513831531449a3c6aa759e4a7d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 25
+        OriginalX: 585
+        OriginalY: 397
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65564.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65564
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 03cde153e8278ac408ff8768425f386e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 28
+        OriginalX: 379
+        OriginalY: 366
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65563.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65563
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 1fb0aeec391322843808ab487b50eec9, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 27
+        OriginalX: 566
+        OriginalY: 750
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65544.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65544
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: ee5878b54c0b06441813461d2f716147, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 8
+        OriginalX: 454
+        OriginalY: 444
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65558.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65558
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 983423e320663a645a0315ed6627a127, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 22
+        OriginalX: 207
+        OriginalY: 433
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65555.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65555
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 242953770c92b0244be9e54fba5fd029, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 19
+        OriginalX: 717
+        OriginalY: 453
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65567.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65567
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 413aecebd50a1c74cb804f7535e2a3e2, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 31
+        OriginalX: 532
+        OriginalY: 390
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65570.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65570
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 5ad274b8de1048f4993027b678aaefa6, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 34
+        OriginalX: 528
+        OriginalY: 540
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65565.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65565
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 24ceea66165b6a544a8a3a974b2d9b63, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 29
+        OriginalX: 363
+        OriginalY: 520
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65537.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65537
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: e2c59de42ed640a44bd382f90d0339d5, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 1
+        OriginalX: 261
+        OriginalY: 557
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65542.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65542
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 7ce8f7656c64ffc4092687967e0d275f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 6
+        OriginalX: 383
+        OriginalY: 57
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65545.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65545
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 5ae46330a33913040993eadb08c3ad66, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 9
+        OriginalX: 147
+        OriginalY: 410
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65541.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65541
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 89a669421c854e04eb1a7a52b7581a72, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 5
+        OriginalX: 245
+        OriginalY: 176
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65546.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65546
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: e7962afe2416ac642912ccd65b24c35a, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 10
+        OriginalX: 537
+        OriginalY: 475
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65547.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65547
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 79e4891250328b240a3c899b550e45c5, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 11
+        OriginalX: 693
+        OriginalY: 121
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65551.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65551
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: eed3180ada8ebec4c9eaea5bba1e3dbd, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 15
+        OriginalX: 299
+        OriginalY: 354
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65575.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65575
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: e7708f89498b5074bb9935177956f060, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 39
+        OriginalX: 347
+        OriginalY: 493
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65550.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65550
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 738233b689bcfdc4a907541fb975ba2d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 14
+        OriginalX: 647
+        OriginalY: 203
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65552.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65552
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 27c7a669a1b6287458a95e12755daad8, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 16
+        OriginalX: 701
+        OriginalY: 274
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65557.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65557
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 79744b95c83baac4ea4a190c46db884f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 21
+        OriginalX: 612
+        OriginalY: 706
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65548.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65548
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 53f47ab4fc5c80b4bb3660c353fbf90f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 12
+        OriginalX: 418
+        OriginalY: 718
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65569.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65569
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 86f859fc60813004296fec39028702e8, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 33
+        OriginalX: 493
+        OriginalY: 552
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65556.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65556
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 77f32d010e5d2e2458e30a9f3725700b, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 20
+        OriginalX: 462
+        OriginalY: 765
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65560.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65560
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 4606250f23d43a44095647470de4df48, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 24
+        OriginalX: 514
+        OriginalY: 182
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65549.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65549
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 174a2331e49f3dc4b9bfb569c6d0fa1e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 13
+        OriginalX: 790
+        OriginalY: 162
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65553.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65553
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: c7ca494124f8f86408f54d63a804d731, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 17
+        OriginalX: 251
+        OriginalY: 667
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65591.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65591
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6c6d3ae0ea0e3a24da9bd9bc19812ef8, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 55
+        OriginalX: 276
+        OriginalY: 215
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65568.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65568
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: a640d136d5aac0f41858070dcf2d733f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 32
+        OriginalX: 431
+        OriginalY: 546
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65562.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65562
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 407738ec412e7534f82eb427d97b01e1, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 26
+        OriginalX: 738
+        OriginalY: 224
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65572.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65572
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 58b55e242f7932d45b2d9caa3ea74a3a, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 36
+        OriginalX: 351
+        OriginalY: 358
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65571.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65571
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: dd9eef4484724404f845370980b528dd, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 35
+        OriginalX: 389
+        OriginalY: 473
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Fairytale_4/e7fea872f8464546b62653ed86c0747a/Sprites/Fairy_4_65566.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65566
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 364d1a7846fb83f4c967eaed60315586, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 30
+        OriginalX: 420
+        OriginalY: 416
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+  m_EditorGenerationScale: 1
+  m_SvgListHashOld: 5F202B236285249D29DA4E91C86E908D
+  m_SvgListHashCurrent: 5F202B236285249D29DA4E91C86E908D
+  m_GeneratedSpritesLists:
+    m_KeysList: 02a72b00
+    m_ValuesList:
+    - Sprites:
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65536
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65576
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65584
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65585
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65586
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65587
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65573
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65588
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65589
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65582
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65590
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65581
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65583
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65577
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65580
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65579
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65578
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65574
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65592
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65593
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65538
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65539
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65559
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65540
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65554
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65543
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65561
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65564
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65563
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65544
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65558
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65555
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65567
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65570
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65565
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65537
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65542
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65545
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65541
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65546
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65547
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65551
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65575
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65550
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65552
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65557
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65548
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65569
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65556
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65560
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65549
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65553
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65591
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65568
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65562
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65572
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65571
+      - TxtAsset: {fileID: 4900000, guid: 2d2ba6b0bfe1ca040b42b6509abd7e97, type: 3}
+        ElemIdx: 65566
+  m_SpritesPreviewSize: 32
+  m_ReferenceWidth: 1080
+  m_ReferenceHeight: 1920
+  m_DeviceTestWidth: 1080
+  m_DeviceTestHeight: 1920
+  m_ScaleType: 7
+  m_Match: 0.5

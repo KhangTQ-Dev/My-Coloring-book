@@ -16,6 +16,8 @@ public class ElementPiecePicture : MonoBehaviour
 
     private Color color;
 
+    private int id;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,8 +30,10 @@ public class ElementPiecePicture : MonoBehaviour
         
     }
 
-    public void Init(Color colorDefaul)
+    public void Init(Color colorDefaul, int _id)
     {
+        id = _id;
+
         SetColor(colorDefaul);
     }
 
@@ -59,11 +63,24 @@ public class ElementPiecePicture : MonoBehaviour
 
     public Color GetColor()
     {
-        return color;
+        if(typePiecePicture != TypePiecePicture.Surround)
+        {
+            return color;
+        }
+        else
+        {
+            return Color.black;
+        }
+
+
     }
 
-    public void OnPaint(Color _color, Vector2 pos)
+    public (int, Color, Color,bool) OnPaint(Color _color, Vector2 pos)
     {
+        Color current = GetColor();
+
+        bool a = _color == current ? false : true;
+
 
 
         Color pixel = GetPixelColor(pos);
@@ -76,6 +93,12 @@ public class ElementPiecePicture : MonoBehaviour
 
             SetColor(_color);
         }
+        else
+        {
+            a = false;
+        }
+
+        return (id, current, _color, a);
     }
 
     [Button]

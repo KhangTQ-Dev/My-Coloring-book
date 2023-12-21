@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class UiGamePlayManager : MonoBehaviour
 {
-    [SerializeField] private List<UiButtonColor> uiButtonColors;
+    [SerializeField] private UiBtnColorManager uiBtnColorManager;
+
+    [SerializeField] private UiChooseColorManager uiChooseColorManager;
 
     [SerializeField] private Button btnBack;
 
@@ -17,6 +19,20 @@ public class UiGamePlayManager : MonoBehaviour
 
     [SerializeField] private Button btnDone;
 
+    [SerializeField] private Button btnChangeBar;
+
+    [SerializeField] private Image imageBack;
+
+    [SerializeField] private Image imageNext;
+
+    [SerializeField] private Image imageEyeDrop;
+
+    [SerializeField] private Color colorCanInteract;
+
+    [SerializeField] private Color colorCantInteract;
+
+    private TypeBarDraw typeBar;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +41,7 @@ public class UiGamePlayManager : MonoBehaviour
         btnNextAction.onClick.AddListener(OnClickBtnNextAction);
         btnEyeDrop.onClick.AddListener(OnClickBtnEyeDrop);
         btnDone.onClick.AddListener(OnClickBtnDone);
+        btnChangeBar.onClick.AddListener(OnClickBtnChangeBar);
     }
 
     // Update is called once per frame
@@ -35,18 +52,33 @@ public class UiGamePlayManager : MonoBehaviour
 
     public void Init()
     {
-        for(int i = 0; i < uiButtonColors.Count; i++)
-        {
-            uiButtonColors[i].Init(i);
-        }
+        uiBtnColorManager.Init();
+        uiChooseColorManager.Init();
+
+        SetEyeDrop(true);
+
+        SetBack(false);
+
+        SetNext(false);
+    }
+
+    private void SetBack(bool isTrue)
+    {
+        btnBackAction.enabled = isTrue;
+
+        imageBack.color = isTrue ? colorCanInteract : colorCantInteract;
+    }
+
+    private void SetNext(bool isTrue)
+    {
+        btnNextAction.enabled = isTrue;
+
+        imageNext.color = isTrue ? colorCanInteract : colorCantInteract;
     }
 
     public void OnClickBtnChoose(int idChoose)
     {
-        for (int i = 0; i < uiButtonColors.Count; i++)
-        {
-            uiButtonColors[i].OnChoose(idChoose);
-        }
+        uiBtnColorManager.OnClickBtnChoose(idChoose);
     }
 
     private void OnClickBtnBack()
@@ -56,21 +88,81 @@ public class UiGamePlayManager : MonoBehaviour
 
     private void OnClickBtnBackAction()
     {
+        LevelManager.Instance.GamePlayManager.BackHistory();
 
+        SetBackNext();
+    }
+
+    public void SetBackNext()
+    {
+        SetBack(LevelManager.Instance.GamePlayManager.CheckCanBackHistory());
+        SetNext(LevelManager.Instance.GamePlayManager.CheckCanNextHistory());
     }
 
     private void OnClickBtnNextAction()
     {
+        LevelManager.Instance.GamePlayManager.NextHistory();
 
+        SetBackNext();
     }
 
     private void OnClickBtnEyeDrop()
     {
-
+        LevelManager.Instance.GamePlayManager.Detect.SetCanEyeDrop();
     }
 
     private void OnClickBtnDone()
     {
+        LevelManager.Instance.GamePlayManager.PictureManager.SavePicture();
 
+        LevelManager.Instance.UiManager.PopupManager.ShowPopup(TypePopup.Preview);
     }
+
+    private void OnClickBtnChangeBar()
+    {
+        if(typeBar == TypeBarDraw.pick)
+        {
+            ChangeBar(TypeBarDraw.Bar);
+        }
+        else
+        {
+            ChangeBar(TypeBarDraw.pick);
+        }
+    }
+
+    public void ChangeBar(TypeBarDraw typeBarDraw)
+    {
+        switch (typeBarDraw)
+        {
+            case TypeBarDraw.pick:
+
+                uiBtnColorManager.Show(true);
+
+                uiChooseColorManager.Show(false);
+
+                break;
+            case TypeBarDraw.Bar:
+
+                uiBtnColorManager.Show(false);
+
+                uiChooseColorManager.Show(true);
+
+                break;
+        }
+
+        typeBar = typeBarDraw;
+    }
+
+    public void SetEyeDrop(bool isTrue)
+    {
+        btnEyeDrop.enabled = isTrue;
+
+        imageEyeDrop.color = isTrue ? colorCanInteract : colorCantInteract;
+    }
+}
+
+public enum TypeBarDraw
+{
+    pick,
+    Bar
 }

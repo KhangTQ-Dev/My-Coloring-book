@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d995787f488229646bc6ee47ced3138d, type: 3}
+  m_Name: Unicorn_3
+  m_EditorClassIdentifier: 
+  m_OutputFolder: Assets/SVGAssets/Atlases
+  m_OffsetScale: 1
+  m_Pow2Textures: 1
+  m_MaxTexturesDimension: 1024
+  m_SpritesBorder: 1
+  m_ClearColor: {r: 1, g: 1, b: 1, a: 0}
+  m_FastUpload: 1
+  m_SvgList:
+  - TxtAsset: {fileID: 4900000, guid: b2a66f43bedb3ed40b1621708eafa1f5, type: 3}
+    Scale: 1
+    SeparateGroups: 1
+    Instantiable: 1
+    InstanceBaseIdx: 0
+  m_GeneratedTexturesFiles:
+  - Path: Assets/SVGAssets/Atlases/Unicorn_3/c0764f62a6ba43b0b42b9d2230f9095c/Textures/texture0.asset
+    Object: {fileID: 2800000, guid: cfc976f4028cc9f449d24af34a15432b, type: 2}
+  - Path: Assets/SVGAssets/Atlases/Unicorn_3/c0764f62a6ba43b0b42b9d2230f9095c/Textures/texture1.asset
+    Object: {fileID: 2800000, guid: c9dacc135cfbd7e49ae917d2be04af67, type: 2}
+  m_GeneratedSpritesFiles:
+    m_KeysList:
+    - TxtAsset: {fileID: 4900000, guid: b2a66f43bedb3ed40b1621708eafa1f5, type: 3}
+      ElemIdx: 65537
+    - TxtAsset: {fileID: 4900000, guid: b2a66f43bedb3ed40b1621708eafa1f5, type: 3}
+      ElemIdx: 65536
+    m_ValuesList:
+    - Path: Assets/SVGAssets/Atlases/Unicorn_3/c0764f62a6ba43b0b42b9d2230f9095c/Sprites/Unicorn_3_Layer_1_1_.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: b2a66f43bedb3ed40b1621708eafa1f5, type: 3}
+        ElemIdx: 65537
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: d9156cbed32defe468533f99b4f2ad22, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 1
+        OriginalX: 0
+        OriginalY: 0
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Unicorn_3/c0764f62a6ba43b0b42b9d2230f9095c/Sprites/Unicorn_3_Layer_2_1_.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: b2a66f43bedb3ed40b1621708eafa1f5, type: 3}
+        ElemIdx: 65536
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 328226fd9f972dd429c02e4d5916d9ab, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 0
+        OriginalX: 0
+        OriginalY: 10
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+  m_EditorGenerationScale: 1
+  m_SvgListHashOld: 51BB23F1EFF46FA26C39B1A14048D934
+  m_SvgListHashCurrent: 51BB23F1EFF46FA26C39B1A14048D934
+  m_GeneratedSpritesLists:
+    m_KeysList: 08a72b00
+    m_ValuesList:
+    - Sprites:
+      - TxtAsset: {fileID: 4900000, guid: b2a66f43bedb3ed40b1621708eafa1f5, type: 3}
+        ElemIdx: 65537
+      - TxtAsset: {fileID: 4900000, guid: b2a66f43bedb3ed40b1621708eafa1f5, type: 3}
+        ElemIdx: 65536
+  m_SpritesPreviewSize: 32
+  m_ReferenceWidth: 1080
+  m_ReferenceHeight: 1920
+  m_DeviceTestWidth: 1080
+  m_DeviceTestHeight: 1920
+  m_ScaleType: 7
+  m_Match: 0.5

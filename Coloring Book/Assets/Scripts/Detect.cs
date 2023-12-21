@@ -14,6 +14,9 @@ public class Detect : MonoBehaviour
     //[SerializeField] private GameObject prefab;
 
     // Start is called before the first frame update
+
+    private bool isEyeDrop;
+
     void Start()
     {
         //Instantiate(prefab, gameObject.transform);
@@ -29,28 +32,72 @@ public class Detect : MonoBehaviour
     {
         if (LevelManager.Instance.GamePlayManager.CanInteract)
         {
-            if (Input.GetMouseButtonDown(0) && !IsPointerOverUIObject())
+            if (!isEyeDrop)
             {
-                Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-                RaycastHit2D[] hit = Physics2D.RaycastAll(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-
-                try
+                if (Input.GetMouseButtonDown(0) && !IsPointerOverUIObject())
                 {
-                    for (int i = 0; i < hit.Length; i++)
+                    Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+                    RaycastHit2D[] hit = Physics2D.RaycastAll(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+
+                    try
                     {
-                        GameObject gameObject = hit[i].collider.gameObject;
+                        for (int i = 0; i < hit.Length; i++)
+                        {
+                            GameObject gameObject = hit[i].collider.gameObject;
 
-                        ElementPiecePicture elementPiecePicture = gameObject.GetComponent<ElementPiecePicture>();
+                            ElementPiecePicture elementPiecePicture = gameObject.GetComponent<ElementPiecePicture>();
 
-                        elementPiecePicture.OnPaint(colorDraw, pos);
+                            var a = elementPiecePicture.OnPaint(colorDraw, pos);
+
+                            if (a.Item4)
+                            {
+                                LevelManager.Instance.GamePlayManager.AddHistory(a.Item1, a.Item2, a.Item3);
+
+                                LevelManager.Instance.UiManager.UiGamePlayManager.SetBackNext();
+                            }
+                        }
+                    }
+                    catch
+                    {
+
                     }
                 }
-                catch
+            }
+            else
+            {
+                if(Input.GetMouseButtonDown(0) && !IsPointerOverUIObject())
                 {
+                    Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
+                    RaycastHit2D[] hit = Physics2D.RaycastAll(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+
+                    try
+                    {
+                        for (int i = 0; i < hit.Length; i++)
+                        {
+                            GameObject gameObject = hit[i].collider.gameObject;
+
+                            ElementPiecePicture elementPiecePicture = gameObject.GetComponent<ElementPiecePicture>();
+
+                            var a = elementPiecePicture.GetPixelColor(pos);
+
+                            if (a.a > 0)
+                            {
+                                SetColor(elementPiecePicture.GetColor());
+
+                                SetEyeDrop();
+                            }
+                        }
+                    }
+                    catch
+                    {
+
+                    }
                 }
             }
+
+
         }
     }
 
@@ -72,9 +119,30 @@ public class Detect : MonoBehaviour
         colorDraw = colorSet;
     }
 
+    public Color GetColor()
+    {
+        return colorDraw;
+    }
+
     public void Init()
     {
 
+    }
+
+    public void SetCanEyeDrop()
+    {
+        isEyeDrop = true;
+
+        LevelManager.Instance.UiManager.UiGamePlayManager.SetEyeDrop(false);
+    }
+
+    private void SetEyeDrop()
+    {
+        isEyeDrop = false;
+
+        LevelManager.Instance.UiManager.UiGamePlayManager.SetEyeDrop(true);
+
+        LevelManager.Instance.UiManager.UiGamePlayManager.ChangeBar(TypeBarDraw.Bar);
     }
 }
 

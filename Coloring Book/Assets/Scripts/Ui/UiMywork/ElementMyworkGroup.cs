@@ -31,7 +31,7 @@ public class ElementMyworkGroup : MonoBehaviour
 
     private void OnClickBtnChoose()
     {
-        LevelManager.Instance.OnChangeToGamePlay(typeGallery, typeId);
+        LevelManager.Instance.OnChangeToGamePlayMywork(typeGallery, typeId);
     }
 
     public void Init()

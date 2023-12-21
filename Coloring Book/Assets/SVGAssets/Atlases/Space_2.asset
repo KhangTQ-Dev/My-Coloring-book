@@ -1,0 +1,531 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d995787f488229646bc6ee47ced3138d, type: 3}
+  m_Name: Space_2
+  m_EditorClassIdentifier: 
+  m_OutputFolder: Assets/SVGAssets/Atlases
+  m_OffsetScale: 1
+  m_Pow2Textures: 1
+  m_MaxTexturesDimension: 1024
+  m_SpritesBorder: 1
+  m_ClearColor: {r: 1, g: 1, b: 1, a: 0}
+  m_FastUpload: 1
+  m_SvgList:
+  - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+    Scale: 1
+    SeparateGroups: 1
+    Instantiable: 1
+    InstanceBaseIdx: 0
+  m_GeneratedTexturesFiles:
+  - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Textures/texture0.asset
+    Object: {fileID: 2800000, guid: 51a5e098ead7b1b45910096b48508ee1, type: 2}
+  - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Textures/texture1.asset
+    Object: {fileID: 2800000, guid: 23f8fea5b42f14a488dfa1fe6311e957, type: 2}
+  - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Textures/texture2.asset
+    Object: {fileID: 2800000, guid: c93c822c0e72eac4cbe47405d35d753c, type: 2}
+  m_GeneratedSpritesFiles:
+    m_KeysList:
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65536
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65559
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65543
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65542
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65554
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65548
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65555
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65556
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65544
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65547
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65549
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65546
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65552
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65551
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65545
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65553
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65550
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65557
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65537
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65538
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65541
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65539
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65540
+    - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+      ElemIdx: 65558
+    m_ValuesList:
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65536.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65536
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: e54f524376cc20d49aac369a05c8b1cf, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 0
+        OriginalX: 11
+        OriginalY: 9
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2__x30_0_1_.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65559
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 7e212506da4c87f41962a3da70b22d9f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 23
+        OriginalX: 65
+        OriginalY: 66
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65543.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65543
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: fbdb621711365da4a8305dccf183ba30, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 7
+        OriginalX: 554
+        OriginalY: 412
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65542.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65542
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6272392f5ca882249bbe85dace4621ed, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 6
+        OriginalX: 837
+        OriginalY: 134
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65554.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65554
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: c322eb7e5ce4be84498facba58e03e35, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 18
+        OriginalX: 486
+        OriginalY: 72
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65548.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65548
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 38ab9ad3319653d4397a2df3987e5f89, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 12
+        OriginalX: 612
+        OriginalY: 474
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65555.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65555
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: a3095955ede7c5040b9d040a1bd1eb12, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 19
+        OriginalX: 543
+        OriginalY: 856
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65556.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65556
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 137d87120df4aa948ac2450d196ff71c, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 20
+        OriginalX: 117
+        OriginalY: 477
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65544.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65544
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: fa1566f0aeba3a14ea55a779f87fba8a, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 8
+        OriginalX: 468
+        OriginalY: 296
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65547.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65547
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: bb6efe6be410a8848adc50f9038d071d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 11
+        OriginalX: 668
+        OriginalY: 499
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65549.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65549
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6d9a8622baf5c1d48b891279183f9a7d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 13
+        OriginalX: 509
+        OriginalY: 348
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65546.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65546
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 8b94423f7fe47e242861018968b5c1cc, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 10
+        OriginalX: 553
+        OriginalY: 377
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65552.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65552
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: d2f21ab3c47e5b444b25b3619abdfffd, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 16
+        OriginalX: 107
+        OriginalY: 249
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65551.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65551
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 3648a543b6277ee4e9f92be03f3db43e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 15
+        OriginalX: 163
+        OriginalY: 308
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65545.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65545
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 480a75a108f0488479cf5f30461237dd, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 9
+        OriginalX: 644
+        OriginalY: 540
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65553.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65553
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 9486a7875ea18ee4e86f92784c96f899, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 17
+        OriginalX: 832
+        OriginalY: 691
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65550.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65550
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 5c45912778c149e40b65d74925914008, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 14
+        OriginalX: 163
+        OriginalY: 201
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65557.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65557
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 4d24209d0e6ad2a44b47bf5ffcdaa6dd, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 21
+        OriginalX: 187
+        OriginalY: 73
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65537.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65537
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 75c1bdf61da959446b9f902f2e214271, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 1
+        OriginalX: 73
+        OriginalY: 506
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65538.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65538
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 08c63eaa4c4e580459a8effeb21d3332, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 2
+        OriginalX: 176
+        OriginalY: 543
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65541.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65541
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: a978a7e9f4e78ec49ad578cc4acc733d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 5
+        OriginalX: 482
+        OriginalY: 445
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65539.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65539
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: ca0a7a49e5c366a4dbc9eb3034392c24, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 3
+        OriginalX: 634
+        OriginalY: 146
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65540.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65540
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: ac2f4b8c7b06db94dbe4f0df8292b387, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 4
+        OriginalX: 577
+        OriginalY: 295
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Space_2/661ab1f276cc4afba2ffc569b31834bb/Sprites/Space_2_65558.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65558
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 832f8eac2c8b15b42b9d26f9685511da, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 22
+        OriginalX: 708
+        OriginalY: 220
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 1
+      InstantiatedWidgetType: 1
+  m_EditorGenerationScale: 1
+  m_SvgListHashOld: 923BB91A53F8EA1323F9580CF926A383
+  m_SvgListHashCurrent: 923BB91A53F8EA1323F9580CF926A383
+  m_GeneratedSpritesLists:
+    m_KeysList: 1ca72b00
+    m_ValuesList:
+    - Sprites:
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65536
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65559
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65543
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65542
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65554
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65548
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65555
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65556
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65544
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65547
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65549
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65546
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65552
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65551
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65545
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65553
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65550
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65557
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65537
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65538
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65541
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65539
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65540
+      - TxtAsset: {fileID: 4900000, guid: 79daa16f7a110ec48a6d8615e7c60e63, type: 3}
+        ElemIdx: 65558
+  m_SpritesPreviewSize: 32
+  m_ReferenceWidth: 1080
+  m_ReferenceHeight: 1920
+  m_DeviceTestWidth: 1080
+  m_DeviceTestHeight: 1920
+  m_ScaleType: 7
+  m_Match: 0.5

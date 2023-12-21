@@ -10,14 +10,14 @@ public class MyworkGroupManager : MonoBehaviour
 
     [SerializeField] private Transform parentElement;
 
-    [SerializeField] private Canvas canvasRender;
+    [SerializeField] private GameObject canvasRender;
 
     private bool isShow;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        Init();
     }
 
     // Update is called once per frame
@@ -28,13 +28,13 @@ public class MyworkGroupManager : MonoBehaviour
 
     public void Show(bool isTrue)
     {
-        canvasRender.enabled = isTrue;
+        canvasRender.SetActive(isTrue);
 
-        if (isTrue && !isShow)
+        if (isTrue)
         {
             Debug.Log("Khang");
 
-            Init();
+
         }
 
         if (isShow != isTrue)
@@ -53,7 +53,7 @@ public class MyworkGroupManager : MonoBehaviour
 
         for(int i = 0; i < elementMyworkGroups.Count; i++)
         {
-            Destroy(elementMyworkGroups[i]);
+            Destroy(elementMyworkGroups[i].gameObject);
         }
 
         elementMyworkGroups = new List<ElementMyworkGroup>();

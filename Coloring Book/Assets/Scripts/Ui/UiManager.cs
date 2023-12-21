@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class UiManager : MonoBehaviour
 {
     [SerializeField] private GalleryManager galleryManager;
@@ -17,6 +17,8 @@ public class UiManager : MonoBehaviour
     [SerializeField] private UiGamePlayManager uiGamePlayManager;
 
     [SerializeField] private Canvas canvasLobby;
+
+    [SerializeField] private List<GraphicRaycaster> graphicRaycastersLobby;
 
     [SerializeField] private Canvas canvasGamePlay;
 
@@ -51,17 +53,29 @@ public class UiManager : MonoBehaviour
         StartCoroutine(WaitChangeToGamePlay());
     }
 
+    public void OnChangeToGamePlayMywork(TypeGallery typeGallery, TypeId typeId)
+    {
+        popupManager.ShowPopup(TypePopup.PreviewMywork);
+
+        StartCoroutine(WaitChangeToGamePlay());
+    }
+
     IEnumerator WaitChangeToGamePlay()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0);
 
         uiGamePlayManager.Init();
 
         canvasGamePlay.gameObject.SetActive(true);
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0);
 
-        canvasLobby.gameObject.SetActive(false);
+        for(int i = 0; i < graphicRaycastersLobby.Count; i++)
+        {
+            graphicRaycastersLobby[i].enabled = false;
+        }
+
+        canvasLobby.enabled = false;
     }
 
     public void OnChangeToLobby()
@@ -71,13 +85,22 @@ public class UiManager : MonoBehaviour
 
     IEnumerator WaitChangeToLobby()
     {
-        yield return new WaitForSeconds(0.5f);
-
-        canvasLobby.gameObject.SetActive(true);
-
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0);
 
         canvasGamePlay.gameObject.SetActive(false);
+
+        for (int i = 0; i < graphicRaycastersLobby.Count; i++)
+        {
+            graphicRaycastersLobby[i].enabled = true;
+        }
+
+        canvasLobby.enabled = true;
+
+        ChangeTab(TabUi.Gallery);
+
+        //yield return new WaitForSeconds(0.5f);
+
+
     }
 
     public void Init()

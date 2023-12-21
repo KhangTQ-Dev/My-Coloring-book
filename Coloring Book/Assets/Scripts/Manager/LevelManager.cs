@@ -43,10 +43,17 @@ public class LevelManager : MonoBehaviour
         uiManager.OnChangeToGamePlay(typeGallery, typeId);
     }
 
+    public void OnChangeToGamePlayMywork(TypeGallery typeGallery, TypeId typeId)
+    {
+        gamePlayManager.Show(typeGallery, typeId);
+
+        uiManager.OnChangeToGamePlayMywork(typeGallery, typeId);
+    }
+
     public void OnChangeToLobby()
     {
-        uiManager.OnChangeToLobby();
-
         gamePlayManager.Show(false);
+
+        uiManager.OnChangeToLobby();
     }
 }

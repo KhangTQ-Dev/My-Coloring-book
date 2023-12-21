@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MyworkManager : MonoBehaviour
 {
     [SerializeField] private MyworkGroupManager myworkGroupManager;
 
-    [SerializeField] private Canvas canvasMywork;
+    [SerializeField] private Canvas canvas;
+
+    [SerializeField] private GraphicRaycaster graphicRaycaster;
 
     private bool isShow;
 
@@ -17,14 +20,16 @@ public class MyworkManager : MonoBehaviour
 
     public void Show(bool isTrue)
     {
-        canvasMywork.enabled = isTrue;
+        canvas.enabled = isTrue;
 
-        if (isTrue && !isShow)
+        graphicRaycaster.enabled = isTrue;
+
+        if (isTrue)
         {
-            isShow = isTrue;
-
             Init();
         }
+
+        isShow = isTrue;
     }
 
     public void Init()

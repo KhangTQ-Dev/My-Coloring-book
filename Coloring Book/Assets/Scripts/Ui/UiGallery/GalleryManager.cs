@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GalleryManager : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class GalleryManager : MonoBehaviour
     [SerializeField] private Transform parentGroup;
 
     [SerializeField] private Canvas canvas;
+
+    [SerializeField] private GraphicRaycaster graphicRaycaster;
 
     private bool isShow;
 
@@ -34,17 +37,29 @@ public class GalleryManager : MonoBehaviour
     {
         canvas.enabled = isTrue;
 
-        if (isTrue && !isShow)
-        {
-            isShow = isTrue;
+        graphicRaycaster.enabled = isTrue;
 
+        if (isTrue)
+        {
             Init();
         }
+
+        isShow = isTrue;
     }
 
     public void Init()
     {
         ChangeTab(true);
+    }
+
+    public void InitAll()
+    {
+        galleryGroupManagerAll.InitAll();
+
+        for (int i = 0; i < galleryGroupManagers.Count; i++)
+        {
+            galleryGroupManagers[i].InitAll();
+        }
     }
 
     public void Setup(DataAllPicture dataAllPicture)

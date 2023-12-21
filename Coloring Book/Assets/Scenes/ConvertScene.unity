@@ -167,10 +167,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b75096457b23854d9808b58b8c0c419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  namePrefab: Fairy
+  namePrefab: Fairytale_5
   pathSave: Assets/Prefabs/Pictures/
   defaulScale: 2
-  namePrefabUI: FairyUI
+  namePrefabUI: FairytaleUI_5
   pathSaveUI: Assets/Prefabs/UI/Pictures/
   defaulScaleUI: 50
 --- !u!1 &876232689

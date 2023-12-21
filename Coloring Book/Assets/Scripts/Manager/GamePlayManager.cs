@@ -24,6 +24,11 @@ public class GamePlayManager : MonoBehaviour
 
     public bool CanInteract => canInteract;
 
+    private List<TypeHistoryDraw> typeHistoryDraws;
+
+
+    private int currentIdHistory;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +54,8 @@ public class GamePlayManager : MonoBehaviour
         detect.Init();
 
         zoomController.Init();
+
+        typeHistoryDraws = new List<TypeHistoryDraw>();
     }
 
     public void Show(bool isTrue)
@@ -58,6 +65,11 @@ public class GamePlayManager : MonoBehaviour
 
     public void LoadPicture(TypeGallery _typeGallery, TypeId _typeId)
     {
+        if(pictureManager != null)
+        {
+            Destroy(pictureManager.gameObject);
+        }
+
         DataPicture dataPicture = GameManager.Instance.DataManager.GetDataPicture(_typeGallery, _typeId);
 
         GameObject objLoad = Instantiate(dataPicture.prefabPicture, transform);
@@ -65,6 +77,11 @@ public class GamePlayManager : MonoBehaviour
         pictureManager = objLoad.GetComponent<PictureManager>();
 
         pictureManager.Init(_typeGallery, _typeId);
+    }
+
+    public void RenewPicture()
+    {
+        pictureManager.Init(typeGallery, typeId);
     }
 
     public TypeGallery GetCurrentTypeGallery()
@@ -76,4 +93,75 @@ public class GamePlayManager : MonoBehaviour
     {
         return typeId;
     }
+
+    public void AddHistory(int id, Color colorCurrent, Color colorChange)
+    {
+        typeHistoryDraws.Add(new TypeHistoryDraw() 
+        {
+            Id = id,
+            CurrentColor = colorCurrent,
+            ChangeColor = colorChange
+        });
+
+        currentIdHistory = typeHistoryDraws.Count;
+    }
+
+    public void BackHistory()
+    {
+        currentIdHistory--;
+
+        TypeHistoryDraw typeHistoryDraw = typeHistoryDraws[currentIdHistory];
+
+        pictureManager.ElementPiecePictures[typeHistoryDraw.Id].SetColor(typeHistoryDraw.CurrentColor);
+    }
+
+    public void NextHistory()
+    {
+        try
+        {
+            currentIdHistory++;
+
+            TypeHistoryDraw typeHistoryDraw = typeHistoryDraws[currentIdHistory - 1];
+
+            pictureManager.ElementPiecePictures[typeHistoryDraw.Id].SetColor(typeHistoryDraw.ChangeColor);
+        }
+        catch
+        {
+
+            //return typeHistoryDraws[typeHistoryDraws.Count];
+        }
+    }
+
+    public bool CheckCanBackHistory()
+    {
+        if(currentIdHistory > 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public bool CheckCanNextHistory() 
+    {
+        if (currentIdHistory < typeHistoryDraws.Count)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+}
+
+public class TypeHistoryDraw
+{
+    public int Id;
+
+    public Color CurrentColor;
+
+    public Color ChangeColor;
 }

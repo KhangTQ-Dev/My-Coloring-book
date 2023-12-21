@@ -40,5 +40,8 @@ public class PopupManager : MonoBehaviour
 public enum TypePopup
 {
     LoadingToGamePlay,
-    Preview
+    Preview,
+    PreviewMywork,
+    Setting,
+    FreeImage
 }

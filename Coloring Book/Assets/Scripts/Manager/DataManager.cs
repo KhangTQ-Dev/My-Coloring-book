@@ -49,6 +49,20 @@ public class DataManager : SerializedMonoBehaviour
         return dataPictures;
     }
 
+    public void DeleteDataPicture(TypeGallery typeGallery, TypeId typeId)
+    {
+        DataColorPicture dataColorPicture = LoadPicture(typeGallery, typeId);
+
+        for(int i = 0; i < dataColorPicture.DataElementColorPictures.Count; i++)
+        {
+            dataColorPicture.DataElementColorPictures[i] = colorDefaul;
+        }
+
+        dataColorPicture.IsSave = false;
+
+        SavePicture(typeGallery, typeId, dataColorPicture);
+    }
+
     public DataPicture GetDataPicture(TypeGallery typeGallery, TypeId  typeId)
     {
         return dataAllPicture.dataPictures[(int)typeGallery][(int)typeId];
@@ -59,6 +73,17 @@ public class DataManager : SerializedMonoBehaviour
         string a = JsonUtility.ToJson(dataColorPicture);
 
         PlayerPrefs.SetString("DataPicture" + typeGallery.ToString() + typeId.ToString(), a);
+    }
+
+    public DataColorPicture LoadPicture(TypeGallery typeGallery, TypeId typeId)
+    {
+        string path = "DataPicture" + typeGallery.ToString() + typeId.ToString();
+
+        string a = PlayerPrefs.GetString(path, "");
+
+        DataColorPicture b = JsonUtility.FromJson<DataColorPicture>(a);
+
+        return b;
     }
 
     public DataColorPicture LoadPicture(TypeGallery typeGallery, TypeId typeId, int numberPiece)

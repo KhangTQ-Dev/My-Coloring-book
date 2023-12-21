@@ -10,7 +10,7 @@ public class GalleryGroupManager : MonoBehaviour
 
     [SerializeField] private Transform parentElement;
 
-    [SerializeField] private Canvas canvasRender;
+    [SerializeField] private GameObject canvasRender;
 
     private bool isShow;
 
@@ -28,9 +28,11 @@ public class GalleryGroupManager : MonoBehaviour
 
     public void Show(bool isTrue)
     {
-        canvasRender.enabled = isTrue;
+        canvasRender.gameObject.SetActive(isTrue);
 
-        if (isTrue && !isShow)
+        parentElement.transform.localPosition = new Vector3(0, 548.6f, 0);
+
+        if (isTrue)
         {
             Debug.Log("Khang");
 
@@ -50,6 +52,14 @@ public class GalleryGroupManager : MonoBehaviour
         for(int i = 0; i < elementGalleryGroups.Count; i++)
         {
             elementGalleryGroups[i].Init();
+        }
+    }
+
+    public void InitAll()
+    {
+        for (int i = 0; i < elementGalleryGroups.Count; i++)
+        {
+            elementGalleryGroups[i].InitAll();
         }
     }
 
