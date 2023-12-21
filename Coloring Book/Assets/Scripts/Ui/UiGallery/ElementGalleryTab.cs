@@ -14,6 +14,10 @@ public class ElementGalleryTab : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI textRender;
 
+    [SerializeField] private Image imgChoose;
+
+    private int id;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +33,53 @@ public class ElementGalleryTab : MonoBehaviour
     public void Show(bool isTrue)
     {
 
+    }
+
+    public void Init(int _id)
+    {
+        id = _id;
+
+        if (isTabAll)
+        {
+            imgChoose.gameObject.SetActive(true);
+        }
+        else
+        {
+            imgChoose.gameObject.SetActive(false);
+        }
+    }
+
+    public void OnChangeTab(bool _isTabAll, int _id)
+    {
+        if (_isTabAll)
+        {
+            if (isTabAll)
+            {
+                imgChoose.gameObject.SetActive(true);
+            }
+            else
+            {
+                imgChoose.gameObject.SetActive(false);
+            }
+        }
+        else
+        {
+            if (isTabAll)
+            {
+                imgChoose.gameObject.SetActive(false);
+            }
+            else
+            {
+                if(id == _id)
+                {
+                    imgChoose.gameObject.SetActive(true);
+                }
+                else
+                {
+                    imgChoose.gameObject.SetActive(false);
+                }
+            }
+        }
     }
 
     public void Setup(TypeGallery _typeGallery)

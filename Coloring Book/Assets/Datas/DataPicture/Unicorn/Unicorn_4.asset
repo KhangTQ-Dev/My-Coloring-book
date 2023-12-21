@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c09c6bbf44172844a4bd0568357263d, type: 3}
+  m_Name: Unicorn_4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  prefabPicture: {fileID: 967495978208971010, guid: a47a1e36faf809d41b8d699bdeef111c, type: 3}
+  prefabUiPicture: {fileID: 1737635114039335916, guid: 46b74ef641858df4eb5968e625f42519, type: 3}
+  TypeGallery: 0
+  TypeId: 0

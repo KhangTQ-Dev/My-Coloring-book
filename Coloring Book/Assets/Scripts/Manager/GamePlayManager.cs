@@ -60,6 +60,11 @@ public class GamePlayManager : MonoBehaviour
 
     public void Show(bool isTrue)
     {
+        if (pictureManager != null && !isTrue)
+        {
+            Destroy(pictureManager.gameObject);
+        }
+
         canInteract = isTrue;
     }
 

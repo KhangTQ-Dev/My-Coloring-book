@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c09c6bbf44172844a4bd0568357263d, type: 3}
+  m_Name: Fairytales_5
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  prefabPicture: {fileID: 3522246243030764790, guid: 032744faee5315542a92f8ad77f20e2e, type: 3}
+  prefabUiPicture: {fileID: 1807738691936582364, guid: 3d1d0926b34b6c04796ea9b4fe3356f6, type: 3}
+  TypeGallery: 0
+  TypeId: 0

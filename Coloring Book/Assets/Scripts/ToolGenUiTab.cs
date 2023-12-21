@@ -16,6 +16,18 @@ public class ToolGenUiTab : SerializedMonoBehaviour
     }
 
     [Button]
+    public void GenGroup()
+    {
+        galleryManager.SetupGroup(dataAllPicture);
+    }
+
+    [Button]
+    public void GenTab()
+    {
+        galleryManager.SetupTab(dataAllPicture);
+    }
+
+    [Button]
     public void Init()
     {
         galleryManager.InitAll();

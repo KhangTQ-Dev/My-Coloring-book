@@ -11486,5 +11486,5 @@ MonoBehaviour:
   - {fileID: 1176425927448855282}
   - {fileID: 8309778185914281521}
   typePicture: 0
-  minZoom: 0
-  maxZoom: 0
+  minZoom: 2
+  maxZoom: 5

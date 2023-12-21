@@ -7522,7 +7522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7092ea2bf97a3844afc6d522906068a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typePiecePicture: 0
+  typePiecePicture: 1
   typePicture: 0
   spriteRenderer: {fileID: 1254407021}
   image: {fileID: 0}
@@ -13566,5 +13566,5 @@ MonoBehaviour:
   - {fileID: 7945309563694550984}
   - {fileID: 7642106157077732553}
   typePicture: 0
-  minZoom: 0
-  maxZoom: 0
+  minZoom: 2
+  maxZoom: 5

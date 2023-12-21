@@ -5788,8 +5788,8 @@ MonoBehaviour:
   - {fileID: 1354435484075653820}
   - {fileID: 6470151198492083303}
   typePicture: 0
-  minZoom: 0
-  maxZoom: 0
+  minZoom: 2
+  maxZoom: 5
 --- !u!1 &8228422703704808394
 GameObject:
   m_ObjectHideFlags: 0
@@ -6656,7 +6656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7092ea2bf97a3844afc6d522906068a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typePiecePicture: 0
+  typePiecePicture: 1
   typePicture: 0
   spriteRenderer: {fileID: 3755201973657446331}
   image: {fileID: 0}

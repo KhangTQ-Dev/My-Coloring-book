@@ -24,6 +24,26 @@ public class GalleryTabManager : MonoBehaviour
         
     }
 
+    public void Init()
+    {
+        for(int i = 0; i< elementGalleryTabs.Count; i++)
+        {
+            elementGalleryTabs[i].Init(i);
+        }
+
+        elementGalleryTabAll.Init(0);
+    }
+
+    public void OnChangeTab(bool isTabAll, int id)
+    {
+        for (int i = 0; i < elementGalleryTabs.Count; i++)
+        {
+            elementGalleryTabs[i].OnChangeTab(isTabAll, id);
+        }
+
+        elementGalleryTabAll.OnChangeTab(isTabAll, id);
+    }
+
     public void Setup(DataAllPicture dataAllPicture)
     {
         elementGalleryTabs = new List<ElementGalleryTab>();

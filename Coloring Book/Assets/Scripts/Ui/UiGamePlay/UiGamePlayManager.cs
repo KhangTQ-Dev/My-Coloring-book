@@ -21,6 +21,10 @@ public class UiGamePlayManager : MonoBehaviour
 
     [SerializeField] private Button btnChangeBar;
 
+    [SerializeField] private Image imageRenderBtnPick;
+
+    [SerializeField] private Image imageRenderBtnChoose;
+
     [SerializeField] private Image imageBack;
 
     [SerializeField] private Image imageNext;
@@ -60,6 +64,8 @@ public class UiGamePlayManager : MonoBehaviour
         SetBack(false);
 
         SetNext(false);
+
+        ChangeBar(TypeBarDraw.pick);
     }
 
     private void SetBack(bool isTrue)
@@ -136,12 +142,18 @@ public class UiGamePlayManager : MonoBehaviour
         {
             case TypeBarDraw.pick:
 
+                imageRenderBtnChoose.gameObject.SetActive(true);
+                imageRenderBtnPick.gameObject.SetActive(false);
+
                 uiBtnColorManager.Show(true);
 
                 uiChooseColorManager.Show(false);
 
                 break;
             case TypeBarDraw.Bar:
+
+                imageRenderBtnChoose.gameObject.SetActive(false);
+                imageRenderBtnPick.gameObject.SetActive(true);
 
                 uiBtnColorManager.Show(false);
 

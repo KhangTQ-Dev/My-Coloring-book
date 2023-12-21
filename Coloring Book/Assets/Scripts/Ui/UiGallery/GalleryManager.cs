@@ -50,6 +50,8 @@ public class GalleryManager : MonoBehaviour
     public void Init()
     {
         ChangeTab(true);
+
+        galleryTabManager.Init();
     }
 
     public void InitAll()
@@ -66,6 +68,15 @@ public class GalleryManager : MonoBehaviour
     {
         // group
 
+        SetupGroup(dataAllPicture);
+
+        // tab
+
+        SetupTab(dataAllPicture);
+    }
+
+    public void SetupGroup(DataAllPicture dataAllPicture)
+    {
         galleryGroupManagers = new List<GalleryGroupManager>();
 
         GameObject objGroupAll = Instantiate<GameObject>(prefabGroupShow, parentGroup);
@@ -76,7 +87,7 @@ public class GalleryManager : MonoBehaviour
 
         List<DataPicture> dataPicturesGroupAll = new List<DataPicture>();
 
-        for(int i = 0; i < dataAllPicture.dataPictures.Count; i++)
+        for (int i = 0; i < dataAllPicture.dataPictures.Count; i++)
         {
             GameObject objGroup = Instantiate<GameObject>(prefabGroupShow, parentGroup);
 
@@ -96,9 +107,10 @@ public class GalleryManager : MonoBehaviour
         }
 
         galleryGroupManager.Setup(dataPicturesGroupAll);
+    }
 
-        // tab
-
+    public void SetupTab(DataAllPicture dataAllPicture)
+    {
         galleryTabManager.Setup(dataAllPicture);
     }
 
@@ -128,5 +140,7 @@ public class GalleryManager : MonoBehaviour
                 galleryGroupManagers[i].Show(false);
             }
         }
+
+        galleryTabManager.OnChangeTab(isTabAll, (int)_typeGallery);
     }
 }
