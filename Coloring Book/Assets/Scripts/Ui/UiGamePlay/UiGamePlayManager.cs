@@ -9,6 +9,8 @@ public class UiGamePlayManager : MonoBehaviour
 
     [SerializeField] private UiChooseColorManager uiChooseColorManager;
 
+    [SerializeField] private UiColorPick uiColorPick;
+
     [SerializeField] private Button btnBack;
 
     [SerializeField] private Button btnBackAction;
@@ -34,6 +36,8 @@ public class UiGamePlayManager : MonoBehaviour
     [SerializeField] private Color colorCanInteract;
 
     [SerializeField] private Color colorCantInteract;
+
+    public UiColorPick UiColorPick => uiColorPick;
 
     private TypeBarDraw typeBar;
 

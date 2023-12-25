@@ -12,11 +12,11 @@ public class UiButtonColor : MonoBehaviour
 
     [SerializeField] private Button btnColor;
 
-    [SerializeField] private Image imgRenderColor;
+    [SerializeField] private List<Image> imgRenderColors;
 
-    [SerializeField] private Sprite spriteChoose;
+    [SerializeField] private GameObject spriteChoose;
 
-    [SerializeField] private Sprite spriteUnChoose;
+    [SerializeField] private GameObject spriteUnChoose;
 
     private int id;
 
@@ -37,7 +37,10 @@ public class UiButtonColor : MonoBehaviour
     {
         color = _color;
 
-        imgRenderColor.color = color;
+        for(int i = 0; i < imgRenderColors.Count; i++)
+        {
+            imgRenderColors[i].color = color;
+        }
     }
 
     public void Init(int _id)
@@ -62,16 +65,20 @@ public class UiButtonColor : MonoBehaviour
         {
             Debug.Log("choose");
 
-            imgRenderColor.sprite = spriteChoose;
+            spriteChoose.gameObject.SetActive(true);
+
+            spriteUnChoose.gameObject.SetActive(false);
         }
         else
         {
             Debug.Log("Unchoose");
 
-            imgRenderColor.sprite = spriteUnChoose;
+            spriteChoose.gameObject.SetActive(false);
+
+            spriteUnChoose.gameObject.SetActive(true);
         }
 
-        imgRenderColor.SetNativeSize();
+        //imgRenderColor.SetNativeSize();
     }
 
     public void OnChoose(int idChoose)

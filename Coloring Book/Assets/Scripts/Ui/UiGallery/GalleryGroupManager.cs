@@ -30,7 +30,7 @@ public class GalleryGroupManager : MonoBehaviour
     {
         canvasRender.gameObject.SetActive(isTrue);
 
-        parentElement.transform.localPosition = new Vector3(0, 548.6f, 0);
+        parentElement.transform.localPosition = new Vector3(0, 548.4692f, 0);
 
         if (isTrue)
         {

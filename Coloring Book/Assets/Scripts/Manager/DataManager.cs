@@ -68,6 +68,23 @@ public class DataManager : SerializedMonoBehaviour
         return dataAllPicture.dataPictures[(int)typeGallery][(int)typeId];
     }
 
+    public void SetAdsDataPicture(TypeGallery typeGallery, TypeId typeId)
+    {
+        PlayerPrefs.SetInt("AdsPicture" + typeGallery.ToString() + typeId.ToString(), 1);
+    }
+
+    public bool GetAdsDataPicture(TypeGallery typeGallery, TypeId typeId)
+    {
+        if(PlayerPrefs.HasKey("AdsPicture" + typeGallery.ToString() + typeId.ToString()))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
     public void SavePicture(TypeGallery typeGallery, TypeId typeId, DataColorPicture dataColorPicture)
     {
         string a = JsonUtility.ToJson(dataColorPicture);

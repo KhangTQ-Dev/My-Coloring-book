@@ -7,6 +7,8 @@ public class ElementGalleryGroup : MonoBehaviour
 {
     [SerializeField] private DataPicture dataPicture;
 
+    [SerializeField] private GameObject imageAds;
+
     [SerializeField] private Button btnChoose;
 
     [SerializeField] private TypeGallery typeGallery;
@@ -17,16 +19,12 @@ public class ElementGalleryGroup : MonoBehaviour
 
     [SerializeField] private Transform parentInstance;
 
+    private bool isAdsPicture;
+
     // Start is called before the first frame update
     void Start()
     {
         btnChoose.onClick.AddListener(OnClickBtnChoose);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     private void OnClickBtnChoose()
@@ -36,6 +34,8 @@ public class ElementGalleryGroup : MonoBehaviour
 
     public void Init()
     {
+
+
         pictureManager.Init(typeGallery, typeId);
     }
 

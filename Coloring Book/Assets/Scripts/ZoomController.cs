@@ -31,13 +31,13 @@ public class ZoomController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (LevelManager.Instance.GamePlayManager.CanInteract && !EventSystem.current.IsPointerOverGameObject())
+        if (LevelManager.Instance.GamePlayManager.CanInteract && !IsPointerOverUIObject())
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && !IsPointerOverUIObject())
             {
                 touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             }
-            if (Input.touchCount == 2)
+            if (Input.touchCount == 2 && !IsPointerOverUIObject())
             {
                 Touch touchZero = Input.GetTouch(0);
                 Touch touchOne = Input.GetTouch(1);
@@ -52,18 +52,43 @@ public class ZoomController : MonoBehaviour
 
                 zoom(difference * 0.01f);
             }
-            else if (Input.GetMouseButton(0))
+            else if (Input.GetMouseButton(0) && !IsPointerOverUIObject())
             {
                 Vector3 direction = touchStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+                float distance = Vector3.Distance(touchStart, Camera.main.ScreenToWorldPoint(Input.mousePosition));
+
+                Debug.Log(distance);
+
+                if (distance >= 0.04f)
+                {
+                    LevelManager.Instance.GamePlayManager.Detect.SetCanDetect(false);
+                }
+
                 Camera.main.transform.position = GetPositionClamp(Camera.main.transform.position, direction);
             }
+
+            if(Input.GetMouseButtonUp(0) && !IsPointerOverUIObject())
+            {
+                LevelManager.Instance.GamePlayManager.Detect.SetCanDetect(true);
+            }
+
             zoom(Input.GetAxis("Mouse ScrollWheel"));
         }
     }
 
+    private bool IsPointerOverUIObject()
+    {
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        return results.Count > 0;
+    }
+
     void zoom(float increment)
     {
-        indexZoom = LevelManager.Instance.GamePlayManager.PictureManager.OnZoom(increment);
+        indexZoom = LevelManager.Instance.GamePlayManager.PictureManager.OnZoom(-increment);
 
         //Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize - increment, zoomOutMin, zoomOutMax);
     }

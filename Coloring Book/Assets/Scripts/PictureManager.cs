@@ -13,6 +13,8 @@ public class PictureManager : MonoBehaviour
 
     [SerializeField] private float maxZoom;
 
+    [SerializeField] private Vector3 scaleDefaul;
+
     public List<ElementPiecePicture> ElementPiecePictures => elementPiecePictures;
 
     private TypeGallery typeGallery;
@@ -24,7 +26,42 @@ public class PictureManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        initialScale = transform.localScale;
+
+
+        if(typePicture == TypePicture.Sprite)
+        {
+            float width =  (float)Screen.width / (float)Screen.height;
+
+            Debug.Log(width);
+
+            //float k = Screen.width / 1080;
+
+            //if (Screen.width != 1080)
+            //{
+            //    k = Camera.main.orthographicSize * 2 * k;
+            //}
+
+            float m = 1080.0f / 1920.0f;
+
+            
+
+
+            ////k = k / m;
+
+            ////float y = Screen.height / 1920;
+
+            ////float k = x <= y ? x : y;
+
+            float z = width / m;
+
+            Debug.Log(z);
+
+            scaleDefaul = scaleDefaul * z;
+
+            initialScale = scaleDefaul;
+
+            transform.localScale = scaleDefaul;
+        }
     }
 
     // Update is called once per frame

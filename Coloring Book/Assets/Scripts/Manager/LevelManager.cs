@@ -56,4 +56,9 @@ public class LevelManager : MonoBehaviour
 
         uiManager.OnChangeToLobby();
     }
+
+    public void CheckShowPopupFree()
+    {
+
+    }
 }

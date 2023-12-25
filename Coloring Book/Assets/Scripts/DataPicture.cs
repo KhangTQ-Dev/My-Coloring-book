@@ -12,5 +12,7 @@ public class DataPicture : SerializedScriptableObject
 
     public TypeGallery TypeGallery;
 
-    public TypeId TypeId; 
+    public TypeId TypeId;
+
+    public bool isAds;
 }

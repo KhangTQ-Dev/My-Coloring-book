@@ -17,6 +17,8 @@ public class Detect : MonoBehaviour
 
     private bool isEyeDrop;
 
+    private bool canDetect;
+
     void Start()
     {
         //Instantiate(prefab, gameObject.transform);
@@ -25,6 +27,13 @@ public class Detect : MonoBehaviour
     public void Init(Color colorDefaul)
     {
         colorDraw = colorDefaul;
+
+        canDetect = true;
+    }
+
+    public void SetCanDetect(bool isTrue)
+    {
+        canDetect = isTrue;
     }
 
     // Update is called once per frame
@@ -34,7 +43,7 @@ public class Detect : MonoBehaviour
         {
             if (!isEyeDrop)
             {
-                if (Input.GetMouseButtonDown(0) && !IsPointerOverUIObject())
+                if (Input.GetMouseButtonUp(0) && !IsPointerOverUIObject() && canDetect)
                 {
                     Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
@@ -66,7 +75,7 @@ public class Detect : MonoBehaviour
             }
             else
             {
-                if(Input.GetMouseButtonDown(0) && !IsPointerOverUIObject())
+                if(Input.GetMouseButtonUp(0) && !IsPointerOverUIObject() && canDetect)
                 {
                     Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
@@ -86,7 +95,7 @@ public class Detect : MonoBehaviour
                             {
                                 SetColor(elementPiecePicture.GetColor());
 
-                                SetEyeDrop();
+                                SetEyeDrop(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
                             }
                         }
                     }
@@ -136,9 +145,11 @@ public class Detect : MonoBehaviour
         LevelManager.Instance.UiManager.UiGamePlayManager.SetEyeDrop(false);
     }
 
-    private void SetEyeDrop()
+    private void SetEyeDrop(Vector3 positon)
     {
         isEyeDrop = false;
+
+        LevelManager.Instance.UiManager.UiGamePlayManager.UiColorPick.OnPick(GetColor(), positon);
 
         LevelManager.Instance.UiManager.UiGamePlayManager.SetEyeDrop(true);
 

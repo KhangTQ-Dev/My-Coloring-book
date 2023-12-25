@@ -8,9 +8,13 @@ public class GamePlayManager : MonoBehaviour
 
     [SerializeField] private ZoomController zoomController;
 
+    [SerializeField] private DrawFillController drawFillController;
+
     public ZoomController ZoomController => zoomController;
 
     public Detect Detect => detect;
+
+    public DrawFillController DrawFillController => drawFillController;
 
     private TypeGallery typeGallery;
 

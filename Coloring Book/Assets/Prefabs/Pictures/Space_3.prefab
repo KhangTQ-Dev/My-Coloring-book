@@ -4378,7 +4378,7 @@ Transform:
   m_GameObject: {fileID: 4615271703201714487}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6000737276707767372}
@@ -4544,8 +4544,9 @@ MonoBehaviour:
   - {fileID: 8924190499828562204}
   - {fileID: 6449347456684702259}
   typePicture: 0
-  minZoom: 2
+  minZoom: 1
   maxZoom: 5
+  scaleDefaul: {x: 2, y: 2, z: 2}
 --- !u!1 &4740891739193648072
 GameObject:
   m_ObjectHideFlags: 0

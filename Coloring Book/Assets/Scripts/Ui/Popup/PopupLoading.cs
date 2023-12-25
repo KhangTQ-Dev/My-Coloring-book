@@ -15,6 +15,8 @@ public class PopupLoading : UiCanvas
 
     [SerializeField] private PictureManager pictureManager;
 
+    [SerializeField] private float indexScale;
+
     private Action actionDone;
 
     // Start is called before the first frame update
@@ -29,7 +31,7 @@ public class PopupLoading : UiCanvas
         {
             if (pictureManager != null)
             {
-                Destroy(pictureManager);
+                Destroy(pictureManager.gameObject);
             }
 
             imgFill.fillAmount = 0;
@@ -41,6 +43,8 @@ public class PopupLoading : UiCanvas
             DataPicture dataPicture = GameManager.Instance.DataManager.GetDataPicture(typeGallery, typeId);
 
             GameObject objInstance = Instantiate<GameObject>(dataPicture.prefabUiPicture, parentInstance);
+
+            objInstance.transform.localScale = objInstance.transform.localScale * indexScale;
 
             pictureManager = objInstance.GetComponent<PictureManager>();
 

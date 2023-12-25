@@ -89,6 +89,11 @@ public class ElementPiecePicture : MonoBehaviour
 
         if (pixel.a > 0)
         {
+            if (a && typePiecePicture != TypePiecePicture.Surround)
+            {
+                LevelManager.Instance.GamePlayManager.DrawFillController.OnDraw(current, spriteRenderer.sprite, transform.position, spriteRenderer.sortingOrder, transform.lossyScale);
+            }
+
             Debug.Log("object clicked: " + gameObject.name);
 
             SetColor(_color);
