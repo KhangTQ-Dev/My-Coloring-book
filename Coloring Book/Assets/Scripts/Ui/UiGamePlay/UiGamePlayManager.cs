@@ -41,9 +41,21 @@ public class UiGamePlayManager : MonoBehaviour
 
     private TypeBarDraw typeBar;
 
+    [SerializeField] private List<GameObject> objSmall;
+
+    [SerializeField] private List<GameObject> objBig;
+
+    private bool isActiveSmall;
+
+    private bool isActiveBig;
+
     // Start is called before the first frame update
     void Start()
     {
+        isActiveSmall = true;
+
+        isActiveBig = true;
+
         btnBack.onClick.AddListener(OnClickBtnBack);
         btnBackAction.onClick.AddListener(OnClickBtnBackAction);
         btnNextAction.onClick.AddListener(OnClickBtnNextAction);
@@ -174,6 +186,26 @@ public class UiGamePlayManager : MonoBehaviour
         btnEyeDrop.enabled = isTrue;
 
         imageEyeDrop.color = isTrue ? colorCanInteract : colorCantInteract;
+    }
+
+    public void TurnSmallBtn()
+    {
+        isActiveSmall = !isActiveSmall;
+
+        for(int i = 0; i < objSmall.Count; i++)
+        {
+            objSmall[i].SetActive(isActiveSmall);
+        }
+    }
+
+    public void TurnBigBtn()
+    {
+        isActiveBig = !isActiveBig;
+
+        for (int i = 0; i < objBig.Count; i++)
+        {
+            objBig[i].SetActive(isActiveBig);
+        }
     }
 }
 
