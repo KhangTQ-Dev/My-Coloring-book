@@ -333,7 +333,7 @@ namespace Better.BuildInfo
                     var minSize = FileSize.FromKiloBytes(ui.minSizeMB * 1024.0f);
 
                     FileSize? maxSize = null;
-                    if ( !Utils.NearlyEqual(ui.maxSizeMB, Skin.MaxSizeMB) )
+                    if ( !Better.BuildInfo.Internal.Utils.NearlyEqual(ui.maxSizeMB, Skin.MaxSizeMB) )
                     {
                         maxSize = FileSize.FromKiloBytes(ui.maxSizeMB * 1024.0f);
                     }

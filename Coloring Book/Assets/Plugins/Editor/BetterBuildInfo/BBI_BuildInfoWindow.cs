@@ -401,7 +401,7 @@ namespace Better.BuildInfo
                                 else
                                 {
                                     double a, b;
-                                    if ( Utils.TryParseInvariant(astr, out a) && Utils.TryParseInvariant(bstr, out b) )
+                                    if (Better.BuildInfo.Internal.Utils.TryParseInvariant(astr, out a) && Better.BuildInfo.Internal.Utils.TryParseInvariant(bstr, out b) )
                                     {
                                         return a.CompareTo(b);
                                     }
@@ -1373,7 +1373,7 @@ namespace Better.BuildInfo
             r.x = r.x + r.width - labelWidth;
             r.width = labelWidth;
 
-            bool nearMax = Utils.NearlyEqual(maxValue, maxLimit, 0.0001f);
+            bool nearMax = Better.BuildInfo.Internal.Utils.NearlyEqual(maxValue, maxLimit, 0.0001f);
 
             if (nearMax)
             {
@@ -1423,7 +1423,7 @@ namespace Better.BuildInfo
                 m_referenceFilePath = path;
                 m_error = null;
 
-                ModifySettings(x => x.AddRecent(Utils.PoorMansRelativePath(path)));
+                ModifySettings(x => x.AddRecent(Better.BuildInfo.Internal.Utils.PoorMansRelativePath(path)));
             }
             catch (System.Exception ex)
             {
@@ -1471,7 +1471,7 @@ namespace Better.BuildInfo
                             entry.details = BuildInfoProcessorUtils.CleanUpAssetsDetails(entry.details, entry.path);
                         }
 
-                        m_openFilePath = Utils.PoorMansRelativePath(path);
+                        m_openFilePath = Better.BuildInfo.Internal.Utils.PoorMansRelativePath(path);
                         m_error = null;
 
                         ModifySettings(x => x.AddRecent(m_openFilePath));
@@ -1936,7 +1936,7 @@ namespace Better.BuildInfo
                     }
 
                     double dummy;
-                    if (isNumeric[index] && !Utils.TryParseInvariant(info.value, out dummy))
+                    if (isNumeric[index] && !Better.BuildInfo.Internal.Utils.TryParseInvariant(info.value, out dummy))
                     {
                         isNumeric[index] = false;
                         isSize[index] = false;

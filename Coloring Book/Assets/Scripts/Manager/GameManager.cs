@@ -10,6 +10,10 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private float timeWaitLoadInitial;
 
+    [SerializeField] private float timeWaitAdsInit;
+
+    [SerializeField] private float timeWaitFirebaseInit;
+
     [SerializeField] private int indexLobby;
 
     [SerializeField] private int indexIngame;
@@ -52,9 +56,33 @@ public class GameManager : MonoBehaviour
 
     IEnumerator WaitLoadInitial()
     {
+        InitSDK();
+
         yield return new WaitForSeconds(timeWaitLoadInitial);
 
         LoadInitialGame();
+    }
+
+    private void InitSDK()
+    {
+        Invoke("InitAds", timeWaitAdsInit);
+
+        Invoke("InitFirebase", timeWaitFirebaseInit);
+    }
+
+    private void InitFirebase()
+    {
+        HandleFireBase.Instance.Initialize();
+    }
+
+    private void InitAds()
+    {
+        AdsManager.Instance.Init();
+    }
+
+    private void InitAppflyer()
+    {
+        //HandleAppsflyer.Instance.i
     }
 
     public void LoadScene(int indexScene)

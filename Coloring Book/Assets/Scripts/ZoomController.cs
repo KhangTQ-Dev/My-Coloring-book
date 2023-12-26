@@ -60,7 +60,7 @@ public class ZoomController : MonoBehaviour
 
                 Debug.Log(distance);
 
-                if (distance >= 0.04f)
+                if (distance >= 0.08f)
                 {
                     LevelManager.Instance.GamePlayManager.Detect.SetCanDetect(false);
                 }

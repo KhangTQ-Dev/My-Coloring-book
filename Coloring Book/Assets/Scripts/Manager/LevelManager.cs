@@ -23,6 +23,13 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         Init();
+
+        Invoke("ShowBanner", 0.5f);
+    }
+
+    private void ShowBanner()
+    {
+        AdsManager.Instance.ShowBanner();
     }
 
     // Update is called once per frame
