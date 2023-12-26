@@ -37,7 +37,7 @@ public class ToolGenUiTab : SerializedMonoBehaviour
     [Button]
     public void SetColorButton(Color color)
     {
-        Button[] objButton = FindObjectsOfType<Button>();
+        ButtonExtension[] objButton = FindObjectsOfType<ButtonExtension>();
 
         for (int i = 0; i < objButton.Length; i++)
         {
@@ -52,6 +52,26 @@ public class ToolGenUiTab : SerializedMonoBehaviour
             colorBlock.pressedColor = color;
 
             objButton[i].colors = colorBlock;
+        }
+    }
+
+    [Button]
+    public void SetupToButtonExtension()
+    {
+        Button[] objButton = FindObjectsOfType<Button>();
+
+        for (int i = 0; i < objButton.Length; i++)
+        {
+            GameObject buttonObj = objButton[i].gameObject;
+
+            if (buttonObj.TryGetComponent<ButtonExtension>(out ButtonExtension a))
+            {
+                continue;
+            }
+
+            DestroyImmediate(objButton[i]);
+
+            buttonObj.AddComponent<ButtonExtension>();
         }
     }
 }

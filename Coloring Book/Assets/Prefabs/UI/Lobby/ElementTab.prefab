@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 734988865513876030}
   - component: {fileID: 734988865513876028}
   - component: {fileID: 734988865513876031}
-  - component: {fileID: 1179857514}
+  - component: {fileID: 570604851059395125}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -77,7 +77,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1179857514
+--- !u!114 &570604851059395125
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -86,7 +86,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 734988865513876025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f1ccc312f22dad4cb0a8e642d658dd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -121,6 +121,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+  typeSoundButton: 0
+  nonAdsButton: 0
+  hasTween: 0
 --- !u!1 &734988866688929373
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isTabAll: 0
   typeGallery: 0
-  btnTab: {fileID: 1179857514}
+  btnTab: {fileID: 570604851059395125}
   textRender: {fileID: 734988866688929347}
   imgChoose: {fileID: 3006729140675306436}
 --- !u!1 &8661299150272756315

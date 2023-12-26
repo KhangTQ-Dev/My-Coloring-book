@@ -44,8 +44,8 @@ public class FirebaseParam
 
 public class FirebaseRemoteData
 {
-    static int inter_ad_capping_time = 12;
-    static int open_ad_capping_time = 35;
+    static int inter_ad_capping_time = 60;
+    static int open_ad_capping_time = 30;
     static string open_ad_id = AdsManager.Instance.AOA_ID;
     static string native_ad_id = AdsManager.Instance.NATIVE_ID;
     static string mrec_ad_id = AdsManager.Instance.MREC_ID;
@@ -192,8 +192,8 @@ public class HandleFireBase : unity_base.Singleton<HandleFireBase>
     public void InitRemoteConfig()
     {
         Dictionary<string, object> defaults = new Dictionary<string, object>();
-        defaults.Add(INTER_AD_CAPPING_TIME, 12);
-        defaults.Add(OPEN_AD_CAPPING_TIME, 35);
+        defaults.Add(INTER_AD_CAPPING_TIME, 60);
+        defaults.Add(OPEN_AD_CAPPING_TIME, 30);
         defaults.Add(OPEN_AD_ID, AdsManager.Instance.AOA_ID);
         defaults.Add(NATIVE_AD_ID, AdsManager.Instance.NATIVE_ID);
         defaults.Add(MREC_AD_ID, AdsManager.Instance.MREC_ID);

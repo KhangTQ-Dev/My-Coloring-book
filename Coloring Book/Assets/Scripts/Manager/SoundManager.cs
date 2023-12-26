@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void PlaySoundButton(TypeSoundButton typeSoundButton)
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
+}
+
+public enum TypeSoundButton
+{
+    Defaul,
+    Tab,
+    ButtonColor
 }

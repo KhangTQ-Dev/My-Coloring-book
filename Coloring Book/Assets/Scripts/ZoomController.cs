@@ -21,6 +21,8 @@ public class ZoomController : MonoBehaviour
 
     private float indexZoom;
 
+    private bool isZooming;
+
     private void Start()
     {
         initialPosition = Camera.main.transform.position;
@@ -33,12 +35,12 @@ public class ZoomController : MonoBehaviour
     {
         if (LevelManager.Instance.GamePlayManager.CanInteract && !IsPointerOverUIObject())
         {
-            if (Input.GetMouseButtonDown(0) && !IsPointerOverUIObject())
-            {
-                touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            }
+
             if (Input.touchCount == 2 && !IsPointerOverUIObject())
             {
+                LevelManager.Instance.GamePlayManager.Detect.SetCanDetect(false);
+                isZooming = true;
+
                 Touch touchZero = Input.GetTouch(0);
                 Touch touchOne = Input.GetTouch(1);
 
@@ -52,7 +54,18 @@ public class ZoomController : MonoBehaviour
 
                 zoom(difference * 0.01f);
             }
-            else if (Input.GetMouseButton(0) && !IsPointerOverUIObject())
+            else
+            {
+                isZooming = false;
+            }
+
+            if (Input.GetMouseButtonDown(0) && !IsPointerOverUIObject() && !isZooming)
+            {
+                touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            }
+
+
+            if (Input.GetMouseButton(0) && !IsPointerOverUIObject() && !isZooming)
             {
                 Vector3 direction = touchStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
