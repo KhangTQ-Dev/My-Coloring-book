@@ -31,6 +31,8 @@ public class ElementMyworkGroup : MonoBehaviour
 
     private void OnClickBtnChoose()
     {
+        HandleFireBase.Instance.LogEventRedraw(typeGallery, typeId);
+
         LevelManager.Instance.OnChangeToGamePlayMywork(typeGallery, typeId);
     }
 

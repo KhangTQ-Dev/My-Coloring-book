@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private LoadingManager loadingManager;
 
+    [SerializeField] private GameObject objWifi;
+
     public UiGlobalManager UiGlobalManager => uiGlobalManager;
 
     public DataManager DataManager => dataManager;
@@ -51,6 +53,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Invoke("CheckInternet", 0.75f);
+
         StartCoroutine(WaitLoadInitial());
     }
 
@@ -105,5 +109,23 @@ public class GameManager : MonoBehaviour
     public void LoadInitialGame()
     {
         LoadLobby();
+    }
+
+    public void CheckInternet()
+    {
+        if (Application.internetReachability != NetworkReachability.NotReachable)
+        {
+            objWifi.SetActive(false);
+
+            //SetTimeScale(1);
+        }
+        else
+        {
+            objWifi.SetActive(true);
+
+            //SetTimeScale(0);
+        }
+
+        Invoke("CheckInternet", 2);
     }
 }

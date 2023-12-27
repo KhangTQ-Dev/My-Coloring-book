@@ -96,6 +96,8 @@ public class ElementPiecePicture : MonoBehaviour
 
             Debug.Log("object clicked: " + gameObject.name);
 
+            HandleFireBase.Instance.LogEventDraw(LevelManager.Instance.GamePlayManager.GetCurrentTypeGallery(), LevelManager.Instance.GamePlayManager.GetCurrentTypeId());
+
             SetColor(_color);
         }
         else

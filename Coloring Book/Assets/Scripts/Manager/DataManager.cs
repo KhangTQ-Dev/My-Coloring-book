@@ -156,6 +156,8 @@ public class DataManager : SerializedMonoBehaviour
         {
             PlayerPrefs.SetInt("Music", 0);
         }
+
+        GameManager.Instance.SoundManager.SetVolumnBG(isTrue);
     }
 
     public bool GetSound()
@@ -173,6 +175,30 @@ public class DataManager : SerializedMonoBehaviour
         {
             PlayerPrefs.SetInt("Sound", 0);
         }
+    }
+
+    public void SetShowRate()
+    {
+        PlayerPrefs.SetInt("ShowRate", 1);
+    }
+
+    public bool GetShowRate()
+    {
+        int a = PlayerPrefs.GetInt("ShowRate", 0);
+
+        return a == 1 ? true : false;
+    }
+
+    public void SetFirstDone()
+    {
+        PlayerPrefs.SetInt("FirstDone", 1);
+    }
+
+    public bool GetFirstDone()
+    {
+        int a = PlayerPrefs.GetInt("FirstDone", 0);
+
+        return a == 1 ? true : false;
     }
 }
 

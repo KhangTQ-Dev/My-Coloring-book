@@ -44,6 +44,24 @@ public class ZoomController : MonoBehaviour
                 Touch touchZero = Input.GetTouch(0);
                 Touch touchOne = Input.GetTouch(1);
 
+                switch (touchOne.phase)
+                {
+                    case TouchPhase.Ended:
+
+                        touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+                        break;
+                }
+
+                switch (touchZero.phase)
+                {
+                    case TouchPhase.Ended:
+
+                        touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+                        break;
+                }
+
                 Vector2 touchZeroPrevPos = touchZero.position - touchZero.deltaPosition;
                 Vector2 touchOnePrevPos = touchOne.position - touchOne.deltaPosition;
 

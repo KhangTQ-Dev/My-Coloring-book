@@ -82,6 +82,8 @@ public class PopupPreview : UiCanvas
 
         //LevelManager.Instance.gameObject.SetActive(false);
 
+        HandleFireBase.Instance.LogEventDrawSavePicture(typeGallery, typeId);
+
         cutScreenshotPostProcess.m_SelectionArea = parentInstance.GetComponent<RectTransform>();
 
         if (m_ScreenshotManager)

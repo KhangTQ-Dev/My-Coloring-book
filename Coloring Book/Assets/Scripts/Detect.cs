@@ -61,6 +61,8 @@ public class Detect : MonoBehaviour
 
                             if (a.Item4)
                             {
+                                GameManager.Instance.SoundManager.PlaySoundDraw();
+
                                 LevelManager.Instance.GamePlayManager.AddHistory(a.Item1, a.Item2, a.Item3);
 
                                 LevelManager.Instance.UiManager.UiGamePlayManager.SetBackNext();

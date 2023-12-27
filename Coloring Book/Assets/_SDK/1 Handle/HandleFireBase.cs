@@ -326,6 +326,38 @@ public class HandleFireBase : unity_base.Singleton<HandleFireBase>
         FirebaseAnalytics.LogEvent("level_fail", new Parameter[] { new Parameter("level", level.ToString()), new Parameter("failcount", failcount.ToString()), new Parameter("play_type", playType) });
     }
 
+    public void LogEventGoToDraw(TypeGallery typeGallery, TypeId typeId)
+    {
+        FirebaseAnalytics.LogEvent("Choose_Picture_Draw_Gallery_Lobby", new Parameter[] { new Parameter("Type", typeGallery.ToString() + "_" + typeId.ToString()) });
+    }
+
+    public void LogEventRedraw(TypeGallery typeGallery, TypeId typeId)
+    {
+        FirebaseAnalytics.LogEvent("Choose_Picture_Draw_MyWork_Lobby", new Parameter[] { new Parameter("Type", typeGallery.ToString() + "_" + typeId.ToString()) });
+    }
+
+    public void LogEventDrawComplete(TypeGallery typeGallery, TypeId typeId)
+    {
+        FirebaseAnalytics.LogEvent("Done_Picture_Draw_InGame", new Parameter[] { new Parameter("Type", typeGallery.ToString() + "_" + typeId.ToString()) });
+    }
+
+    public void LogEventDrawSavePicture(TypeGallery typeGallery, TypeId typeId)
+    {
+        FirebaseAnalytics.LogEvent("Save_Picture_Draw_InGame", new Parameter[] { new Parameter("Type", typeGallery.ToString() + "_" + typeId.ToString()) });
+    }
+
+    public void LogEventClearPicture(TypeGallery typeGallery, TypeId typeId)
+    {
+        FirebaseAnalytics.LogEvent("Clear_Picture_Draw_InGame", new Parameter[] { new Parameter("Type", typeGallery.ToString() + "_" + typeId.ToString()) });
+    }
+
+    public void LogEventRenewPicture(TypeGallery typeGallery, TypeId typeId)
+    {
+        FirebaseAnalytics.LogEvent("Renew_Picture_Draw_InGame", new Parameter[] { new Parameter("Type", typeGallery.ToString() + "_" + typeId.ToString()) });
+    }
+
+    public void LogEventDraw(TypeGallery typeGallery, TypeId typeId)
+    {
+        FirebaseAnalytics.LogEvent("Draw_Picture_InGame", new Parameter[] { new Parameter("Type", typeGallery.ToString() + "_" + typeId.ToString()) });
+    }
 }
-
-

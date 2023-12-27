@@ -29,6 +29,8 @@ public class ElementGalleryGroup : MonoBehaviour
 
     private void OnClickBtnChoose()
     {
+        HandleFireBase.Instance.LogEventGoToDraw(typeGallery, typeId);
+
         LevelManager.Instance.OnChangeToGamePlay(typeGallery, typeId);
     }
 

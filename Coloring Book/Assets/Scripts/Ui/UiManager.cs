@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using HG.Rate;
+
 public class UiManager : MonoBehaviour
 {
     [SerializeField] private GalleryManager galleryManager;
@@ -22,6 +24,8 @@ public class UiManager : MonoBehaviour
 
     [SerializeField] private Canvas canvasGamePlay;
 
+    [SerializeField] private RateManager rateManager;
+
     public Canvas CanvasLobby => canvasLobby;
 
     public Canvas CanvasGamePlay => canvasGamePlay;
@@ -33,6 +37,8 @@ public class UiManager : MonoBehaviour
     public MyworkManager MyworkManager => myworkManager;
 
     public UiGamePlayManager UiGamePlayManager => uiGamePlayManager;
+
+    public RateManager RateManager => rateManager;
 
     // Start is called before the first frame update
     void Start()

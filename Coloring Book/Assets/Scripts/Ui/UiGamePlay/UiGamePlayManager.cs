@@ -135,6 +135,21 @@ public class UiGamePlayManager : MonoBehaviour
 
     private void OnClickBtnDone()
     {
+        bool a = GameManager.Instance.DataManager.GetFirstDone();
+
+        bool b = GameManager.Instance.DataManager.GetShowRate();
+
+        if(!a & !b)
+        {
+            LevelManager.Instance.UiManager.RateManager.ShowPopup();
+
+            GameManager.Instance.DataManager.SetFirstDone();
+
+            GameManager.Instance.DataManager.SetShowRate();
+        }
+
+        HandleFireBase.Instance.LogEventDrawComplete(LevelManager.Instance.GamePlayManager.GetCurrentTypeGallery(), LevelManager.Instance.GamePlayManager.GetCurrentTypeId());
+
         LevelManager.Instance.GamePlayManager.PictureManager.SavePicture();
 
         LevelManager.Instance.UiManager.PopupManager.ShowPopup(TypePopup.Preview);

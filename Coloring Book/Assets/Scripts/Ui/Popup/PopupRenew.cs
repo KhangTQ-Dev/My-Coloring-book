@@ -42,6 +42,8 @@ public class PopupRenew : UiCanvas
 
     private void OnClickBtnOkay()
     {
+        HandleFireBase.Instance.LogEventRenewPicture(LevelManager.Instance.GamePlayManager.GetCurrentTypeGallery(), LevelManager.Instance.GamePlayManager.GetCurrentTypeId());
+
         Show(false);
 
         actionOkay?.Invoke();

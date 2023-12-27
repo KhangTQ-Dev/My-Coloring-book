@@ -42,6 +42,8 @@ public class PopupDelete : UiCanvas
 
     private void OnClickBtnOkay()
     {
+        HandleFireBase.Instance.LogEventDrawComplete(LevelManager.Instance.GamePlayManager.GetCurrentTypeGallery(), LevelManager.Instance.GamePlayManager.GetCurrentTypeId());
+
         Show(false);
 
         actionOkay?.Invoke();

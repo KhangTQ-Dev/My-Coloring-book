@@ -25,6 +25,13 @@ public class LevelManager : MonoBehaviour
         Init();
 
         Invoke("ShowBanner", 0.5f);
+
+        Invoke("PlaySound", 0.5f);
+    }
+
+    private void PlaySound()
+    {
+        GameManager.Instance.SoundManager.PlaySoundBG();
     }
 
     private void ShowBanner()
