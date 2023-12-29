@@ -105,6 +105,19 @@ public class UiGamePlayManager : MonoBehaviour
 
     private void OnClickBtnBack()
     {
+        bool a = GameManager.Instance.DataManager.GetFirstDone();
+
+        bool b = GameManager.Instance.DataManager.GetShowRate();
+
+        if (!a & !b)
+        {
+            LevelManager.Instance.UiManager.RateManager.ShowPopup();
+
+            GameManager.Instance.DataManager.SetFirstDone();
+
+            GameManager.Instance.DataManager.SetShowRate();
+        }
+
         LevelManager.Instance.OnChangeToLobby();
     }
 
