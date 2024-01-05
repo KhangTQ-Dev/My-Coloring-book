@@ -120,8 +120,6 @@ public class MAX_Manager : AdsManager, IAOACallback
         if (interShowing) { return; }
         if (!FirebaseRemoteData.INTER_AD_ON_OFF) { return; }
 
-        if (!GameManager.Instance.DataManager.GetShowRate()) { return; }
-
         HandleAppsflyer.Instance.LogEventWithName(HandleAppsflyer.AF_INTERS_CALL_SHOW);
         DateTime now = DateTime.Now;
         if (!ignoreCapping && (now - timeCloseIntersAds).TotalSeconds < FirebaseRemoteData.INTER_AD_CAPPING_TIME) { return; }

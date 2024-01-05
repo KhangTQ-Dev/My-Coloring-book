@@ -43,5 +43,6 @@ public enum TypePopup
     Preview,
     PreviewMywork,
     Setting,
-    FreeImage
+    FreeImage,
+    WarningLeave
 }

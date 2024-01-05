@@ -4,12 +4,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using AssetKits.ParticleImage;
 public class PopupPreview : UiCanvas
 {
     private TypeGallery typeGallery;
 
     private TypeId typeId;
+
+    [SerializeField] ParticleImage particleImageConfetti;
 
     [SerializeField] private Button btnContinue;
 
@@ -64,6 +66,8 @@ public class PopupPreview : UiCanvas
             pictureManager = objInstance.GetComponent<PictureManager>();
 
             pictureManager.Init(typeGallery, typeId);
+
+            particleImageConfetti.Play();
         }
 
 

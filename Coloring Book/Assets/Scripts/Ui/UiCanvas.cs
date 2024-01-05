@@ -5,7 +5,7 @@ using Sirenix.OdinInspector;
 using DG.Tweening;
 using UnityEngine.Events;
 
-public class UiCanvas : MonoBehaviour
+public class UiCanvas : SerializedMonoBehaviour
 {
     [SerializeField] private TypeSort typeSort;
 

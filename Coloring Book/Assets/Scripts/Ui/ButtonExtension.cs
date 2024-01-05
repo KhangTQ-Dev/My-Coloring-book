@@ -32,7 +32,10 @@ public class ButtonExtension : Button
 
                     if (!nonAdsButton)
                     {
-                        AdsManager.Instance.ShowInterstitial("Button");
+                        if (GameManager.Instance.DataManager.GetShowRate()) 
+                        {
+                            AdsManager.Instance.ShowInterstitial("Button");
+                        }
                     }
 
                     base.OnPointerClick(eventData);
@@ -42,7 +45,7 @@ public class ButtonExtension : Button
         }
         else
         {
-            if (!nonAdsButton)
+            if (GameManager.Instance.DataManager.GetShowRate())
             {
                 AdsManager.Instance.ShowInterstitial("Button");
             }

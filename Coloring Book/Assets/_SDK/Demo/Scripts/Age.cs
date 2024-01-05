@@ -70,6 +70,8 @@ namespace HG.Nam.Demo
             txtCenter.text = (currentAge).ToString();
             txtRight.text = (currentAge + 1).ToString();
 
+
+            IsShowing = true;
         }
 
         IEnumerator IEAutoNext(int seconds)
@@ -96,8 +98,8 @@ namespace HG.Nam.Demo
             yield return 2 * Time.deltaTime;
             AdsManager.Instance.HideMREC();
             AdsManager.Instance.UpdateMRecPosition(EMRecPosition.BottomCenter);
-            SceneManager.UnloadSceneAsync(2);
-
+            //SceneManager.UnloadSceneAsync(2);
+            gameObject.SetActive(false);
         }
         //Button OK and dont share
         public void Ok()

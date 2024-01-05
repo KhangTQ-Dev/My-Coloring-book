@@ -121,6 +121,8 @@ public class ZoomController : MonoBehaviour
     {
         indexZoom = LevelManager.Instance.GamePlayManager.PictureManager.OnZoom(-increment);
 
+        Camera.main.transform.position = GetPositionClamp(Camera.main.transform.position, Vector3.zero);
+
         //Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize - increment, zoomOutMin, zoomOutMax);
     }
 
