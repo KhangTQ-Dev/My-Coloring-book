@@ -1,5 +1,7 @@
 using AlmostEngine.Screenshot;
 using AlmostEngine.Screenshot.Extra;
+using DG.Tweening;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +12,10 @@ public class PopupPreviewMywork : UiCanvas
     private TypeGallery typeGallery;
 
     private TypeId typeId;
+
+    [SerializeField] private GameObject objTextSave;
+
+    [SerializeField] private Image imageEffectSave;
 
     [SerializeField] private Button btnContinue;
 
@@ -34,6 +40,10 @@ public class PopupPreviewMywork : UiCanvas
     [SerializeField] private float indexScale;
 
     ScreenshotManager m_ScreenshotManager;
+
+    private Tween tweenSave;
+
+    private Coroutine coroutineTextSave;
 
     protected override void Start()
     {
@@ -94,21 +104,53 @@ public class PopupPreviewMywork : UiCanvas
 
         cutScreenshotPostProcess.m_SelectionArea = parentInstance.GetComponent<RectTransform>();
 
-        if (m_ScreenshotManager)
+        EffectSave(() => 
         {
-            m_ScreenshotManager.Capture();
-        }
+            if (m_ScreenshotManager)
+            {
+                m_ScreenshotManager.Capture();
+            }
+        });
+
+
 
         //StartCoroutine(WaitCapture());
     }
 
+    private void EffectSave(Action actionCapture)
+    {
+        if (tweenSave != null)
+        {
+            tweenSave.Kill();
+        }
+
+        if(coroutineTextSave != null)
+        {
+            StopCoroutine(coroutineTextSave);
+        }
+
+        tweenSave = imageEffectSave.DOColor(new Color(255, 255, 255, 255), 0.2f).OnComplete(() =>
+        {
+            tweenSave = imageEffectSave.DOColor(new Color(255, 255, 255, 0), 0.2f).SetDelay(0.2f).OnComplete(() => 
+            {
+                coroutineTextSave = StartCoroutine(WaitCapture());
+                tweenSave = null; 
+                actionCapture?.Invoke(); 
+            });
+        });
+    }
+
     IEnumerator WaitCapture()
     {
-        yield return new WaitForSecondsRealtime(0.2f);
+        objTextSave.gameObject.SetActive(true);
 
-        parentInstance.transform.parent = transform;
+        yield return new WaitForSecondsRealtime(2);
 
-        LevelManager.Instance.gameObject.SetActive(true);
+        objTextSave.gameObject.SetActive(false);
+
+        //parentInstance.transform.parent = transform;
+
+        //LevelManager.Instance.gameObject.SetActive(true);
     }
 
     private void OnClickBtnHome()

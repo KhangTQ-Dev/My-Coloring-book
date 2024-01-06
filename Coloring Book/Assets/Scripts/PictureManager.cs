@@ -61,6 +61,10 @@ public class PictureManager : MonoBehaviour
             initialScale = scaleDefaul;
 
             transform.localScale = scaleDefaul;
+
+            minZoom = minZoom * z;
+
+            maxZoom = maxZoom * z;
         }
     }
 
