@@ -18,6 +18,16 @@ public class UiBtnColorManager : UiCanvas
     public override void Show(bool _isShow)
     {
         base.Show(_isShow);
+
+        if (_isShow)
+        {
+            for (int i = 0; i < uiButtonColors.Count; i++)
+            {
+                uiButtonColors[i].Init(i);
+            }
+
+            uiChooseFollowColorManager.Init(uiButtonColors[0].GetListColorFollow());
+        }
     }
 
     public override void Init()
