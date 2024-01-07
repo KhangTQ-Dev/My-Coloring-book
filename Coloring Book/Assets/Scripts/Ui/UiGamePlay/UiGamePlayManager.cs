@@ -103,6 +103,11 @@ public class UiGamePlayManager : MonoBehaviour
         uiBtnColorManager.OnClickBtnChoose(idChoose);
     }
 
+    public void OnClickBtnChooseFollow(int idChoose)
+    {
+        uiBtnColorManager.OnClickBtnChooseFollow(idChoose);
+    }
+
     private void OnClickBtnBack()
     {
         LevelManager.Instance.UiManager.PopupManager.ShowPopup(TypePopup.WarningLeave);

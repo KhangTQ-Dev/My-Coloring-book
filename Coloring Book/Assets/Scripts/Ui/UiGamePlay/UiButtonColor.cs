@@ -18,6 +18,8 @@ public class UiButtonColor : MonoBehaviour
 
     [SerializeField] private GameObject spriteUnChoose;
 
+    [SerializeField] private List<Color> colorsFollow;
+
     private int id;
 
     // Start is called before the first frame update
@@ -98,5 +100,10 @@ public class UiButtonColor : MonoBehaviour
         LevelManager.Instance.UiManager.UiGamePlayManager.OnClickBtnChoose(id);
 
         LevelManager.Instance.GamePlayManager.Detect.SetColor(color);
+    }
+
+    public List<Color> GetListColorFollow()
+    {
+        return colorsFollow;
     }
 }

@@ -6,6 +6,10 @@ public class UiBtnColorManager : UiCanvas
 {
     [SerializeField] private List<UiButtonColor> uiButtonColors;
 
+    [SerializeField] private UiChooseFollowColorManager uiChooseFollowColorManager;
+
+    public UiChooseFollowColorManager UiChooseFollowColorManager => uiChooseFollowColorManager;
+
     protected override void Start()
     {
         base.Start();
@@ -25,6 +29,8 @@ public class UiBtnColorManager : UiCanvas
             uiButtonColors[i].Init(i);
         }
 
+        uiChooseFollowColorManager.Init(uiButtonColors[0].GetListColorFollow());
+
         Show(true);
     }
 
@@ -34,5 +40,13 @@ public class UiBtnColorManager : UiCanvas
         {
             uiButtonColors[i].OnChoose(idChoose);
         }
+
+        uiChooseFollowColorManager.Init(uiButtonColors[idChoose].GetListColorFollow());
+
+    }
+
+    public void OnClickBtnChooseFollow(int idChoose)
+    {
+        uiChooseFollowColorManager.OnClickBtnChooseFollow(idChoose);
     }
 }
