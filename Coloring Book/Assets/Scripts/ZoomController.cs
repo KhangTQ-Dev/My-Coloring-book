@@ -27,7 +27,7 @@ public class ZoomController : MonoBehaviour
     {
         initialPosition = Camera.main.transform.position;
 
-        indexZoom = 1;
+        indexZoom = 0;
     }
 
     // Update is called once per frame
@@ -119,7 +119,17 @@ public class ZoomController : MonoBehaviour
 
     void zoom(float increment)
     {
+        if(increment == 0)
+        {
+            return;
+        }
+
         indexZoom = LevelManager.Instance.GamePlayManager.PictureManager.OnZoom(-increment);
+
+        if(indexZoom < 0)
+        {
+            indexZoom = 0;
+        }
 
         Camera.main.transform.position = GetPositionClamp(Camera.main.transform.position, Vector3.zero);
 
@@ -133,9 +143,11 @@ public class ZoomController : MonoBehaviour
 
     public Vector3 GetPositionClamp(Vector3 current, Vector3 direction)
     {
-        current.x = Mathf.Clamp(current.x + direction.x, xMin * indexZoom, xMax * indexZoom);
+        float k = 5;
 
-        current.y = Mathf.Clamp(current.y + direction.y, yMin * indexZoom, yMax * indexZoom);
+        current.x = Mathf.Clamp(current.x + direction.x, initialPosition.x - k * indexZoom, initialPosition.x + k * indexZoom);
+
+        current.y = Mathf.Clamp(current.y + direction.y, initialPosition.y - k * indexZoom, initialPosition.y +  k * indexZoom);
 
         return current;
     }

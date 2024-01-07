@@ -151,6 +151,6 @@ public class PictureManager : MonoBehaviour
 
         transform.localScale = Vector3.one * a;
 
-        return a / initialScale.x;
+        return transform.localScale.x - initialScale.x;
     }
 }
