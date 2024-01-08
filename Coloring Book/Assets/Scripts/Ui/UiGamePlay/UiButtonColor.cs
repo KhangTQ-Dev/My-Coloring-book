@@ -97,9 +97,9 @@ public class UiButtonColor : MonoBehaviour
 
     private void OnClickBtnColor()
     {
-        LevelManager.Instance.UiManager.UiGamePlayManager.OnClickBtnChoose(id);
-
         LevelManager.Instance.GamePlayManager.Detect.SetColor(color);
+
+        LevelManager.Instance.UiManager.UiGamePlayManager.OnClickBtnChoose(id);
     }
 
     public List<Color> GetListColorFollow()

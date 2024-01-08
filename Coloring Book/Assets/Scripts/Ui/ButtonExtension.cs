@@ -45,9 +45,12 @@ public class ButtonExtension : Button
         }
         else
         {
-            if (GameManager.Instance.DataManager.GetShowRate())
+            if (!nonAdsButton)
             {
-                AdsManager.Instance.ShowInterstitial("Button");
+                if (GameManager.Instance.DataManager.GetShowRate())
+                {
+                    AdsManager.Instance.ShowInterstitial("Button");
+                }
             }
 
             base.OnPointerClick(eventData);
