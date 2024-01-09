@@ -175,6 +175,11 @@ public abstract class AdsManager : unity_base.Singleton<AdsManager>, IAOACallbac
         timeCloseIntersAds = DateTime.Now.AddDays(-1);
         timeOutGame = DateTime.Now.AddDays(-1);
         googleAD.SetAOAID(FirebaseRemoteData.OPEN_AD_ID);
+
+        googleAD.SetCollapBannerID(FirebaseRemoteData.COLLAP_BANNER_ID);
+
+        googleAD.SetCollapBannerOnOff(FirebaseRemoteData.COLLAP_BANNER_ON_OFF);
+
         mrecID = FirebaseRemoteData.MREC_AD_ID;
         nativeID = FirebaseRemoteData.NATIVE_AD_ID;
         HandleFireBase.Instance.LogEventWithParameter("init_ads");

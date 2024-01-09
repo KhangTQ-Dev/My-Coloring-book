@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
 using UnityEngine.SceneManagement;
+using Game;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+
+    [SerializeField] private GDPRScript gDPRScript;
+
+    [SerializeField] private LoadingInitialGame loadingInitialGame;
 
     [SerializeField] private float timeWaitLoadInitial;
 
@@ -40,6 +45,7 @@ public class GameManager : MonoBehaviour
 
     public LoadingManager LoadingManager => loadingManager;
 
+    public GDPRScript GDPRScript => gDPRScript;
 
     private void Awake()
     {
@@ -60,7 +66,27 @@ public class GameManager : MonoBehaviour
 
     IEnumerator WaitLoadInitial()
     {
-        InitSDK();
+        //InitSDK();
+
+        yield return new WaitForSeconds(timeWaitFirebaseInit);
+
+        InitFirebase();
+
+        yield return new WaitForSeconds(timeWaitAdsInit);
+
+        loadingInitialGame.OnPauseGDPR();
+
+        InitAds();
+
+
+
+        yield return new WaitUntil(() => gDPRScript.ShowGDPRPopupDone);
+
+
+
+        loadingInitialGame.OnRemuseGDPR();
+
+
 
         yield return new WaitForSeconds(timeWaitLoadInitial);
 
@@ -81,7 +107,9 @@ public class GameManager : MonoBehaviour
 
     private void InitAds()
     {
-        AdsManager.Instance.Init();
+        gDPRScript.CallGDPR();
+
+        //AdsManager.Instance.Init();
     }
 
     private void InitAppflyer()

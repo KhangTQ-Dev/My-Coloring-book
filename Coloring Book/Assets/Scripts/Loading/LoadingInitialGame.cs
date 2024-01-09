@@ -5,6 +5,7 @@ using DG.Tweening;
 using UnityEngine.UI;
 using UnityEngine.Events;
 using System;
+using Game;
 
 public class LoadingInitialGame : MonoBehaviour
 {
@@ -24,9 +25,18 @@ public class LoadingInitialGame : MonoBehaviour
 
     private Vector3[] pathTween;
 
+    private Tween tweenMove;
+
+    private bool isCheckToRemuse;
+
     void Start()
     {
         StartCoroutine(WaitLoading());
+    }
+
+    private void Update()
+    {
+
     }
 
     IEnumerator WaitLoading()
@@ -48,13 +58,29 @@ public class LoadingInitialGame : MonoBehaviour
         //    actionAfterLoad?.Invoke();
         //});
 
-        brush.DOPath(pathTween, timeLoad).SetEase(DG.Tweening.Ease.Linear).SetUpdate(true).OnUpdate(() => 
+        tweenMove = brush.DOPath(pathTween, timeLoad).SetEase(DG.Tweening.Ease.Linear).SetUpdate(true).OnUpdate(() => 
         {
             imgFill.fillAmount = GetFillAmount();
         }).OnComplete(() =>
         {
             actionAfterLoad?.Invoke();
         }); ;
+    }
+
+    public void OnPauseGDPR()
+    {
+        if (tweenMove != null)
+        {
+            tweenMove.Pause();
+        }
+    }
+
+    public void OnRemuseGDPR()
+    {
+        if (tweenMove != null)
+        {
+            tweenMove.Play();
+        }
     }
 
     public float GetFillAmount()

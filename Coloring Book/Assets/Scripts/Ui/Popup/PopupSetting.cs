@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using Game;
 
 public class PopupSetting : UiCanvas
 {
@@ -11,6 +12,8 @@ public class PopupSetting : UiCanvas
     [SerializeField] private Button btnMusic;
 
     [SerializeField] private Button btnSound;
+
+    [SerializeField] private Button btnGDPR;
 
     [SerializeField] private Image imageRenderMusic;
 
@@ -41,6 +44,21 @@ public class PopupSetting : UiCanvas
         btnSound.onClick.AddListener(OnClickBtnSound);
 
         btnClose.onClick.AddListener(OnClickBtnClose);
+
+        btnGDPR.onClick.AddListener(ShowPrivacyOptionsForm);
+
+        btnGDPR.gameObject.SetActive(GameStatic.IsPrivacyOptionsRequired);
+    }
+
+    public void ShowPrivacyOptionsForm()
+    {
+        GoogleMobileAds.Ump.Api.ConsentForm.ShowPrivacyOptionsForm(formError => 
+        {
+            if(formError != null)
+            {
+                //
+            }
+        });
     }
 
     public override void Show(bool _isShow)

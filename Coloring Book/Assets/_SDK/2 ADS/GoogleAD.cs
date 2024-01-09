@@ -20,6 +20,7 @@ public class GoogleAD : MonoBehaviour
     [SerializeField] string bannerID;
     [SerializeField] string interID;
     [SerializeField] bool _isInitialized;
+    [SerializeField] bool on_off_collap_banner;
     [SerializeField] IAOACallback aoaCallback;
 
     public void SetAOACallback(IAOACallback value)
@@ -32,6 +33,17 @@ public class GoogleAD : MonoBehaviour
     {
         this.aoaID = aoaID;
     }
+
+    public void SetCollapBannerID(string collapBannerId)
+    {
+        this.bannerID = collapBannerId;
+    }
+
+    public void SetCollapBannerOnOff(bool isOn)
+    {
+        this.on_off_collap_banner = isOn;
+    }
+
     public bool IsInitialized => _isInitialized;
     public void Init(params Action[] onLoads)
     {
@@ -69,6 +81,7 @@ public class GoogleAD : MonoBehaviour
     {
         if (bannerID == "") return;
         if (!_isInitialized) return;
+        //if (!on_off_collap_banner) return;
         if (_bannerView == null)
         {
             CreateBannerView();
@@ -80,6 +93,7 @@ public class GoogleAD : MonoBehaviour
     }
     public void ShowBanner()
     {
+        //if (!on_off_collap_banner) return;
 
         if (_bannerView != null)
         {
@@ -89,9 +103,12 @@ public class GoogleAD : MonoBehaviour
     //[MyBox.ButtonMethod]
     public void HideBanner()
     {
+        //if (!on_off_collap_banner) return;
+
         if (_bannerView != null)
         {
-            _bannerView.Hide();
+            DestroyBanner();
+            //_bannerView.Hide();
         }
     }
     void DestroyBanner()

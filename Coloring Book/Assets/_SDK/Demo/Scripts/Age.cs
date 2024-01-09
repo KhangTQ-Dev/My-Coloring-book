@@ -120,6 +120,11 @@ namespace HG.Nam.Demo
         private void OnDestroy()
         {
 
+           
+        }
+
+        private void OnDisable()
+        {
             if (coShowButton != null) StopCoroutine(coShowButton);
             LoadingStateManager.Instance?.DestroySelf();
             AdsManager.Instance.RefreshBanner();

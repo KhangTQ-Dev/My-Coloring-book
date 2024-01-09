@@ -22,7 +22,7 @@ public class PopupLoading : UiCanvas
     // Start is called before the first frame update
     protected override void Start()
     {
-        actionDone += () => { Show(false); };    
+        actionDone += () => { Show(false); AdsManager.Instance.RefreshBanner(); };    
     }
 
     public override void Show(bool _isShow)

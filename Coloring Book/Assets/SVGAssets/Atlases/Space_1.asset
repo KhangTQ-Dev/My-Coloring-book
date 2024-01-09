@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d995787f488229646bc6ee47ced3138d, type: 3}
+  m_Name: Space_1
+  m_EditorClassIdentifier: 
+  m_OutputFolder: Assets/SVGAssets/Atlases
+  m_OffsetScale: 1
+  m_Pow2Textures: 1
+  m_MaxTexturesDimension: 1024
+  m_SpritesBorder: 1
+  m_ClearColor: {r: 1, g: 1, b: 1, a: 0}
+  m_FastUpload: 1
+  m_SvgList:
+  - TxtAsset: {fileID: 4900000, guid: b138b300b2859ab41b357ae2676bea4b, type: 3}
+    Scale: 1
+    SeparateGroups: 1
+    Instantiable: 0
+    InstanceBaseIdx: 0
+  m_GeneratedTexturesFiles: []
+  m_GeneratedSpritesFiles:
+    m_KeysList: []
+    m_ValuesList: []
+  m_EditorGenerationScale: 0
+  m_SvgListHashOld: 
+  m_SvgListHashCurrent: 025806B5962DF779956FEF0FBA5407DA
+  m_GeneratedSpritesLists:
+    m_KeysList: 
+    m_ValuesList: []
+  m_SpritesPreviewSize: 32
+  m_ReferenceWidth: 1080
+  m_ReferenceHeight: 1920
+  m_DeviceTestWidth: 1080
+  m_DeviceTestHeight: 1920
+  m_ScaleType: 7
+  m_Match: 0.5

@@ -6,6 +6,8 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance;
 
+    [SerializeField] private bool isNoAge;
+
     [SerializeField] private GamePlayManager gamePlayManager;
 
     [SerializeField] private UiManager uiManager;
@@ -26,17 +28,19 @@ public class LevelManager : MonoBehaviour
     {
         Init();
 
-        Invoke("ShowBanner", 1.5f);
-
         Invoke("PlaySound", 1.5f);
 
-        if (PlayerPrefs.GetInt("HG_AGE", 0) == 0)
+        if (PlayerPrefs.GetInt("HG_AGE", 0) == 0 && !isNoAge)
         {
             // no hoi tuoi
 
             GameObject objLoadAge = Resources.Load<GameObject>("Age");
 
             Instantiate(objLoadAge, parentAge);
+        }
+        else
+        {
+            Invoke("ShowBanner", 1.5f);
         }
 
         //
@@ -110,6 +114,8 @@ public class LevelManager : MonoBehaviour
         gamePlayManager.Show(false);
 
         uiManager.OnChangeToLobby();
+
+        AdsManager.Instance.RefreshBanner();
     }
 
     public void CheckShowPopupFree()

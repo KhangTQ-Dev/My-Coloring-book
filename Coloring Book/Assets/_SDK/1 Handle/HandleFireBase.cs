@@ -58,6 +58,9 @@ public class FirebaseRemoteData
     static bool show_rate_off_country = false;
     static bool on_off_internet_checking = true;
     static int time_refresh_banner = 30;
+    static int time_auto_close_collap_banner = 6;
+    static string collap_banner_id = "ca-app-pub-2913496970595341/9022939314";
+    static bool collap_banner_on_off = true;
 
     public static int TIME_REFRESH_BANNER { get => time_refresh_banner; set => time_refresh_banner = value; }
 
@@ -75,6 +78,12 @@ public class FirebaseRemoteData
     public static int LEVEL_SHOW_RATE { get => level_show_rate; set => level_show_rate = value; }
     public static bool SHOW_RATE_OFF_COUNTRY { get => show_rate_off_country; set => show_rate_off_country = value; }
     public static bool ON_OFF_INTERNET_CHECKING { get => on_off_internet_checking; set => on_off_internet_checking = value; }
+
+    public static int TIME_AUTO_CLOSE_COLLAP_BANNER { get => time_auto_close_collap_banner; set => time_auto_close_collap_banner = value; }
+
+    public static string COLLAP_BANNER_ID { get => collap_banner_id; set => collap_banner_id = value; }
+
+    public static bool COLLAP_BANNER_ON_OFF { get => collap_banner_on_off; set => collap_banner_on_off = value; }
 
 }
 
@@ -140,6 +149,10 @@ public class HandleFireBase : unity_base.Singleton<HandleFireBase>
 
     public const string TIME_REFRESH_BANNER = "time_refresh_banner";
 
+    public const string TIME_CLOSE_COLLAP = "time_auto_close_collap_banner";
+
+
+
 
     #region Remote Config
 
@@ -158,7 +171,9 @@ public class HandleFireBase : unity_base.Singleton<HandleFireBase>
 
     public const string ON_OFF_INTERNET_CHECKING = "on_off_internet_checking";
 
+    public const string COLLAP_BANNER_ID = "collap_banner_id";
 
+    public const string COLLAP_BANNER_ON_OFF = "collap_banner_id";
 
     #endregion
     DependencyStatus dependencyStatus = DependencyStatus.UnavailableOther;
@@ -208,6 +223,11 @@ public class HandleFireBase : unity_base.Singleton<HandleFireBase>
 
         defaults.Add(TIME_REFRESH_BANNER, 30);
 
+        defaults.Add(TIME_CLOSE_COLLAP, 6);
+
+        defaults.Add(COLLAP_BANNER_ID, "ca-app-pub-2913496970595341/9022939314");
+
+        defaults.Add(COLLAP_BANNER_ON_OFF, true);
 
         FirebaseRemoteConfig.DefaultInstance.SetDefaultsAsync(defaults).ContinueWithOnMainThread(task => { FetchDataAsync(); });
     }
@@ -235,6 +255,9 @@ public class HandleFireBase : unity_base.Singleton<HandleFireBase>
         Debug.Log($"FBDT {LEVEL_SHOW_RATE} {FirebaseRemoteData.LEVEL_SHOW_RATE}");
         Debug.Log($"FBDT {SHOW_RATE_OFF_COUNTRY} {FirebaseRemoteData.SHOW_RATE_OFF_COUNTRY}");
         Debug.Log($"FBDT {TIME_REFRESH_BANNER} {FirebaseRemoteData.TIME_REFRESH_BANNER}");
+        Debug.Log($"FBDT {TIME_CLOSE_COLLAP} {FirebaseRemoteData.TIME_AUTO_CLOSE_COLLAP_BANNER}");
+        Debug.Log($"FBDT {COLLAP_BANNER_ID} {FirebaseRemoteData.COLLAP_BANNER_ID}");
+        Debug.Log($"FBDT {COLLAP_BANNER_ON_OFF} {FirebaseRemoteData.COLLAP_BANNER_ON_OFF}");
 
         
 
@@ -262,6 +285,12 @@ public class HandleFireBase : unity_base.Singleton<HandleFireBase>
                     FirebaseRemoteData.SHOW_RATE_OFF_COUNTRY = FirebaseToBool(SHOW_RATE_OFF_COUNTRY);
                     FirebaseRemoteData.ON_OFF_INTERNET_CHECKING = FirebaseToBool(ON_OFF_INTERNET_CHECKING);
                     FirebaseRemoteData.TIME_REFRESH_BANNER = FirebaseToInt(TIME_REFRESH_BANNER);
+
+                    FirebaseRemoteData.TIME_AUTO_CLOSE_COLLAP_BANNER = FirebaseToInt(TIME_CLOSE_COLLAP);
+
+                    FirebaseRemoteData.COLLAP_BANNER_ID = FirebaseToString(COLLAP_BANNER_ID);
+
+                    FirebaseRemoteData.COLLAP_BANNER_ON_OFF = FirebaseToBool(COLLAP_BANNER_ON_OFF);
 
                     DisplayData();
                 });

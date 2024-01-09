@@ -1,0 +1,1071 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d995787f488229646bc6ee47ced3138d, type: 3}
+  m_Name: Princess_2
+  m_EditorClassIdentifier: 
+  m_OutputFolder: Assets/SVGAssets/Atlases
+  m_OffsetScale: 1
+  m_Pow2Textures: 1
+  m_MaxTexturesDimension: 1024
+  m_SpritesBorder: 1
+  m_ClearColor: {r: 1, g: 1, b: 1, a: 0}
+  m_FastUpload: 1
+  m_SvgList:
+  - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+    Scale: 1
+    SeparateGroups: 1
+    Instantiable: 1
+    InstanceBaseIdx: 0
+  m_GeneratedTexturesFiles:
+  - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Textures/texture0.asset
+    Object: {fileID: 2800000, guid: 4c223893842ba8c4b9335e95ed265849, type: 2}
+  - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Textures/texture1.asset
+    Object: {fileID: 2800000, guid: 33e106f73ba4d0a4f9b9233788fa34d2, type: 2}
+  - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Textures/texture2.asset
+    Object: {fileID: 2800000, guid: 8a5693dbef8090e4dbc5009159811840, type: 2}
+  m_GeneratedSpritesFiles:
+    m_KeysList:
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65536
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65550
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65541
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65540
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65547
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65556
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65545
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65551
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65574
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65576
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65562
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65564
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65561
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65563
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65560
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65565
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65581
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65568
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65567
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65582
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65566
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65569
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65579
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65586
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65549
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65553
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65558
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65580
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65552
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65559
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65557
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65554
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65577
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65578
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65546
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65570
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65548
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65573
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65572
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65584
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65571
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65583
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65585
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65575
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65555
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65537
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65539
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65543
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65538
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65544
+    - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+      ElemIdx: 65542
+    m_ValuesList:
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65536.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65536
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: fb8350948318b164588dbab3e52ab4e0, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 0
+        OriginalX: 133
+        OriginalY: 23
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65550.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65550
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: fbe8f1e59ab580e41a2c5da22b7f1868, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 14
+        OriginalX: 394
+        OriginalY: 455
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65541.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65541
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: cc5e31d67690b0549a9f219f4badcb0b, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 5
+        OriginalX: 382
+        OriginalY: 220
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65540.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65540
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 39f2eeb784aa1ce4593e4128ff6ae2bf, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 4
+        OriginalX: 180
+        OriginalY: 411
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65547.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65547
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: b8d9b54c8ed6d244c906efaf4e48be9e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 11
+        OriginalX: 263
+        OriginalY: 64
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65556.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65556
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: a1c4200ea29e2cc4f92709912bab1e5f, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 20
+        OriginalX: 542
+        OriginalY: 511
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65545.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65545
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 4f11494e97a8aea4c8f45b0ca46df805, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 9
+        OriginalX: 633
+        OriginalY: 443
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65551.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65551
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 2264ea5ef1fcb4d4fbe2d3ab10c276f9, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 15
+        OriginalX: 460
+        OriginalY: 479
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65574.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65574
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: bae28359d8eb1cc48ad8c28aa821b201, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 38
+        OriginalX: 749
+        OriginalY: 201
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65576.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65576
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: da540b9985452554586458b1a0adde8e, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 40
+        OriginalX: 425
+        OriginalY: 347
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65562.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65562
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: acbf38b1c1a62d042976a42512eb543d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 26
+        OriginalX: 422
+        OriginalY: 508
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65564.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65564
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: da916f0dc7469bc4eb7b8c63a8965a2c, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 28
+        OriginalX: 556
+        OriginalY: 334
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65561.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65561
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: aee7760f6925ec042af5e5b4fca5dd6d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 25
+        OriginalX: 359
+        OriginalY: 385
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65563.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65563
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: faf83e922313d6a42b7e3ae4ae7875d8, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 27
+        OriginalX: 407
+        OriginalY: 520
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65560.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65560
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 408a3334510e8fe40aa8eb443398fe3b, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 24
+        OriginalX: 635
+        OriginalY: 491
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65565.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65565
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: bdf3d6f1da39cc24fb1a1da4622fe5cc, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 29
+        OriginalX: 384
+        OriginalY: 486
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65581.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65581
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: dee082341465bac44addf1c27fe9a782, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 45
+        OriginalX: 420
+        OriginalY: 114
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65568.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65568
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 92bcf27be6a75164ebf3fced12bd9f31, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 32
+        OriginalX: 584
+        OriginalY: 319
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65567.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65567
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 05849dd7998e7fd419a21ad9d67dd874, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 31
+        OriginalX: 655
+        OriginalY: 496
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65582.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65582
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: a88439ad17552f141a869bd5e1c110f6, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 46
+        OriginalX: 550
+        OriginalY: 103
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65566.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65566
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 6ca965af37c8ca746b563b93e8fc54cd, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 30
+        OriginalX: 594
+        OriginalY: 428
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65569.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65569
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 1352b147be4659d46a48906ea327cb72, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 33
+        OriginalX: 396
+        OriginalY: 440
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65579.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65579
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 5a18f2a6a84d12944990a60c089ac825, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 43
+        OriginalX: 491
+        OriginalY: 403
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2__x30_0.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65586
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: fb57894e8aea9d14eb28268342ce6734, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 50
+        OriginalX: 148
+        OriginalY: 38
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65549.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65549
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 42c951359aec40d438fdc8d1fc0cce9d, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 13
+        OriginalX: 520
+        OriginalY: 61
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65553.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65553
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 414706b6ec6ea1040bf8f34d8e540c95, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 17
+        OriginalX: 197
+        OriginalY: 726
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65558.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65558
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: d6bda982a0d04c34983117d1dc319046, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 22
+        OriginalX: 316
+        OriginalY: 386
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65580.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65580
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: cf946e79b8c106a4b85fa646ce69d6ba, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 44
+        OriginalX: 477
+        OriginalY: 84
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65552.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65552
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: f103909ebcff6584c8a849eab97772a4, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 16
+        OriginalX: 613
+        OriginalY: 272
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65559.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65559
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: e8ae12ee62b45124c9c0f8b9cec1f3e7, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 23
+        OriginalX: 348
+        OriginalY: 448
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65557.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65557
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: c08ee481dfea5a24a845a427e89f8fdf, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 21
+        OriginalX: 612
+        OriginalY: 349
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65554.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65554
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: cdee72b6282b60642b5a76e4434c2e33, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 18
+        OriginalX: 343
+        OriginalY: 400
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65577.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65577
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 5980c57772ea1bd43946ba98cc430bb1, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 41
+        OriginalX: 445
+        OriginalY: 317
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65578.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65578
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: ef262d9619f22f546bde305e9b8b29ab, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 42
+        OriginalX: 405
+        OriginalY: 336
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65546.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65546
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: c3ffe2a08a98f4d48aec63c4581a9dd1, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 10
+        OriginalX: 318
+        OriginalY: 735
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65570.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65570
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: ed4a6a8ea257b57458a36a4e9dccf4f9, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 34
+        OriginalX: 541
+        OriginalY: 308
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65548.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65548
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 14615bbd2afa3b54eb38aea53b17c817, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 12
+        OriginalX: 548
+        OriginalY: 726
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65573.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65573
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: dcaa241d38544bc4f9557aa9c69fc124, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 37
+        OriginalX: 254
+        OriginalY: 65
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65572.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65572
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 36f7b4d74dcf9c24a803c68f975ba869, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 36
+        OriginalX: 757
+        OriginalY: 57
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65584.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65584
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: fd3726f5d5672de4da6a1db70e7b1cf7, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 48
+        OriginalX: 662
+        OriginalY: 548
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65571.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65571
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 259864b66f6d91243a6fe98f9d7233bc, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 35
+        OriginalX: 158
+        OriginalY: 182
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65583.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65583
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: e40db376ce4261847b04fb5a860dca54, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 47
+        OriginalX: 709
+        OriginalY: 503
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65585.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65585
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: bed73b1cc6bb78c40ae14b3beafaf2d6, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 49
+        OriginalX: 700
+        OriginalY: 456
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65575.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65575
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 3b3bc5b8e5d81404db3f64e8f5e60418, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 39
+        OriginalX: 660
+        OriginalY: 44
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65555.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65555
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 5c2eab6fa7687b241b083ccf412db98c, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 19
+        OriginalX: 751
+        OriginalY: 725
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65537.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65537
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 2c4362393a8ab2c4f8ebe5264b1af812, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 1
+        OriginalX: 154
+        OriginalY: 769
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65539.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65539
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 1cb60cd264ab73c40a599801a6f859e1, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 3
+        OriginalX: 230
+        OriginalY: 162
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65543.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65543
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: d5444bc3584f1f9418f01d7d9830451c, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 7
+        OriginalX: 522
+        OriginalY: 369
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65538.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65538
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 58cb173e11db3194fbd11106e53f6074, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 2
+        OriginalX: 247
+        OriginalY: 593
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65544.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65544
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 10587427f4e60704197657714990b566, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 8
+        OriginalX: 327
+        OriginalY: 44
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+    - Path: Assets/SVGAssets/Atlases/Princess_2/fe09369e8c1e4e2690f0db55582bf806/Sprites/Princess_2_65542.asset
+      SpriteRef:
+        TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65542
+      SpriteData:
+        Sprite: {fileID: 21300000, guid: 506f0ad56cf271f49b7cfe4453ef3175, type: 2}
+        Pivot: {x: 0.5, y: 0.5}
+        Border: {x: 0, y: 0, z: 0, w: 0}
+        ZOrder: 6
+        OriginalX: 325
+        OriginalY: 530
+        DstViewportWidth: 1022
+        DstViewportHeight: 1022
+        GenerationScale: 1
+        InCurrentInstancesGroup: 0
+      InstantiatedWidgetType: 1
+  m_EditorGenerationScale: 1
+  m_SvgListHashOld: 9634FE103CA47ECD67084FCC95CCA505
+  m_SvgListHashCurrent: 9634FE103CA47ECD67084FCC95CCA505
+  m_GeneratedSpritesLists:
+    m_KeysList: ce330a00
+    m_ValuesList:
+    - Sprites:
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65536
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65550
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65541
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65540
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65547
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65556
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65545
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65551
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65574
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65576
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65562
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65564
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65561
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65563
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65560
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65565
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65581
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65568
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65567
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65582
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65566
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65569
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65579
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65586
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65549
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65553
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65558
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65580
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65552
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65559
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65557
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65554
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65577
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65578
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65546
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65570
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65548
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65573
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65572
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65584
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65571
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65583
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65585
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65575
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65555
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65537
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65539
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65543
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65538
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65544
+      - TxtAsset: {fileID: 4900000, guid: c6ad089abcb29154d8cbc275d8580188, type: 3}
+        ElemIdx: 65542
+  m_SpritesPreviewSize: 32
+  m_ReferenceWidth: 1080
+  m_ReferenceHeight: 1920
+  m_DeviceTestWidth: 1080
+  m_DeviceTestHeight: 1920
+  m_ScaleType: 7
+  m_Match: 0.5

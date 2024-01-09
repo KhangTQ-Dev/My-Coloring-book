@@ -253,8 +253,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b644685b97dfaf458d41678b45944d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeWaitLoadInitial: 2
-  timeWaitAdsInit: 1
+  gDPRScript: {fileID: 712701098}
+  loadingInitialGame: {fileID: 1926622030}
+  timeWaitLoadInitial: 1
+  timeWaitAdsInit: 0.5
   timeWaitFirebaseInit: 0.5
   indexLobby: 2
   indexIngame: 3
@@ -547,6 +549,7 @@ Transform:
   - {fileID: 797517852}
   - {fileID: 1952128954}
   - {fileID: 1888240596}
+  - {fileID: 712701097}
   m_Father: {fileID: 216865757}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -599,6 +602,7 @@ MonoBehaviour:
   bannerID: ca-app-pub-2913496970595341/9022939314
   interID: ca-app-pub-2913496970595341/5852445525
   _isInitialized: 0
+  on_off_collap_banner: 0
 --- !u!114 &546325499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -669,6 +673,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   listPopups: []
+--- !u!1 &712701096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 712701097}
+  - component: {fileID: 712701098}
+  m_Layer: 0
+  m_Name: GDPR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &712701097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712701096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 496420901}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &712701098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712701096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4dc7821e213925408ec5d4530061219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowGDPRPopupDone: 0
+  test: 0
 --- !u!1 &765037069
 GameObject:
   m_ObjectHideFlags: 0
@@ -2605,6 +2655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91841d755b12a92488887b6a7d7b50c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataSO: {fileID: 11400000, guid: 82e55e35bf6f176428931742f0c5fb83, type: 2}
 --- !u!1 &1904472510
 GameObject:
   m_ObjectHideFlags: 0

@@ -48,6 +48,7 @@ public class MAX_Manager : AdsManager, IAOACallback
 
     public override void RefreshBanner()
     {
+        if (!FirebaseRemoteData.COLLAP_BANNER_ON_OFF) return;
         StartCoroutine(IERefreshBanner());
     }
     IEnumerator IERefreshBanner()
@@ -65,8 +66,15 @@ public class MAX_Manager : AdsManager, IAOACallback
         if (!FirebaseRemoteData.BANNER_AD_ON_OFF) return;
         if (IsPortrait)
         {
-            googleAD.LoadBanner();
-            Invoke(nameof(ShowMaxBannerAndRefresh), 6);
+            if (FirebaseRemoteData.COLLAP_BANNER_ON_OFF)
+            {
+                googleAD.LoadBanner();
+                Invoke(nameof(ShowMaxBannerAndRefresh), FirebaseRemoteData.TIME_AUTO_CLOSE_COLLAP_BANNER);
+            }
+            else
+            {
+                ShowMaxBanner();
+            }
         }
         else
         {
