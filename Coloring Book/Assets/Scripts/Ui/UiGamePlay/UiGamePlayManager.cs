@@ -115,18 +115,18 @@ public class UiGamePlayManager : MonoBehaviour
 
     public void OnBack()
     {
-        bool a = GameManager.Instance.DataManager.GetFirstDone();
+        //bool a = GameManager.Instance.DataManager.GetFirstDone();
 
-        bool b = GameManager.Instance.DataManager.GetShowRate();
+        //bool b = GameManager.Instance.DataManager.GetShowRate();
 
-        if (!a & !b)
-        {
-            LevelManager.Instance.UiManager.RateManager.ShowPopup();
+        //if (!a & !b)
+        //{
+        //    LevelManager.Instance.UiManager.RateManager.ShowPopup();
 
-            GameManager.Instance.DataManager.SetFirstDone();
+        //    GameManager.Instance.DataManager.SetFirstDone();
 
-            GameManager.Instance.DataManager.SetShowRate();
-        }
+        //    GameManager.Instance.DataManager.SetShowRate();
+        //}
 
         LevelManager.Instance.OnChangeToLobby();
     }
@@ -158,18 +158,18 @@ public class UiGamePlayManager : MonoBehaviour
 
     private void OnClickBtnDone()
     {
-        bool a = GameManager.Instance.DataManager.GetFirstDone();
+        //bool a = GameManager.Instance.DataManager.GetFirstDone();
 
-        bool b = GameManager.Instance.DataManager.GetShowRate();
+        //bool b = GameManager.Instance.DataManager.GetShowRate();
 
-        if(!a & !b)
-        {
-            LevelManager.Instance.UiManager.RateManager.ShowPopup();
+        //if(!a & !b)
+        //{
+        //    LevelManager.Instance.UiManager.RateManager.ShowPopup();
 
-            GameManager.Instance.DataManager.SetFirstDone();
+        //    GameManager.Instance.DataManager.SetFirstDone();
 
-            GameManager.Instance.DataManager.SetShowRate();
-        }
+        //    GameManager.Instance.DataManager.SetShowRate();
+        //}
 
         HandleFireBase.Instance.LogEventDrawComplete(LevelManager.Instance.GamePlayManager.GetCurrentTypeGallery(), LevelManager.Instance.GamePlayManager.GetCurrentTypeId());
 

@@ -87,6 +87,11 @@ public class GalleryManager : MonoBehaviour
 
         List<DataPicture> dataPicturesGroupAll = new List<DataPicture>();
 
+        for(int i = 0; i < dataAllPicture.dataPicturesAll.Count; i++)
+        {
+            dataPicturesGroupAll.Add(dataAllPicture.dataPicturesAll[i]);
+        }
+
         for (int i = 0; i < dataAllPicture.dataPictures.Count; i++)
         {
             GameObject objGroup = Instantiate<GameObject>(prefabGroupShow, parentGroup);
@@ -97,7 +102,7 @@ public class GalleryManager : MonoBehaviour
 
             for (int j = 0; j < dataAllPicture.dataPictures[i].Count; j++)
             {
-                dataPicturesGroupAll.Add(dataAllPicture.dataPictures[i][j]);
+                //dataPicturesGroupAll.Add(dataAllPicture.dataPictures[i][j]);
                 dataPicturesGroupNormal.Add(dataAllPicture.dataPictures[i][j]);
             }
 

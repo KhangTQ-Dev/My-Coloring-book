@@ -8,6 +8,8 @@ public class DataAllPicture : SerializedScriptableObject
 {
     public List<List<DataPicture>> dataPictures;
 
+    public List<DataPicture> dataPicturesAll;
+
     [Button]
     public void Setup()
     {

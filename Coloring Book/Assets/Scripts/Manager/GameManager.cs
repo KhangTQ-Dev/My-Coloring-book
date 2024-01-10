@@ -51,6 +51,8 @@ public class GameManager : MonoBehaviour
     {
         Application.targetFrameRate = 60;
 
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+
         Instance = this;
 
         DontDestroyOnLoad(gameObject);

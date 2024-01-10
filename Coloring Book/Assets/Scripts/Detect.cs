@@ -19,6 +19,8 @@ public class Detect : MonoBehaviour
 
     private bool canDetect;
 
+    private int countDraw;
+
     void Start()
     {
         //Instantiate(prefab, gameObject.transform);
@@ -66,6 +68,24 @@ public class Detect : MonoBehaviour
                                 LevelManager.Instance.GamePlayManager.AddHistory(a.Item1, a.Item2, a.Item3);
 
                                 LevelManager.Instance.UiManager.UiGamePlayManager.SetBackNext();
+
+                                countDraw++;
+
+                                if(countDraw >= 2)
+                                {
+                                    bool k = GameManager.Instance.DataManager.GetFirstDone();
+
+                                    bool b = GameManager.Instance.DataManager.GetShowRate();
+
+                                    if (!k & !b)
+                                    {
+                                        LevelManager.Instance.UiManager.RateManager.ShowPopup();
+
+                                        GameManager.Instance.DataManager.SetFirstDone();
+
+                                        GameManager.Instance.DataManager.SetShowRate();
+                                    }
+                                }
                             }
                         }
                     }
